@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE script:module PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "module.dtd">
+<script:module xmlns:script="http://openoffice.org/2000/script" script:name="Module1" script:language="StarBasic">REM  *****  BASIC  *****
+Sub SaveAndExitDocument
+ 	Dim oDesk As Object
+ 	
+    ThisComponent.store() &apos; Saves the current document
+    ThisComponent.Close(True) &apos; Closes the current document, True prompts for saving if changes exist
+    &apos; For a more robust exit, you might consider checking if other documents are open
+    &apos; and if the application should truly exit.
+    oDesk = StarDesktop
+    oDesk.terminate() &apos; Closes all open documents and exits LibreOffice
+
+End Sub
+
+Sub Main
+
+End Sub
+</script:module>
