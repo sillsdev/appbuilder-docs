@@ -48,6 +48,7 @@ jobs:
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           GITHUB_TOKEN: ${{ secrets.CROWDIN_GITHUB_TOKEN }}
+
          
       - name: Create or Update LibreOffice Config
         run: |
@@ -74,17 +75,23 @@ jobs:
             timeout 60s libreoffice --headless --invisible "macro:///Standard.Module1.SaveAndExitDocument" "$file"
           done
 
-
+  
       - name: Copy image folders
         run: |
-          dirs="$(ls docs/)"
-          for dir in $dirs; do
+          docs_directories="$(ls docs/)"
+          for current_docs_dir in $docs_directories; do
             find images -type f -name "*" | while read file; do
               outdir="$(dirname "$file")"
               outdir2="$(dirname "$outdir")"
+              outdir3="$(dirname "$outdir2")"
               project_dirname="$(basename "$outdir")"
               project_dirname2="$(basename "$outdir2")"
-              cp -fr $outdir docs/$dir/fodt/$project_dirname2 && echo copied $outdir to docs/$dir/fodt/$project_dirname2
+              project_dirname3="$(basename "$outdir3")"
+              
+              if [[ "$project_dirname3" != "en-US" ]]; then
+                cp -fr $outdir docs/$project_dirname3/fodt/$project_dirname2
+                echo copied: $outdir to: docs/$project_dirname3/fodt/$project_dirname2
+              fi
             done
           done
 
@@ -149,4 +156,3 @@ jobs:
           git add .
           git diff --staged --quiet || git commit -m "chore: add generated files [skip ci]"
           git push --set-upstream origin translations
-
