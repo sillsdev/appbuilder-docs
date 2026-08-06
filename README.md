@@ -1,13 +1,13 @@
-# SIL Translation Test
+# SIL Appbuilder Docs
 
 
 
 ### Description
-This repository is for documentation of Scripture App Builder, Reading App Builder, Keyboard App Builder, and Dictionary App Builder. It aims to keep a version history of all documents and translate them into different languages via Crowdin translation. This repository will also automatically convert, format, and output documentation.
+This repository is for documentation of Scripture App Builder, Reading App Builder, Keyboard App Builder, and Dictionary App Builder. It aims to keep a version history of all documents and translate them into different languages via Crowdin. This repository will also automatically convert, format, and output documentation.
 
 
 
-# Setup
+# Initial setup
 
 ### Description
 
@@ -20,14 +20,13 @@ Crowdin is a business that provides translation software for individuals or orga
 #### Tokens
 In order for the GitHub workflow and Crowdin to work together, they use tokens to identify each other. Tokens are unique series of numbers (and sometimes letters) that must be copied and entered into the GitHub repository. There are three tokens that need to be generated and collected for the GitHub workflow to properly run: `CROWDIN_PROJECT_ID`, `CROWDIN_GITHUB_TOKEN`, and `CROWDIN_PERSONAL_TOKEN`. The user will have to add all these tokens to their proper locations in the GitHub repository. Instructions on how to do so are listed in the "Configuring tokens" section below.
 
-
 #
 ### Configuring tokens
 
 #### PLEASE NOTE: Some tokens can only be viewed once before becoming hidden. Make sure they are copied somewhere safe such as a notepad app before exiting the webpage. There are three tokens that need to be entered as GitHub secrets. Instructions on how to find and add the tokens are shown below.
 
 #### CROWDIN_PERSONAL_TOKEN
-1. To create the `CROWDIN_PERSONAL_TOKEN`, open the Crowdin project webpage (this can be found on the left menu bar at the bottom), click on the user's Crowdin profile picture, and select "settings". This will open the Crowdin user's settings page.
+1. To create the `CROWDIN_PERSONAL_TOKEN`, open the Crowdin project webpage (this can be found on the left menu bar at the bottom), click on the user's Crowdin profile picture, and select "settings." This will open the Crowdin user's settings page.
 
 ![Description](README_pics/Screenshot_20260710_145305.png)
 
@@ -39,7 +38,7 @@ In order for the GitHub workflow and Crowdin to work together, they use tokens t
 
 <img src="README_pics/Screenshot_20260723_104701.png" width="400" height="800" />
 
-4. Select "All Scopes" and enter a name for the token (This name can be anything you choose). Then select the "Create" button in the bottom-right corner.
+4. Select "All Scopes" and enter a name for the token (this name can be anything you choose). Then select the "Create" button in the bottom-right corner.
 
 <img src="README_pics/Screenshot_20260723_105535.png" width="400" height="800" />
 
@@ -66,7 +65,7 @@ In order for the GitHub workflow and Crowdin to work together, they use tokens t
 
 #
 #### CROWDIN_GITHUB_TOKEN
-1. To generate the `CROWDIN_GITHUB_TOKEN`, open the GitHub webpage, click on the user's GitHub profile picture, and select "settings". This will open the GitHub user's settings page.
+1. To generate the `CROWDIN_GITHUB_TOKEN`, open the GitHub webpage, click on the user's GitHub profile picture, and select "settings." This will open the GitHub user's settings page.
 
 ![Description](README_pics/Screenshot_20260710_154215.png)
 
@@ -74,11 +73,11 @@ In order for the GitHub workflow and Crowdin to work together, they use tokens t
 
 ![Description](README_pics/Screenshot_20260710_154247.png)
 
-3. Then select "Tokens (classic)" under "Personal Access Tokens" and select "Generate new token (classic)". This will open the token creation screen.
+3. Then select "Tokens (classic)" under "Personal Access Tokens" and select "Generate new token (classic)." This will open the token creation screen.
 
 ![Description](README_pics/Screenshot_20260710_154629.png)
 
-4. Enter the "GITHUB_TOKEN" into the "note" field and set the Expiration option to "No Expiration". Then tick the "repo", "workflow", and "write:packages" boxes. Afterward, scroll to the bottom of the webpage and select the green "Generate token" button.
+4. Enter the "GITHUB_TOKEN" into the "note" field and set the Expiration option to "No Expiration." Then tick the "repo," "workflow," and "write:packages" boxes. Afterward, scroll to the bottom of the webpage and select the green "Generate token" button.
 
 <img src="README_pics/Screenshot_20260727_121126.png" width="800" height="1200" />
 
@@ -99,7 +98,7 @@ If there is a settings tab, select it, and then find the "Secrets and variables"
 
 <img src="README_pics/Screenshot_20260713_125904.png" width="800" height="1200" />
 
-Fill in the "name" and "secret" information and click "Add secret". Make sure you name the tokens exactly as shown below. If this is not done, then the GitHub workflow will not register the tokens and Crowdin will not work. Here are examples of what the tokens should look like with their needed names. **THESE ARE EXAMPLES AND ARE NOT REAL TOKENS**
+Fill in the "name" and "secret" information and click "Add secret." Make sure you name the tokens exactly as shown below. If this is not done, then the GitHub workflow will not register the tokens and Crowdin will not work. Here are examples of what the tokens should look like with their needed names. **THESE ARE EXAMPLES AND ARE NOT REAL TOKENS**
 
 `CROWDIN_PROJECT_ID` ≈ 346867
 
@@ -134,7 +133,7 @@ After that, look to the right to find the "Duplicate Strings" menu and select th
 
 <img src="README_pics/Screenshot_20260720_140338.png" width="1000" height="2000" />
 
-Next, select "Skip tags" under "Word and character count". This setting also reduces the word count by not allowing data tags to be marked as words.
+Next, select "Skip tags" under "Word and character count." This setting also reduces the word count by not allowing data tags to be marked as words.
 
 <img src="README_pics/Screenshot_20260730_162459.png" width="500" height="1000" />
 
@@ -147,7 +146,20 @@ Because of the methods Crowdin and GitHub use, the process of editing documents 
 
 The first difference is with the recommended document editor. While most documents are edited with Microsoft Word, this repository recommends the use of LibreOffice. LibreOffice is a free and open-source document editor which provides an identical experience to Microsoft Word. The reason for this change was to move away from the reliance on paid software. In addition, the file format used with documents has changed as well, switching from .doc or .docx to the .fodt format. This change doesn't affect the document's usage, but it requires the user to only submit documents in .fodt format.
 
-The second difference is how images are inserted into the documents. Normally, images are fully inserted into the document, with the image data being added to the document file. However, in this repository, images are inserted as image links and not full images. This means that while the image will be displayed in the document, it is just being referenced from a separate image file located outside the document. Because of this difference, the method of adding an image has slightly changed. Images are still inserted by clicking the "Insert" tab and selecting the "Image" option; however, the "Link" checkbox must also be clicked before adding the desired image. In order to keep documents from loosing their images all images should only be located in a folder next to the document. The folder must also have the naming convention shown below.
+The second difference is how images are inserted into the documents. Normally, images are fully inserted into the document, with the image data being added to the document file. However, in this repository, images are inserted as image links and not full images. This means that while the image will be displayed in the document, it is just being referenced from a separate image file located outside the document. Because of this difference, the method of adding an image has slightly changed. Images are still inserted by clicking the "Insert" tab and selecting the "Image" option; however, the "Link" checkbox must also be clicked before adding the desired image. 
+
+<img src="README_pics/Screenshot_20260806_121826.png" width="400" height="800" />
+<img src="README_pics/Screenshot_20260806_113235.png" width="400" height="800" />
+
+After the image file is selected, click the "Open" button to add the file.
+
+<img src="README_pics/Screenshot_20260806_113105.png" width="500" height="1000" />
+
+<img src="README_pics/Screenshot_20260806_122015.png" width="500" height="1000" />
+
+#
+###### Image names
+Another important aspect of inserting images is the name of the image file. In order to keep the documents from losing their images, all images should only be located in a folder next to the document. The folder must also have the naming convention shown below.
 
 `Scripture-App-Builder-01-Installation-Instructions.fodt` would be next to a folder named `SAB01`.
 
@@ -159,7 +171,30 @@ The second difference is how images are inserted into the documents. Normally, i
 <img src="README_pics/Screenshot_20260722_161042.png" width="300" height="600" />
 <img src="README_pics/Screenshot_20260722_161127.png" width="300" height="600" />
 
+One more thing to note is that all image names must be kept consistent throughout all languages. If an image was named "example.png," it should not be renamed as "example-fr.png" for the French version. Files should never be renamed in this way, as the document only looks for a file named "example.png," and if that exact file name is not found, it will display a broken image link. This naming requirement only applies between different languages, not between the different app builders.
 
+This is an example of how the image names should be used. Between the app builders, the file names can be anything, but between the languages, they need to match.
+```
+images
+├───────────────────────────┐
+en-US                       fr-FR
+    |                           |
+    ├─ DAB                      ├─ DAB
+    |    └─ example#1.png        |    └─ example#1.png
+    |                           |
+    ├─ KAB                      ├─ KAB 
+    |    └─ example-A.tiff       |    └─ example-A.tiff
+    |                           |
+    ├─ RAB                      ├─ RAB
+    |    └─ example-87.jpeg      |    └─ example-87.jpeg
+    |                           |
+    └─ SAB                      └─ SAB
+         └─ example_file.png         └─ example_file.png
+```
+
+One last aspect of the image files that needs to be clarified is the unofficial naming scheme. Currently all image files have a number for their name; this was done to make it easier to link the images to the original documents. However, going forward this **DOES NOT** need to be followed. As long as file names still follow the rules listed above, there is no official naming scheme. For instance, a description of the image is valid, random words taken from the dictionary are valid, and "ksjdhglusnrlhjs" is valid. If someone wants to continue the number system, then just add one to the last number.
+
+#
 ### Submitting Documents
 A guide on how to submit documents is shown below.
 
@@ -255,7 +290,7 @@ Repository Overview
 
 ### Workflow
 
-1. Scroll to the top of the webpage and click on the Actions tab at the top of the screen. Then click on the "auto translate" button under the green button labeled "new workflow".
+1. Scroll to the top of the webpage and click on the Actions tab at the top of the screen. Then click on the "auto translate" button under the green button labeled "New workflow."
 
 <img src="README_pics/Screenshot_20260723_112417.png" width="700" height="1000" />
 
