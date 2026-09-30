@@ -89,12 +89,14 @@ jobs:
               project_dirname3="$(basename "$outdir3")"
               
               if [[ "$project_dirname3" != "en-US" ]]; then
-                cp -fr $outdir docs/$project_dirname3/fodt/$project_dirname2
-                echo copied: $outdir to: docs/$project_dirname3/fodt/$project_dirname2
+                cp -fr "$outdir" "docs/$project_dirname3/fodt/$project_dirname2"
+                echo "copied: $outdir to: docs/$project_dirname3/fodt/$project_dirname2"
+              else
+                cp -fr "$outdir" "docs-en/fodt/$project_dirname2"
+                echo "copied: $outdir to: docs-en/fodt/$project_dirname2"
               fi
             done
           done
-
 
 
       - name: Convert English FODT files to PDF
