@@ -157,9 +157,12 @@ After that a menu will open asking for the file name. The file name can be anyth
 
 The second difference is how images are inserted into the documents. Normally, images are fully inserted into the document, with the image data being added to the document file. However, in this repository, images are inserted as image links and not full images. This means that while the image will be displayed in the document, it is just being referenced from a separate image file located outside the document. Because of this difference, the method of adding an image has slightly changed. Images are still inserted by clicking the "Insert" tab and selecting the "Image" option; however, the "Link" checkbox must also be clicked before adding the desired image.
 
-Before linking an image make sure it is inside the document's folder to avoid the image links breaking when either the document or the folder is moved. Document folders are explained more in the "Image names and folders" section below.
+Before linking an image make sure it is inside the document's folder within docs-en to avoid the image links breaking when either the document or the folder is moved. Document folders are explained more in the "Image names and folders" section below.  So a file "100.png" in the "Building Apps" document for SAB (which is document 2) should initially be placed in the docs-en/fodt/SAB/SAB02 folder.
 
 <img src="README_pics/Screenshot_20260806_121826.png" width="400" height="800" />
+
+The file name should reference the copy of the file in the document's image folder within the docs-en folder.  So, for our example, the file name would be "docs-en/fodt/SAB/SAB02/100.png".
+
 <img src="README_pics/Screenshot_20260806_113235.png" width="400" height="800" />
 
 After the image file is selected, click the "Open" button to add the file.
@@ -168,6 +171,9 @@ After the image file is selected, click the "Open" button to add the file.
 
 <img src="README_pics/Screenshot_20260806_122015.png" width="500" height="1000" />
 
+To identify the file name of the image after it has been inserted into the document, right click on the image in the document and select "Properties".  In the Properties dialong, select "Rotation".  The file name will be shown as the "Link" File Name.
+
+After the file is linked in the document, a copy of the image file should be placed in the images/*language*/*project*/*document number*.  So for our example, the "100.png" file should be saved to images/en-US/SAB/SAB02, images/es-ES/SAB/SAB02, image/fr-FR/SAB/SAB02 and any other languages defined.  If language specific screenshots are available, these should be added to the language folder in place of the original.  When checking in the updates, the images in the images folders are the only ones that are required to be checked in.
 #
 ##### Image names and folders
 Another important aspect of inserting images is the name of the image file. In order to keep the documents from losing their images, all images should only be located and linked in a folder next to the document. The folder must also have the naming convention shown below.
