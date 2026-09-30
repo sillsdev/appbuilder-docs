@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><dc:title>Lecture du constructeur d&apos;applications - Utiliser aeneas pour la synchronisation du texte audio</dc:title>
+ <office:meta><dc:title>Reading App Builder - Using aeneas for Audio-Text Synchronization</dc:title>
 <meta:initial-creator>Richard Margetts</meta:initial-creator><meta:editing-cycles>326</meta:editing-cycles><meta:print-date>2017-12-04T11:28:00</meta:print-date><meta:creation-date>2015-08-15T09:35:00</meta:creation-date><dc:date>2026-07-27T15:30:45.945608589</dc:date><meta:editing-duration>PT15M1S</meta:editing-duration><meta:generator>LibreOffice/24.2.7.2$Linux_X86_64 LibreOffice_project/420$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:image-count="11" meta:object-count="0" meta:page-count="29" meta:paragraph-count="162" meta:word-count="2219" meta:character-count="12973" meta:non-whitespace-character-count="10931"/>
 <meta:user-defined meta:name="AppVersion">16.0000</meta:user-defined><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="Normal.dotm" xlink:href=""/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">430953</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">32016</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">22386</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">44743</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">22782</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
   </config:config-item-set>
@@ -96,7 +96,7 @@
    <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
    <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
    <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">xAH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAsAAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luYWRqdXN0bWVudD0wLDAsJzAsMApjb2xvcmRlcHRoPTI0CmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4dERhdGEKRHVwbGV4Ok5vbmUAUGFnZVNpemU6TGV0dGVyAAASAENPTVBBVF9EVVBMRVhfTU9ERQ8ARHVwbGV4TW9kZTo6T2ZmDABQUklOVEVSX05BTUUPAEdlbmVyaWMgUHJpbnRlcgsARFJJVkVSX05BTUUHAFNHRU5QUlQ=</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">xAH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAsAAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luYWRqdXN0bWVudD0wLDAsJzAsMApjb2xvcmRlcHRoPTI0CmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4dERhdGEKUGFnZVNpemU6TGV0dGVyAER1cGxleDpOb25lAAASAENPTVBBVF9EVVBMRVhfTU9ERQ8ARHVwbGV4TW9kZTo6T2ZmDABQUklOVEVSX05BTUUPAEdlbmVyaWMgUHJpbnRlcgsARFJJVkVSX05BTUUHAFNHRU5QUlQ=</config:config-item>
    <config:config-item config:name="UseVariableWidthNBSP" config:type="boolean">false</config:config-item>
    <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
@@ -120,7 +120,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">3929119</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">4060860</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
@@ -155,7 +155,7 @@
  <office:styles>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" draw:start-line-spacing-horizontal="0.1114in" draw:start-line-spacing-vertical="0.1114in" draw:end-line-spacing-horizontal="0.1114in" draw:end-line-spacing-vertical="0.1114in" style:writing-mode="lr-tb" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0in" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0in" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Times New Roman" fo:font-size="10pt" fo:language="en" fo:country="GB" style:letter-kerning="false" style:font-name-asian="Times New Roman1" style:font-size-asian="10pt" style:language-asian="en" style:country-asian="GB" style:font-name-complex="Times New Roman1" style:font-size-complex="10pt" style:language-complex="ar" style:country-complex="SA"/>
@@ -2990,9 +2990,6 @@
   <style:style style:name="T26" style:family="text">
    <style:text-properties style:font-name="Wingdings" fo:language="en" fo:country="GB" style:font-name-asian="Wingdings1" style:font-name-complex="Wingdings1"/>
   </style:style>
-  <style:style style:name="T27" style:family="text">
-   <style:text-properties style:font-name="Wingdings" fo:language="en" fo:country="GB" fo:font-weight="bold" style:font-name-asian="Wingdings1" style:font-weight-asian="bold" style:font-name-complex="Wingdings1" style:font-weight-complex="bold"/>
-  </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Frame">
    <style:graphic-properties fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0in" style:wrap="parallel" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="page-content" fo:background-color="#ffffff" style:background-transparency="100%" draw:fill="solid" draw:fill-color="#ffffff" draw:opacity="0%" fo:padding="0in" fo:border="none"/>
   </style:style>
@@ -3014,19 +3011,19 @@
    </style:section-properties>
   </style:style>
   <style:style style:name="gr1" style:family="graphic">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.028in" svg:stroke-color="#3a5f8b" svg:stroke-linecap="butt" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="0.3028in" fo:min-width="0in" fo:padding-top="0.0492in" fo:padding-bottom="0.0492in" fo:padding-left="0.0984in" fo:padding-right="0.0984in" fo:wrap-option="wrap" loext:decorative="false" fo:margin-left="0.0209in" fo:margin-right="0.0417in" fo:margin-top="0in" fo:margin-bottom="0.052in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false">
+   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.028in" svg:stroke-color="#3a5f8b" svg:stroke-linecap="butt" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="0.6417in" fo:min-width="0in" fo:padding-top="0.0492in" fo:padding-bottom="0.0492in" fo:padding-left="0.0984in" fo:padding-right="0.0984in" fo:wrap-option="wrap" loext:decorative="false" fo:margin-left="0in" fo:margin-right="0.0134in" fo:margin-top="0in" fo:margin-bottom="0.0311in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false">
     <loext:stroke-complex-color loext:theme-type="accent1" loext:color-type="theme"/>
     <loext:fill-complex-color loext:theme-type="light1" loext:color-type="theme"/>
    </style:graphic-properties>
   </style:style>
   <style:style style:name="gr2" style:family="graphic">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.028in" svg:stroke-color="#3a5f8b" svg:stroke-linecap="butt" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="0.3028in" fo:min-width="0in" fo:padding-top="0.0492in" fo:padding-bottom="0.0492in" fo:padding-left="0.0984in" fo:padding-right="0.0984in" fo:wrap-option="wrap" loext:decorative="false" fo:margin-left="0.0209in" fo:margin-right="0.0417in" fo:margin-top="0in" fo:margin-bottom="0.052in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="page-content" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false">
+   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.028in" svg:stroke-color="#3a5f8b" svg:stroke-linecap="butt" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="0.3028in" fo:min-width="0in" fo:padding-top="0.0492in" fo:padding-bottom="0.0492in" fo:padding-left="0.0984in" fo:padding-right="0.0984in" fo:wrap-option="wrap" loext:decorative="false" fo:margin-left="0.0209in" fo:margin-right="0.0417in" fo:margin-top="0in" fo:margin-bottom="0.052in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false">
     <loext:stroke-complex-color loext:theme-type="accent1" loext:color-type="theme"/>
     <loext:fill-complex-color loext:theme-type="light1" loext:color-type="theme"/>
    </style:graphic-properties>
   </style:style>
   <style:style style:name="gr3" style:family="graphic">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.028in" svg:stroke-color="#3a5f8b" svg:stroke-linecap="butt" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="0.6417in" fo:min-width="0in" fo:padding-top="0.0492in" fo:padding-bottom="0.0492in" fo:padding-left="0.0984in" fo:padding-right="0.0984in" fo:wrap-option="wrap" loext:decorative="false" fo:margin-left="0in" fo:margin-right="0.0134in" fo:margin-top="0in" fo:margin-bottom="0.0311in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false">
+   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.028in" svg:stroke-color="#3a5f8b" svg:stroke-linecap="butt" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="0.3028in" fo:min-width="0in" fo:padding-top="0.0492in" fo:padding-bottom="0.0492in" fo:padding-left="0.0984in" fo:padding-right="0.0984in" fo:wrap-option="wrap" loext:decorative="false" fo:margin-left="0.0209in" fo:margin-right="0.0417in" fo:margin-top="0in" fo:margin-bottom="0.052in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="page-content" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false">
     <loext:stroke-complex-color loext:theme-type="accent1" loext:color-type="theme"/>
     <loext:fill-complex-color loext:theme-type="light1" loext:color-type="theme"/>
    </style:graphic-properties>
@@ -3040,28 +3037,28 @@
    <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.0102in" svg:stroke-color="#000000" draw:stroke-linejoin="miter" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="0.0362in" fo:min-width="0.7957in" fo:padding-top="0.0492in" fo:padding-bottom="0.0492in" fo:padding-left="0.0984in" fo:padding-right="0.0984in" fo:wrap-option="wrap" loext:decorative="false" fo:margin-left="0.2571in" fo:margin-right="0.2661in" fo:margin-top="0in" fo:margin-bottom="0in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false"/>
   </style:style>
   <style:style style:name="gr6" style:family="graphic">
-   <style:graphic-properties draw:stroke="none" svg:stroke-width="0in" draw:fill="none" loext:fill-use-slide-background="false" draw:textarea-horizontal-align="center" draw:textarea-vertical-align="middle" draw:color-mode="standard" draw:luminance="0%" draw:contrast="0%" draw:gamma="100%" draw:red="0%" draw:green="0%" draw:blue="0%" fo:clip="rect(0in, 6.6217in, 0in, 0in)" draw:image-opacity="100%" style:mirror="none" loext:decorative="false" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false"/>
+   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.028in" svg:stroke-color="#3a5f8b" svg:stroke-linecap="butt" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="0.3028in" fo:min-width="0in" fo:padding-top="0.0492in" fo:padding-bottom="0.0492in" fo:padding-left="0.0984in" fo:padding-right="0.0984in" fo:wrap-option="wrap" loext:decorative="false" fo:margin-left="0.1453in" fo:margin-right="0.1453in" fo:margin-top="0in" fo:margin-bottom="0.0311in" style:run-through="foreground" style:wrap="parallel" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="true" style:wrap-contour-mode="full" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false">
+    <loext:stroke-complex-color loext:theme-type="accent1" loext:color-type="theme"/>
+    <loext:fill-complex-color loext:theme-type="light1" loext:color-type="theme"/>
+   </style:graphic-properties>
   </style:style>
   <style:style style:name="gr7" style:family="graphic">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.0102in" svg:stroke-color="#000000" draw:stroke-linejoin="miter" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="0.0362in" fo:min-width="1.7575in" fo:padding-top="0.0492in" fo:padding-bottom="0.0492in" fo:padding-left="0.0984in" fo:padding-right="0.0984in" fo:wrap-option="wrap" loext:decorative="false" fo:margin-left="0.2165in" fo:margin-right="0.1819in" fo:margin-top="0in" fo:margin-bottom="0.0154in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false"/>
+   <style:graphic-properties draw:stroke="none" svg:stroke-width="0in" draw:fill="none" loext:fill-use-slide-background="false" draw:textarea-horizontal-align="center" draw:textarea-vertical-align="middle" draw:color-mode="standard" draw:luminance="0%" draw:contrast="0%" draw:gamma="100%" draw:red="0%" draw:green="0%" draw:blue="0%" fo:clip="rect(0in, 6.6217in, 0in, 0in)" draw:image-opacity="100%" style:mirror="none" loext:decorative="false" fo:margin-left="0in" fo:margin-right="0in" fo:margin-top="0in" fo:margin-bottom="0in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false"/>
   </style:style>
   <style:style style:name="gr8" style:family="graphic">
+   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.0102in" svg:stroke-color="#000000" draw:stroke-linejoin="miter" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="0.0362in" fo:min-width="1.7575in" fo:padding-top="0.0492in" fo:padding-bottom="0.0492in" fo:padding-left="0.0984in" fo:padding-right="0.0984in" fo:wrap-option="wrap" loext:decorative="false" fo:margin-left="0.2165in" fo:margin-right="0.1819in" fo:margin-top="0in" fo:margin-bottom="0.0154in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false"/>
+  </style:style>
+  <style:style style:name="gr9" style:family="graphic">
    <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.0102in" svg:stroke-color="#000000" draw:stroke-linejoin="miter" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="0.0362in" fo:min-width="1.7244in" fo:padding-top="0.0492in" fo:padding-bottom="0.0492in" fo:padding-left="0.0984in" fo:padding-right="0.0984in" fo:wrap-option="wrap" loext:decorative="false" fo:margin-left="0.2008in" fo:margin-right="0.1984in" fo:margin-top="0in" fo:margin-bottom="0.0102in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false"/>
   </style:style>
-  <style:style style:name="gr9" style:family="graphic" style:parent-style-name="Frame">
+  <style:style style:name="gr10" style:family="graphic" style:parent-style-name="Frame">
    <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.0102in" svg:stroke-color="#ffffff" draw:stroke-linejoin="miter" draw:fill="none" loext:fill-use-slide-background="false" draw:textarea-vertical-align="top" draw:auto-grow-height="true" fo:min-height="0in" fo:min-width="0in" fo:padding-top="0.05in" fo:padding-bottom="0.05in" fo:padding-left="0.1in" fo:padding-right="0.1in" fo:wrap-option="wrap" loext:decorative="false" fo:margin-left="0in" fo:margin-right="0.0228in" fo:margin-top="0in" fo:margin-bottom="0.0299in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false" loext:rel-width-rel="paragraph" loext:rel-height-rel="paragraph">
     <loext:stroke-complex-color loext:theme-type="light1" loext:color-type="theme"/>
    </style:graphic-properties>
   </style:style>
-  <style:style style:name="gr10" style:family="graphic" style:parent-style-name="Frame">
+  <style:style style:name="gr11" style:family="graphic" style:parent-style-name="Frame">
    <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.0102in" svg:stroke-color="#ffffff" draw:stroke-linejoin="miter" draw:fill="none" loext:fill-use-slide-background="false" draw:textarea-vertical-align="top" draw:auto-grow-height="true" fo:min-height="0in" fo:min-width="0in" fo:padding-top="0.05in" fo:padding-bottom="0.05in" fo:padding-left="0.1in" fo:padding-right="0.1in" fo:wrap-option="wrap" loext:decorative="false" fo:margin-left="0in" fo:margin-right="0.0311in" fo:margin-top="0in" fo:margin-bottom="0.0201in" style:run-through="foreground" style:wrap="run-through" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="left" style:horizontal-rel="page-content" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false" loext:rel-height-rel="paragraph">
     <loext:stroke-complex-color loext:theme-type="light1" loext:color-type="theme"/>
-   </style:graphic-properties>
-  </style:style>
-  <style:style style:name="gr11" style:family="graphic">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.028in" svg:stroke-color="#3a5f8b" svg:stroke-linecap="butt" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="0.3028in" fo:min-width="0in" fo:padding-top="0.0492in" fo:padding-bottom="0.0492in" fo:padding-left="0.0984in" fo:padding-right="0.0984in" fo:wrap-option="wrap" loext:decorative="false" fo:margin-left="0.1453in" fo:margin-right="0.1453in" fo:margin-top="0in" fo:margin-bottom="0.0311in" style:run-through="foreground" style:wrap="parallel" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="true" style:wrap-contour-mode="full" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" draw:wrap-influence-on-position="once-concurrent" loext:allow-overlap="true" style:flow-with-text="false">
-    <loext:stroke-complex-color loext:theme-type="accent1" loext:color-type="theme"/>
-    <loext:fill-complex-color loext:theme-type="light1" loext:color-type="theme"/>
    </style:graphic-properties>
   </style:style>
   <style:page-layout style:name="pm1">
@@ -3080,7 +3077,7 @@
  <office:master-styles>
   <style:master-page style:name="Standard" style:page-layout-name="pm1" draw:style-name="dp1">
    <style:footer>
-    <text:p text:style-name="Footer"><draw:frame draw:style-name="fr1" draw:name="Frame5" text:anchor-type="paragraph" svg:y="0.0008in" draw:z-index="51">
+    <text:p text:style-name="Footer"><draw:frame draw:style-name="fr1" draw:name="Frame5" text:anchor-type="paragraph" svg:y="0.0008in" draw:z-index="55">
       <draw:text-box fo:min-height="0.0161in" fo:min-width="0.0161in">
        <text:p text:style-name="P1"><text:span text:style-name="Page_20_Number"><text:page-number text:select-page="current">47</text:page-number></text:span><text:span text:style-name="Page_20_Number"><text:s/></text:span></text:p>
       </draw:text-box>
@@ -3111,7 +3108,7 @@
    <text:p text:style-name="P29" loext:marker-style-name="T1"/>
    <text:p text:style-name="P29" loext:marker-style-name="T1"/>
    <text:p text:style-name="P29" loext:marker-style-name="T1"/>
-   <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Utilisation d&apos;aeneas pour <text:line-break/>Synchronisation Audio-Texte</text:span><text:span text:style-name="T2"/></text:p>
+   <text:p text:style-name="P3" loext:marker-style-name="T2"><text:span text:style-name="T2">Using aeneas for <text:line-break/>Audio-Text Synchronization</text:span><text:span text:style-name="T2"/></text:p>
    <text:p text:style-name="P34" loext:marker-style-name="T4"><text:s/></text:p>
    <text:p text:style-name="P34" loext:marker-style-name="T4"><text:soft-page-break/></text:p>
    <text:p text:style-name="P34" loext:marker-style-name="T4"/>
@@ -3143,9 +3140,9 @@
    <text:p text:style-name="P36" loext:marker-style-name="T3"/>
    <text:p text:style-name="P37" loext:marker-style-name="T3"/>
    <text:p text:style-name="P3" loext:marker-style-name="T18"><text:span text:style-name="T18">Reading App Builder: Using aeneas for </text:span><text:span text:style-name="T18"/></text:p>
-   <text:p text:style-name="P3" loext:marker-style-name="T18"><text:span text:style-name="T18">Synchronisation du texte audio</text:span><text:span text:style-name="T18"/></text:p>
+   <text:p text:style-name="P3" loext:marker-style-name="T18"><text:span text:style-name="T18">Audio-Text Synchronization</text:span><text:span text:style-name="T18"/></text:p>
    <text:p text:style-name="P37" loext:marker-style-name="T3"><text:soft-page-break/></text:p>
-   <text:p text:style-name="P3" loext:marker-style-name="T3"><text:span text:style-name="T3">©️ 2023, SIL International</text:span><text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="P3" loext:marker-style-name="T3"><text:span text:style-name="T3">© 2023, SIL International</text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P37" loext:marker-style-name="T3"/>
    <text:p text:style-name="P3" loext:marker-style-name="T19"><text:span text:style-name="T19">Last updated: 19 June 2023</text:span><text:span text:style-name="T19"/></text:p>
    <text:p text:style-name="P37" loext:marker-style-name="T3"><text:s/></text:p>
@@ -3153,15 +3150,15 @@
    <text:p text:style-name="P37" loext:marker-style-name="T3"><text:soft-page-break/></text:p>
    <text:p text:style-name="P37" loext:marker-style-name="T3"/>
    <text:p text:style-name="P37" loext:marker-style-name="T3"/>
-   <text:p text:style-name="P3">Vous êtes libre d&apos;imprimer ce manuel pour un usage personnel et pour des ateliers de formation.</text:p>
+   <text:p text:style-name="P3">You are free to print this manual for personal use and for training workshops.</text:p>
    <text:p text:style-name="P3"/>
-   <text:p text:style-name="P3">La dernière version est disponible à</text:p>
+   <text:p text:style-name="P3">The latest version is available at</text:p>
    <text:p text:style-name="P3" loext:marker-style-name="T3"><text:a xlink:type="simple" xlink:href="http://software.sil.org/readingappbuilder/resources/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:soft-page-break/><text:span text:style-name="Internet_20_link"><text:span text:style-name="T3">http://software.sil.org/readingappbuilder/resources/</text:span></text:span></text:a><text:span text:style-name="T3"> </text:span></text:p>
    <text:p text:style-name="P37" loext:marker-style-name="T3"/>
-   <text:p text:style-name="P3" loext:marker-style-name="T3"><text:span text:style-name="T3">et dans le menu Aide de Reading App Builder.</text:span><text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="P3" loext:marker-style-name="T3"><text:span text:style-name="T3">and on the Help menu of Reading App Builder.</text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P36" loext:marker-style-name="T3"><text:s/></text:p>
    <text:p text:style-name="P36" loext:marker-style-name="T3"/>
-   <text:p text:style-name="P31" loext:marker-style-name="T14"><text:span text:style-name="T14">Contenu</text:span><text:span text:style-name="T14"/></text:p>
+   <text:p text:style-name="P31" loext:marker-style-name="T14"><text:span text:style-name="T14">Contents</text:span><text:span text:style-name="T14"/></text:p>
    <text:p text:style-name="P45" loext:marker-style-name="T14"/>
    <text:table-of-content text:style-name="Sect1" text:protected="true" text:name="Table of Contents1">
     <text:table-of-content-source text:outline-level="3" text:use-index-marks="false">
@@ -3260,21 +3257,21 @@
      <text:p text:style-name="Contents_20_1" loext:marker-style-name="T21"><text:a xlink:type="simple" xlink:href="#_Toc138058875" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:span text:style-name="T3">1.</text:span><text:span text:style-name="T15"> </text:span>Introduction<text:span text:style-name="T23"> 5</text:span></text:a></text:p>
      <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058876" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">1.1.<text:span text:style-name="T16"> </text:span>What is aeneas?<text:span text:style-name="T23"> 5</text:span></text:a></text:p>
      <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058877" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">1.2.<text:span text:style-name="T16"> </text:span>Will it work with our language?<text:span text:style-name="T23"> 6</text:span></text:a></text:p>
-     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058878" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">1.3.<text:span text:style-name="T16"> </text:span>Combien de temps cela prend-il ?<text:span text:style-name="T23"> 6</text:span></text:a></text:p>
+     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058878" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">1.3.<text:span text:style-name="T16"> </text:span>How long does it take?<text:span text:style-name="T23"> 6</text:span></text:a></text:p>
      <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058879" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:soft-page-break/>1.4.<text:span text:style-name="T16"> </text:span>How do we run aeneas?<text:span text:style-name="T23"> 6</text:span></text:a></text:p>
      <text:p text:style-name="Contents_20_1" loext:marker-style-name="T21"><text:a xlink:type="simple" xlink:href="#_Toc138058880" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:span text:style-name="T3">2.</text:span><text:span text:style-name="T15"> </text:span>Windows<text:span text:style-name="T3"> Installation</text:span><text:span text:style-name="T23"> 6</text:span></text:a></text:p>
      <text:p text:style-name="Contents_20_1" loext:marker-style-name="T21"><text:a xlink:type="simple" xlink:href="#_Toc138058881" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:span text:style-name="T3">3.</text:span><text:span text:style-name="T15"> </text:span>Linux<text:span text:style-name="T3"> Installation</text:span><text:span text:style-name="T23"> 9</text:span></text:a></text:p>
-     <text:p text:style-name="Contents_20_1" loext:marker-style-name="T21"><text:a xlink:type="simple" xlink:href="#_Toc138058882" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:span text:style-name="T3">4.</text:span><text:span text:style-name="T15"> </text:span><text:span text:style-name="T3">Utilisation d&apos;aeneas dans Reading App Builder</text:span><text:span text:style-name="T23"> 9</text:span></text:a></text:p>
+     <text:p text:style-name="Contents_20_1" loext:marker-style-name="T21"><text:a xlink:type="simple" xlink:href="#_Toc138058882" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:span text:style-name="T3">4.</text:span><text:span text:style-name="T15"> </text:span><text:span text:style-name="T3">Using aeneas within Reading App Builder</text:span><text:span text:style-name="T23"> 9</text:span></text:a></text:p>
      <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058883" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">4.1.<text:span text:style-name="T16"> </text:span>Running the Audio Synchronization wizard<text:span text:style-name="T23"> 9</text:span></text:a></text:p>
-     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058884" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">4.2.<text:span text:style-name="T16"> </text:span>Dépannage<text:span text:style-name="T23"> 9</text:span></text:a></text:p>
-     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058885" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:soft-page-break/>4.3.<text:span text:style-name="T16"> </text:span>Visualisation et test des fichiers de timing créés par aeneas<text:span text:style-name="T23"> 10</text:span></text:a></text:p>
-     <text:p text:style-name="Contents_20_1" loext:marker-style-name="T21"><text:a xlink:type="simple" xlink:href="#_Toc138058886" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">5.<text:span text:style-name="T15"> </text:span>Chronométrage fin<text:span text:style-name="T23"> 11</text:span></text:a></text:p>
-     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058887" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">5.1.<text:span text:style-name="T16"> </text:span>Ajustez les fichiers de timing en utilisant la visionneuse Fine Tune Timings<text:span text:style-name="T23"> 11</text:span></text:a></text:p>
-     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058888" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">5.2.<text:span text:style-name="T16"> </text:span>Changement de vitesse audio lors du réglage fin<text:span text:style-name="T23"> 13</text:span></text:a></text:p>
-     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058889" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">5.3.<text:span text:style-name="T16"> </text:span>Raccourcis clavier lors du réglage fin<text:span text:style-name="T23"> 13</text:span></text:a></text:p>
-     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058890" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">5.4.<text:span text:style-name="T16"> </text:span>Envoi d&apos;un réglage fin des fichiers aux autres<text:span text:style-name="T23"> 14</text:span></text:a></text:p>
-     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058891" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:soft-page-break/>5.5.<text:span text:style-name="T16"> </text:span>Ajuster les fichiers de timing en utilisant Audacity<text:span text:style-name="T23"> 14</text:span></text:a></text:p>
-     <text:p text:style-name="Contents_20_1" loext:marker-style-name="T21"><text:a xlink:type="simple" xlink:href="#_Toc138058892" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:span text:style-name="T3">6.</text:span><text:span text:style-name="T15"> </text:span><text:span text:style-name="T3">Ajout de voix à eSpeak</text:span><text:span text:style-name="T23"> 15</text:span></text:a></text:p>
+     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058884" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">4.2.<text:span text:style-name="T16"> </text:span>Troubleshooting<text:span text:style-name="T23"> 9</text:span></text:a></text:p>
+     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058885" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:soft-page-break/>4.3.<text:span text:style-name="T16"> </text:span>Viewing and testing the timing files created by aeneas<text:span text:style-name="T23"> 10</text:span></text:a></text:p>
+     <text:p text:style-name="Contents_20_1" loext:marker-style-name="T21"><text:a xlink:type="simple" xlink:href="#_Toc138058886" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">5.<text:span text:style-name="T15"> </text:span>Fine Tune Timings<text:span text:style-name="T23"> 11</text:span></text:a></text:p>
+     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058887" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">5.1.<text:span text:style-name="T16"> </text:span>Fine tune timing files using the Fine Tune Timings viewer<text:span text:style-name="T23"> 11</text:span></text:a></text:p>
+     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058888" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">5.2.<text:span text:style-name="T16"> </text:span>Changing audio speed when doing fine tuning<text:span text:style-name="T23"> 13</text:span></text:a></text:p>
+     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058889" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">5.3.<text:span text:style-name="T16"> </text:span>Keyboard shortcuts when doing fine tuning<text:span text:style-name="T23"> 13</text:span></text:a></text:p>
+     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058890" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">5.4.<text:span text:style-name="T16"> </text:span>Sending Fine Tuning files to others<text:span text:style-name="T23"> 14</text:span></text:a></text:p>
+     <text:p text:style-name="Contents_20_2" loext:marker-style-name="T22"><text:a xlink:type="simple" xlink:href="#_Toc138058891" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:soft-page-break/>5.5.<text:span text:style-name="T16"> </text:span>Fine tune timing files using Audacity<text:span text:style-name="T23"> 14</text:span></text:a></text:p>
+     <text:p text:style-name="Contents_20_1" loext:marker-style-name="T21"><text:a xlink:type="simple" xlink:href="#_Toc138058892" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:span text:style-name="T3">6.</text:span><text:span text:style-name="T15"> </text:span><text:span text:style-name="T3">Adding voices to eSpeak</text:span><text:span text:style-name="T23"> 15</text:span></text:a></text:p>
     </text:index-body>
    </text:table-of-content>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
@@ -3286,39 +3283,39 @@
    <text:p text:style-name="P46" loext:marker-style-name="T14"/>
    <text:p text:style-name="P46" loext:marker-style-name="T14"/>
    <text:p text:style-name="P46" loext:marker-style-name="T14"/>
-   <text:p text:style-name="P31" loext:marker-style-name="T9"><text:span text:style-name="T14">Remerciements</text:span><text:span text:style-name="T14"/></text:p>
+   <text:p text:style-name="P31" loext:marker-style-name="T9"><text:span text:style-name="T14">Acknowledgements</text:span><text:span text:style-name="T14"/></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
    <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:span text:style-name="T9">Thank you very much to Alberto Pettarin, Italy, for all his work developing </text:span><text:span text:style-name="T10">aeneas</text:span><text:span text:style-name="T9"> and for making it freely available for use in synchronising text and audio around the world.</text:span></text:p>
-   <text:p text:style-name="P47" loext:marker-style-name="T9"><text:soft-page-break/><text:span text:style-name="T9">Site Web : </text:span><text:a xlink:type="simple" xlink:href="https://github.com/readbeyond/aeneas/#aeneas" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T9">https://github.com/readbeyond/aeneas/#aeneas</text:span></text:span></text:a><text:span text:style-name="T9"> </text:span></text:p>
+   <text:p text:style-name="P47" loext:marker-style-name="T9"><text:soft-page-break/><text:span text:style-name="T9">Website: </text:span><text:a xlink:type="simple" xlink:href="https://github.com/readbeyond/aeneas/#aeneas" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T9">https://github.com/readbeyond/aeneas/#aeneas</text:span></text:span></text:a><text:span text:style-name="T9"> </text:span></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
-   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:span text:style-name="T9">Ces instructions ont été écrites en utilisant aeneas 1.7.2, sorti le 09 mars 2017.</text:span><text:span text:style-name="T9"/></text:p>
+   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:span text:style-name="T9">These instructions were written using aeneas 1.7.2, released 09 mars 2017.</text:span><text:span text:style-name="T9"/></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
-   <text:p text:style-name="P49" loext:marker-style-name="T9"><text:span text:style-name="T9">Merci à Firat O&lt;unk&gt; zdemir d&apos;avoir inventé la fonctionnalité </text:span><text:span text:style-name="T9">dont une version modifiée est intégrée dans le constructeur d&apos;applications de lecture. </text:span></text:p>
-   <text:p text:style-name="P47" loext:marker-style-name="T9"><text:soft-page-break/><text:span text:style-name="T9">Site Web : </text:span><text:a xlink:type="simple" xlink:href="https://github.com/ozdefir/finetuneas" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T9">https://github.com/ozdefir/finetuneas</text:span></text:span></text:a><text:span text:style-name="T9"> </text:span></text:p>
+   <text:p text:style-name="P49" loext:marker-style-name="T9"><text:span text:style-name="T9">Thank you to Firat Özdemir for inventing the </text:span><text:span text:style-name="T11">Fine Tuning</text:span><text:span text:style-name="T9"> feature, a modified version of which is built into Reading App Builder. </text:span></text:p>
+   <text:p text:style-name="P47" loext:marker-style-name="T9"><text:soft-page-break/><text:span text:style-name="T9">Website: </text:span><text:a xlink:type="simple" xlink:href="https://github.com/ozdefir/finetuneas" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T9">https://github.com/ozdefir/finetuneas</text:span></text:span></text:a><text:span text:style-name="T9"> </text:span></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
    <text:p text:style-name="P49" loext:marker-style-name="T9"><text:span text:style-name="T9">Thank you to Daniel Bair for his work on the Windows installer for </text:span><text:span text:style-name="T10">aeneas</text:span><text:span text:style-name="T9">.</text:span></text:p>
-   <text:p text:style-name="P47" loext:marker-style-name="T9"><text:span text:style-name="T9">Site Web : </text:span><text:a xlink:type="simple" xlink:href="https://github.com/sillsdev/aeneas-installer" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T9">https://github.com/sillsdev/aeneas-installer</text:span></text:span></text:a><text:span text:style-name="T9"> </text:span></text:p>
+   <text:p text:style-name="P47" loext:marker-style-name="T9"><text:span text:style-name="T9">Website: </text:span><text:a xlink:type="simple" xlink:href="https://github.com/sillsdev/aeneas-installer" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T9">https://github.com/sillsdev/aeneas-installer</text:span></text:span></text:a><text:span text:style-name="T9"> </text:span></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
    <text:h text:style-name="P6" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc138058875"/>Introduction<text:bookmark-end text:name="_Toc138058875"/><text:span text:style-name="T3"/></text:h>
-   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc138058876"/>Qu&apos;est-ce que l&apos;anémie ?<text:bookmark-end text:name="_Toc138058876"/></text:h>
-   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:span text:style-name="T10">aeneas</text:span><text:span text:style-name="T9"> est un outil conçu pour &quot;synchroniser automatiquement l&apos;audio et le texte&quot;.</text:span><text:span text:style-name="T9"><text:note text:id="ftn1" text:note-class="footnote"><text:note-citation>1</text:note-citation><text:note-body>
-       <text:p text:style-name="Footnote">https://github.com/readbeyond/aeneas/#aeneas</text:p></text:note-body></text:note></text:span><text:span text:style-name="T9"> Il prend un fichier audio et une liste de phrases comme entrées. Sa sortie est un fichier de synchronisation de timing, c&apos;est-à-dire le même type de fichier d&apos;étiquettes que vous créeriez manuellement dans Audacity.</text:span></text:p>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc138058876"/>What is aeneas?<text:bookmark-end text:name="_Toc138058876"/></text:h>
+   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:span text:style-name="T10">aeneas</text:span><text:span text:style-name="T9"> is a tool designed to “automagically synchronize audio and text”.</text:span><text:span text:style-name="T9"><text:note text:id="ftn1" text:note-class="footnote"><text:note-citation>1</text:note-citation><text:note-body>
+       <text:p text:style-name="Footnote">https://github.com/readbeyond/aeneas/#aeneas</text:p></text:note-body></text:note></text:span><text:span text:style-name="T9"> It takes an audio file and a list of phrases as inputs. Its output is a synchronization timing file, i.e. the same kind of labels file you would create manually in Audacity.</text:span></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
-   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:span text:style-name="T9">The way </text:span><text:span text:style-name="T10">aeneas</text:span><text:span text:style-name="T9"> works is to synthesize each phrase using a text-to-speech engine, and then compare the synthesized audio files against the input audio file to find the phrase breaks. Pour ce faire, beaucoup de calculs mathématiques intelligents se déroulent en coulisses :</text:span></text:p>
+   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:span text:style-name="T9">The way </text:span><text:span text:style-name="T10">aeneas</text:span><text:span text:style-name="T9"> works is to synthesize each phrase using a text-to-speech engine, and then compare the synthesized audio files against the input audio file to find the phrase breaks. To do this, a lot of clever mathematical computation goes on behind the scenes:</text:span></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
-   <text:p text:style-name="P50" loext:marker-style-name="T17"><text:soft-page-break/><text:span text:style-name="T20">À l&apos;aide de l&apos;algorithme de déformation dynamique de temps de bande de Sakoe-Chiba (DTW) pour aligner les coefficients de réception de Mel-frequency (MFCCs) de la vague audio donnée (réelle) et de l&apos;onde audio obtenue en synthétisant les fragments de texte avec un moteur TTS éventuellement relier l&apos;alignement calculé au domaine (réel) temporel.</text:span><text:span text:style-name="T20"><text:note text:id="ftn2" text:note-class="footnote"><text:note-citation>2</text:note-citation><text:note-body>
+   <text:p text:style-name="P50" loext:marker-style-name="T17"><text:soft-page-break/><text:span text:style-name="T20">Using the Sakoe-Chiba Band Dynamic Time Warping (DTW) algorithm to align the Mel-frequency cepstral coefficients (MFCCs) representation of the given (real) audio wave and the audio wave obtained by synthesizing the text fragments with a TTS engine, eventually mapping the computed alignment back onto the (real) time domain.</text:span><text:span text:style-name="T20"><text:note text:id="ftn2" text:note-class="footnote"><text:note-citation>2</text:note-citation><text:note-body>
        <text:p text:style-name="P4">https://github.com/readbeyond/aeneas/#one-sentence-explanation-pro-edition</text:p></text:note-body></text:note></text:span></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
-   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:span text:style-name="T9">Ou pour illustrer plus simplement, les phrases synthétiques…</text:span><text:span text:style-name="T9"/></text:p>
-   <text:p text:style-name="P43" loext:marker-style-name="T9"><draw:frame draw:style-name="fr5" draw:name="Picture 4" text:anchor-type="char" svg:x="2.4209in" svg:y="0.2016in" svg:width="0.9272in" svg:height="1.0626in" draw:z-index="52"><draw:image xlink:href="RAB07/4.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/png"/>
+   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:span text:style-name="T9">Or to illustrate it more simply, the synthesized phrases…</text:span><text:span text:style-name="T9"/></text:p>
+   <text:p text:style-name="P43" loext:marker-style-name="T9"><draw:frame draw:style-name="fr5" draw:name="Picture 4" text:anchor-type="char" svg:x="2.4209in" svg:y="0.2016in" svg:width="0.9272in" svg:height="1.0626in" draw:z-index="56"><draw:image xlink:href="RAB07/4.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/png"/>
      <svg:desc>C:\Users\Richard\AppData\Local\Microsoft\Windows\INetCache\Content.Word\org2.png</svg:desc>
-    </draw:frame><draw:frame text:anchor-type="char" draw:z-index="5" draw:name="Shape1" draw:style-name="gr6" draw:text-style-name="P63" svg:width="2.0205in" svg:height="1.063in" svg:x="0.202in" svg:y="0.2035in">
+    </draw:frame><draw:frame text:anchor-type="char" draw:z-index="4" draw:name="Shape1" draw:style-name="gr7" draw:text-style-name="P63" svg:width="2.0205in" svg:height="1.063in" svg:x="0.202in" svg:y="0.2035in">
      <draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAuwAAACFCAYAAAAARK1HAAAACXBIWXMAAAsTAAALEwEAmpwY
        AAAKT2lDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjanVNnVFPpFj333vRCS4iAlEtvUhUI
@@ -3743,7 +3740,7 @@
       <text:p/>
      </draw:image>
     </draw:frame></text:p>
-   <text:p text:style-name="P43" loext:marker-style-name="T9"><draw:custom-shape text:anchor-type="char" draw:z-index="0" draw:name="Down Arrow 6" draw:style-name="gr11" draw:text-style-name="P62" svg:width="0.3543in" svg:height="0.4898in" svg:x="1.1398in" svg:y="0.998in">
+   <text:p text:style-name="P43" loext:marker-style-name="T9"><draw:custom-shape text:anchor-type="char" draw:z-index="5" draw:name="Down Arrow 6" draw:style-name="gr6" draw:text-style-name="P62" svg:width="0.3543in" svg:height="0.4898in" svg:x="1.1398in" svg:y="0.998in">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:glue-points="?f7 0 0 ?f5 ?f7 ?f13 ?f14 ?f5" draw:text-areas="?f8 0 ?f9 ?f12" draw:type="ooxml-downArrow" draw:modifiers="50000 50000" draw:enhanced-path="M 0 ?f5 L ?f8 ?f5 ?f8 0 ?f9 0 ?f9 ?f5 ?f14 ?f5 ?f7 ?f13 Z N">
       <draw:equation draw:name="f0" draw:formula="min(logwidth,logheight)"/>
@@ -3764,9 +3761,9 @@
       <draw:handle draw:handle-range-x-maximum="100000" draw:handle-range-x-minimum="0" draw:handle-position="?f8 0"/>
       <draw:handle draw:handle-range-y-maximum="?f1" draw:handle-range-y-minimum="0" draw:handle-position="0 ?f5"/>
      </draw:enhanced-geometry>
-    </draw:custom-shape><draw:frame draw:style-name="fr4" draw:name="Picture 5" text:anchor-type="char" svg:y="0.0083in" svg:width="2.4791in" svg:height="1.0626in" draw:z-index="59"><draw:image xlink:href="RAB07/5.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/png"/>
+    </draw:custom-shape><draw:frame draw:style-name="fr4" draw:name="Picture 5" text:anchor-type="char" svg:y="0.0083in" svg:width="2.4791in" svg:height="1.0626in" draw:z-index="57"><draw:image xlink:href="RAB07/5.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/png"/>
      <svg:desc>C:\Users\Richard\AppData\Local\Microsoft\Windows\INetCache\Content.Word\org2.png</svg:desc>
-    </draw:frame><draw:custom-shape text:anchor-type="char" draw:z-index="59" draw:name="Down Arrow 7" draw:style-name="gr2" draw:text-style-name="P62" svg:width="0.3543in" svg:height="0.4898in" svg:x="2.6484in" svg:y="1.0028in">
+    </draw:frame><draw:custom-shape text:anchor-type="char" draw:z-index="56" draw:name="Down Arrow 7" draw:style-name="gr3" draw:text-style-name="P62" svg:width="0.3543in" svg:height="0.4898in" svg:x="2.6484in" svg:y="1.0028in">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:glue-points="?f7 0 0 ?f5 ?f7 ?f13 ?f14 ?f5" draw:text-areas="?f8 0 ?f9 ?f12" draw:type="ooxml-downArrow" draw:modifiers="50000 50000" draw:enhanced-path="M 0 ?f5 L ?f8 ?f5 ?f8 0 ?f9 0 ?f9 ?f5 ?f14 ?f5 ?f7 ?f13 Z N">
       <draw:equation draw:name="f0" draw:formula="min(logwidth,logheight)"/>
@@ -3787,7 +3784,7 @@
       <draw:handle draw:handle-range-x-maximum="100000" draw:handle-range-x-minimum="0" draw:handle-position="?f8 0"/>
       <draw:handle draw:handle-range-y-maximum="?f1" draw:handle-range-y-minimum="0" draw:handle-position="0 ?f5"/>
      </draw:enhanced-geometry>
-    </draw:custom-shape><draw:custom-shape text:anchor-type="char" draw:z-index="60" draw:name="Down Arrow 8" draw:style-name="gr1" draw:text-style-name="P62" svg:width="0.3543in" svg:height="0.4898in" svg:x="4.3854in" svg:y="1.0035in">
+    </draw:custom-shape><draw:custom-shape text:anchor-type="char" draw:z-index="58" draw:name="Down Arrow 8" draw:style-name="gr2" draw:text-style-name="P62" svg:width="0.3543in" svg:height="0.4898in" svg:x="4.3854in" svg:y="1.0035in">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:glue-points="?f7 0 0 ?f5 ?f7 ?f13 ?f14 ?f5" draw:text-areas="?f8 0 ?f9 ?f12" draw:type="ooxml-downArrow" draw:modifiers="50000 50000" draw:enhanced-path="M 0 ?f5 L ?f8 ?f5 ?f8 0 ?f9 0 ?f9 ?f5 ?f14 ?f5 ?f7 ?f13 Z N">
       <draw:equation draw:name="f0" draw:formula="min(logwidth,logheight)"/>
@@ -3814,7 +3811,7 @@
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
-   <text:p text:style-name="P43" loext:marker-style-name="T9"><draw:custom-shape text:anchor-type="char" draw:z-index="58" draw:name="Rectangle 9" draw:style-name="gr3" draw:text-style-name="P62" svg:width="0.0496in" svg:height="0.7398in" svg:x="2.3063in" svg:y="0.2827in">
+   <text:p text:style-name="P43" loext:marker-style-name="T9"><draw:custom-shape text:anchor-type="char" draw:z-index="57" draw:name="Rectangle 9" draw:style-name="gr1" draw:text-style-name="P62" svg:width="0.0496in" svg:height="0.7398in" svg:x="2.3063in" svg:y="0.2827in">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:glue-points="?f0 0 0 ?f1 ?f0 ?f2 ?f3 ?f1" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
@@ -3822,9 +3819,9 @@
       <draw:equation draw:name="f2" draw:formula="logheight"/>
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
-    </draw:custom-shape><draw:frame draw:style-name="fr3" draw:name="Picture 3" text:anchor-type="char" svg:x="0.1709in" svg:y="0.0173in" svg:width="5.8752in" svg:height="1.198in" draw:z-index="58"><draw:image xlink:href="RAB07/6.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/png"/>
-     <svg:desc>C:\Users\Richard\AppData\Local\Microsoft\Windows\INetCache\Content. ord\org1.png</svg:desc>
-    </draw:frame><draw:custom-shape text:anchor-type="char" draw:z-index="57" draw:name="Rectangle 10" draw:style-name="gr3" draw:text-style-name="P62" svg:width="0.0496in" svg:height="0.7398in" svg:x="3.3752in" svg:y="0.272in">
+    </draw:custom-shape><draw:frame draw:style-name="fr3" draw:name="Picture 3" text:anchor-type="char" svg:x="0.1709in" svg:y="0.0173in" svg:width="5.8752in" svg:height="1.198in" draw:z-index="62"><draw:image xlink:href="RAB07/6.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/png"/>
+     <svg:desc>C:\Users\Richard\AppData\Local\Microsoft\Windows\INetCache\Content.Word\org1.png</svg:desc>
+    </draw:frame><draw:custom-shape text:anchor-type="char" draw:z-index="60" draw:name="Rectangle 10" draw:style-name="gr1" draw:text-style-name="P62" svg:width="0.0496in" svg:height="0.7398in" svg:x="3.3752in" svg:y="0.272in">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:glue-points="?f0 0 0 ?f1 ?f0 ?f2 ?f3 ?f1" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
@@ -3839,9 +3836,9 @@
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
    <text:p text:style-name="P43" loext:marker-style-name="T9"><text:s/></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
-   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:soft-page-break/><text:span text:style-name="T9">…sont mappés par rapport au fichier audio d&apos;entrée pour trouver les pauses de phrase.</text:span><text:span text:style-name="T9"/></text:p>
+   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:soft-page-break/><text:span text:style-name="T9">…are mapped against the input audio file to find phrase breaks.</text:span><text:span text:style-name="T9"/></text:p>
    <text:p text:style-name="P44" loext:marker-style-name="T9"/>
-   <text:p text:style-name="P47" loext:marker-style-name="T9"><text:span text:style-name="T9">Les meilleurs résultats sont obtenus :</text:span><text:span text:style-name="T9"/></text:p>
+   <text:p text:style-name="P47" loext:marker-style-name="T9"><text:span text:style-name="T9">Best results are obtained:</text:span><text:span text:style-name="T9"/></text:p>
    <text:list text:style-name="WWNum11">
     <text:list-item>
      <text:p text:style-name="P9" loext:marker-style-name="T9"><text:span text:style-name="T9">if you have a clearly spoken recording;</text:span><text:span text:style-name="T9"/></text:p>
@@ -3850,40 +3847,40 @@
      <text:p text:style-name="P9" loext:marker-style-name="T9"><text:span text:style-name="T9">if any background music is low enough in volume not to confuse the system;</text:span><text:span text:style-name="T9"/></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P9" loext:marker-style-name="T9"><text:span text:style-name="T9">si les phrases synthétiques correspondent assez bien à la manière dont la langue est prononcée.</text:span><text:span text:style-name="T9"/></text:p>
+     <text:p text:style-name="P9" loext:marker-style-name="T9"><text:span text:style-name="T9">if the synthesized phrases correspond well enough to how the language is pronounced.</text:span><text:span text:style-name="T9"/></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P43" loext:marker-style-name="T9"><text:soft-page-break/></text:p>
-   <text:h text:style-name="P8" text:outline-level="2"><text:bookmark-start text:name="_Toc138058877"/>Est-ce que cela fonctionnera avec notre langue?<text:bookmark-end text:name="_Toc138058877"/></text:h>
-   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:span text:style-name="T11">aeneas</text:span><text:span text:style-name="T9"> produit des fichiers de synchronisation très précis pour les langues dans le monde entier. Nous vous recommandons de l’essayer et de voir comment cela fonctionne pour vos fichiers texte et audio.</text:span></text:p>
+   <text:h text:style-name="P8" text:outline-level="2"><text:bookmark-start text:name="_Toc138058877"/>Will it work with our language?<text:bookmark-end text:name="_Toc138058877"/></text:h>
+   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:span text:style-name="T11">aeneas</text:span><text:span text:style-name="T9"> is producing impressively accurate timing files for languages around the world. We would recommend you try it out and see how well it works for your text and audio files.</text:span></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"><text:s/></text:p>
-   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:span text:style-name="T9">Qu&apos;en est-il des caractères spéciaux ou des marques de tonalités? Puisque le moteur de synthèse vocale s&apos;adapte le mieux aux simples scripts romains de A-Z, l&apos;assistant </text:span><text:span text:style-name="T11">Synchroniser en utilisant</text:span><text:span text:style-name="T9"> </text:span><text:span text:style-name="T11">aéneas</text:span><text:span text:style-name="T9"> dans Reading App Builder a un </text:span><text:span text:style-name="T11">Remplacement de caractères</text:span><text:span text:style-name="T9"> page, conçu pour remplacer les caractères spéciaux par des caractères simples (&lt;unk&gt; to b, &lt;unk&gt; to e, etc.). Il enlève également les accents et les marques de tonalité. Les algorithmes de comparaison sont assez tolérants pour faire correspondre les phrases même si la prononciation diffère.</text:span></text:p>
+   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:span text:style-name="T9">What about special characters or tone marks? Since the text-to-speech engine copes best with simple A-Z Roman scripts, the </text:span><text:span text:style-name="T11">Synchronize using</text:span><text:span text:style-name="T9"> </text:span><text:span text:style-name="T11">aeneas</text:span><text:span text:style-name="T9"> wizard in Reading App Builder has a </text:span><text:span text:style-name="T11">Character Replacement</text:span><text:span text:style-name="T9"> page, designed to replace special characters with simple ones (ɓ to b, ɛ to e, etc.). It also strips out accents and tone marks. The comparison algorithms are tolerant enough to match up the phrases even though the pronunciation differs.</text:span></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
-   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:soft-page-break/><text:span text:style-name="T9">If you have a non-Roman script, you will need to define a set of character replacements, transliterating your non-Roman script into a simple A-Z Roman script (</text:span><text:span text:style-name="T24">अ to a, क to ka, </text:span><text:span text:style-name="T25">उ to u, etc.</text:span><text:span text:style-name="T9">). Cette approche a déjà été utilisée avec succès pour synchroniser le texte et l&apos;audio en hébreu. Si vous créez un ensemble de remplacements de caractères supplémentaires qui fonctionnent bien pour votre script et votre langue, veuillez nous le faire savoir afin que nous puissions les ajouter à l&apos;ensemble de remplacements par défaut.</text:span></text:p>
+   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:soft-page-break/><text:span text:style-name="T9">If you have a non-Roman script, you will need to define a set of character replacements, transliterating your non-Roman script into a simple A-Z Roman script (</text:span><text:span text:style-name="T24">अ to a, क to ka, </text:span><text:span text:style-name="T25">उ to u, etc.</text:span><text:span text:style-name="T9">). This approach has already been used successfully to synchronize text and audio in Hebrew. If you create a set of additional character replacements that work well for your script and language, please let us know so that we can add them to the default set of replacements.</text:span></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
    <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:span text:style-name="T9">You can find a selection of Romanization tables here:</text:span><text:span text:style-name="T9"/></text:p>
    <text:p text:style-name="P51" loext:marker-style-name="T9"><text:a xlink:type="simple" xlink:href="http://www.loc.gov/catdir/cpso/romansource.html" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T9">http://www.loc.gov/catdir/cpso/romansource.html</text:span></text:span></text:a><text:span text:style-name="T9"> </text:span></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
-   <text:h text:style-name="P8" text:outline-level="2"><text:bookmark-start text:name="_Toc138058878"/>Combien de temps cela prend-il ?<text:bookmark-end text:name="_Toc138058878"/></text:h>
-   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:soft-page-break/><text:span text:style-name="T9">For a typical phrase-by-phrase synchronisation, running </text:span><text:span text:style-name="T11">aeneas</text:span><text:span text:style-name="T9"> in </text:span><text:span text:style-name="T11">Windows</text:span><text:span text:style-name="T9"> takes 1-2 minutes to process an hour of audio. Les temps réels dépendront de la vitesse de votre ordinateur.</text:span></text:p>
+   <text:h text:style-name="P8" text:outline-level="2"><text:bookmark-start text:name="_Toc138058878"/>How long does it take?<text:bookmark-end text:name="_Toc138058878"/></text:h>
+   <text:p text:style-name="Standard" loext:marker-style-name="T9"><text:soft-page-break/><text:span text:style-name="T9">For a typical phrase-by-phrase synchronisation, running </text:span><text:span text:style-name="T11">aeneas</text:span><text:span text:style-name="T9"> in </text:span><text:span text:style-name="T11">Windows</text:span><text:span text:style-name="T9"> takes 1-2 minutes to process an hour of audio. Actual times will depend on the speed of your computer.</text:span></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
-   <text:h text:style-name="P8" text:outline-level="2"><text:bookmark-start text:name="_Toc138058879"/>Comment courons-nous des aélanes?<text:bookmark-end text:name="_Toc138058879"/></text:h>
-   <text:p text:style-name="P47" loext:marker-style-name="T9"><text:span text:style-name="T9">Vous devez installer des aénéas sur votre ordinateur et utiliser </text:span><text:span text:style-name="T10">Synchroniser à l&apos;aide de l&apos;assistant</text:span>Anéas<text:span text:style-name="T9"> dans RAB pour lancer le processus de synchronisation.</text:span></text:p>
-   <text:p text:style-name="P47" loext:marker-style-name="T9"><text:span text:style-name="T9">Voir la section 2 pour des instructions sur la façon d&apos;installer </text:span><text:span text:style-name="T10">aéneas</text:span><text:span text:style-name="T9"> sur Windows, et la section 3 sur comment installer </text:span><text:span text:style-name="T10">Aeneas</text:span><text:span text:style-name="T9"> sur Linux. C&apos;est particulièrement facile pour les utilisateurs d&apos;Ubuntu puisque </text:span><text:span text:style-name="T10">aeneas</text:span><text:span text:style-name="T9"> est inclus automatiquement dans l&apos;installation de SAB.</text:span></text:p>
+   <text:h text:style-name="P8" text:outline-level="2"><text:bookmark-start text:name="_Toc138058879"/>How do we run aeneas?<text:bookmark-end text:name="_Toc138058879"/></text:h>
+   <text:p text:style-name="P47" loext:marker-style-name="T9"><text:span text:style-name="T9">You need to Install aeneas on your computer and use the </text:span><text:span text:style-name="T10">Synchronize using aeneas wizard</text:span><text:span text:style-name="T9"> in RAB to launch the synchronization process.</text:span></text:p>
+   <text:p text:style-name="P47" loext:marker-style-name="T9"><text:span text:style-name="T9">See section 2 for instructions on how to install </text:span><text:span text:style-name="T10">aeneas</text:span><text:span text:style-name="T9"> on Windows, and section 3 on how to install </text:span><text:span text:style-name="T10">aeneas</text:span><text:span text:style-name="T9"> on Linux. This is especially easy for Ubuntu users since </text:span><text:span text:style-name="T10">aeneas</text:span><text:span text:style-name="T9"> is included automatically in the SAB installation.</text:span></text:p>
    <text:p text:style-name="P43" loext:marker-style-name="T9"/>
    <text:p text:style-name="P43" loext:marker-style-name="T9"><text:soft-page-break/></text:p>
    <text:h text:style-name="Heading_20_1" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc138058880"/>Windows<text:span text:style-name="T3"> Installation</text:span><text:bookmark-end text:name="_Toc138058880"/><text:span text:style-name="T3"/></text:h>
-   <text:p text:style-name="P52" loext:marker-style-name="T13"><text:span text:style-name="T13">Pour configurer </text:span><text:span text:style-name="T12">aeneas</text:span><text:span text:style-name="T13"> sous Windows, Il y a plusieurs programmes et modules à télécharger et à installer : FFmpeg, eSpeak, Python et aeneas. Ils peuvent tous être installés avec un seul programme d&apos;installation.</text:span></text:p>
+   <text:p text:style-name="P52" loext:marker-style-name="T13"><text:span text:style-name="T13">To set up </text:span><text:span text:style-name="T12">aeneas</text:span><text:span text:style-name="T13"> on Windows, there are several programs and modules to download and install: FFmpeg, eSpeak, Python and aeneas. These can all be installed with a single setup program.</text:span></text:p>
    <text:list text:style-name="WWNum20">
     <text:list-item>
-     <text:p text:style-name="P11" loext:marker-style-name="T9"><text:span text:style-name="T9">Rendez-vous sur la page </text:span><text:span text:style-name="T10">Télécharger</text:span><text:span text:style-name="T9"> sur le site web de Reading App Builder </text:span><text:a xlink:type="simple" xlink:href="http://software.sil.org/readingappbuilder/download/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T9">http://software. il.org/readingappbuilder/download/</text:span></text:span></text:a><text:span text:style-name="T9"> et télécharger le dernier programme d&apos;installation aeneas pour Windows. Vous le trouverez dans la rubrique </text:span><text:span text:style-name="T10">Outils de synchronisation audio</text:span><text:span text:style-name="T9">.</text:span></text:p>
+     <text:p text:style-name="P11" loext:marker-style-name="T9"><text:span text:style-name="T9">Go to the </text:span><text:span text:style-name="T10">Download</text:span><text:span text:style-name="T9"> page on the Reading App Builder website </text:span><text:a xlink:type="simple" xlink:href="http://software.sil.org/readingappbuilder/download/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T9">http://software.sil.org/readingappbuilder/download/</text:span></text:span></text:a><text:span text:style-name="T9"> and download the latest aeneas setup program for Windows. You will find it under the heading </text:span><text:span text:style-name="T10">Audio Synchronization Tools</text:span><text:span text:style-name="T9">.</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P13" loext:marker-style-name="T9"><text:span text:style-name="T9">The filename will be something like </text:span><text:span text:style-name="T10">aeneas-windows-setup-1.7.2.exe</text:span><text:span text:style-name="T9">.</text:span></text:p>
    <text:p text:style-name="P14" loext:marker-style-name="T9"/>
    <text:list text:continue-numbering="true" text:style-name="WWNum20">
     <text:list-item>
-     <text:p text:style-name="P11" loext:marker-style-name="T9"><text:soft-page-break/><text:span text:style-name="T9">Double-cliquez sur le fichier que vous avez téléchargé pour démarrer l&apos;assistant d&apos;installation.</text:span><text:span text:style-name="T9"/></text:p>
+     <text:p text:style-name="P11" loext:marker-style-name="T9"><text:soft-page-break/><text:span text:style-name="T9">Double-click the file you have downloaded to start the installation wizard.</text:span><text:span text:style-name="T9"/></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P15" loext:marker-style-name="T9"><text:s/></text:p>
@@ -3892,7 +3889,7 @@
    <text:p text:style-name="P15" loext:marker-style-name="T9"/>
    <text:list text:continue-numbering="true" text:style-name="WWNum20">
     <text:list-item>
-     <text:p text:style-name="P12" loext:marker-style-name="T9"><text:span text:style-name="T9">Suivez les instructions dans l&apos;assistant. Vous pouvez accepter tous les paramètres par défaut. </text:span><text:span text:style-name="T9"/></text:p>
+     <text:p text:style-name="P12" loext:marker-style-name="T9"><text:span text:style-name="T9">Follow the instructions in the wizard. You can accept all the defaults. </text:span><text:span text:style-name="T9"/></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P14" loext:marker-style-name="T9"/>
@@ -3908,83 +3905,83 @@
    <text:p text:style-name="P36" loext:marker-style-name="T3"/>
    <text:list text:continue-numbering="true" text:style-name="WWNum20">
     <text:list-item>
-     <text:p text:style-name="P10" loext:marker-style-name="T9"><text:span text:style-name="T9">Sur la </text:span><text:span text:style-name="T10">Prêt à installer</text:span><text:span text:style-name="T9"> page, cliquez sur </text:span><text:span text:style-name="T10">Installez</text:span><text:span text:style-name="T9">.</text:span></text:p>
+     <text:p text:style-name="P10" loext:marker-style-name="T9"><text:span text:style-name="T9">On the </text:span><text:span text:style-name="T10">Ready to Install</text:span><text:span text:style-name="T9"> page, click </text:span><text:span text:style-name="T10">Install</text:span><text:span text:style-name="T9">.</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P36" loext:marker-style-name="T3"><text:soft-page-break/><text:s/></text:p>
-   <text:p text:style-name="P53" loext:marker-style-name="T3"><text:span text:style-name="T3">Vous verrez l&apos;assistant qui exécute plusieurs installateurs différents : pour FFmpeg, eSpeak, Python. Il installera également trois modules Python.</text:span><text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="P53" loext:marker-style-name="T3"><text:span text:style-name="T3">You will see the wizard running several different installers: for FFmpeg, eSpeak, Python. It will also install three Python modules.</text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P38" loext:marker-style-name="T3"/>
-   <text:p text:style-name="P53" loext:marker-style-name="T3"><text:span text:style-name="T3">Avant que l&apos;assistant ne se termine, vous devriez voir apparaître une boîte de commande pendant quelques secondes qui vérifie l&apos;installation d&apos;aénéas. </text:span><text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="P53" loext:marker-style-name="T3"><text:span text:style-name="T3">Before the wizard completes, you should see a command box appear for a few seconds which verifies the aeneas installation. </text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P38" loext:marker-style-name="T3"/>
    <text:p text:style-name="P32" loext:marker-style-name="T3"><draw:frame draw:style-name="fr2" draw:name="Picture 12" text:anchor-type="as-char" svg:width="4.3228in" svg:height="2.1909in" draw:z-index="0"><draw:image xlink:href="RAB07/9.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/png"/>
     </draw:frame><text:s/></text:p>
    <text:p text:style-name="P38" loext:marker-style-name="T3"><text:soft-page-break/></text:p>
    <text:p text:style-name="P38" loext:marker-style-name="T3"/>
-   <text:p text:style-name="P54" loext:marker-style-name="T3"><text:span text:style-name="T5">Important</text:span><text:span text:style-name="T3">: Si la lecture du constructeur d&apos;applications était ouverte pendant que vous avez installé aeneas, fermez-le et redémarrez-le pour vous assurer qu&apos;il récupère les modifications apportées aux paramètres de votre chemin.</text:span></text:p>
-   <text:h text:style-name="P7" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc138058881"/><text:bookmark-start text:name="_Toc44918738"/>Linux<text:span text:style-name="T3"> Installation</text:span><text:bookmark-end text:name="_Toc138058881"/><text:bookmark-end text:name="_Toc44918738"/><text:span text:style-name="T3"/></text:h>
+   <text:p text:style-name="P54" loext:marker-style-name="T3"><text:span text:style-name="T5">Important</text:span><text:span text:style-name="T3">: If Reading App Builder was open while you installed aeneas, close it and start it again to ensure that it picks up the changes to your Path settings.</text:span></text:p>
+   <text:h text:style-name="P7" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc44918738"/><text:bookmark-start text:name="_Toc138058881"/>Linux<text:span text:style-name="T3"> Installation</text:span><text:bookmark-end text:name="_Toc44918738"/><text:bookmark-end text:name="_Toc138058881"/><text:span text:style-name="T3"/></text:h>
    <text:p text:style-name="P39" loext:marker-style-name="T3"/>
-   <text:p text:style-name="P55" loext:marker-style-name="T9"><text:span text:style-name="T9">Si vous utilisez Ubuntu, le logiciel </text:span><text:span text:style-name="T10">aeneas</text:span><text:span text:style-name="T9"> est une dépendance requise de Reading App Builder. Cela signifie que aeneas est automatiquement installé ou mis à jour avec Reading App Builder et que vous n&apos;avez pas à l&apos;installer manuellement.</text:span></text:p>
+   <text:p text:style-name="P55" loext:marker-style-name="T9"><text:span text:style-name="T9">If you are using Ubuntu, the </text:span><text:span text:style-name="T10">aeneas</text:span><text:span text:style-name="T9"> software is a required dependency of Reading App Builder. This means that aeneas is automatically installed or updated along with Reading App Builder and you do not have to install it manually.</text:span></text:p>
    <text:p text:style-name="P36" loext:marker-style-name="T3"><text:soft-page-break/></text:p>
    <text:p text:style-name="P36" loext:marker-style-name="T3"/>
-   <text:h text:style-name="Heading_20_1" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc138058882"/><text:span text:style-name="T3">Utilisation d&apos;aeneas dans Reading App Builder</text:span><text:bookmark-end text:name="_Toc138058882"/><text:span text:style-name="T3"/></text:h>
-   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc138058883"/>Exécuter l&apos;assistant de synchronisation audio<text:bookmark-end text:name="_Toc138058883"/></text:h>
+   <text:h text:style-name="Heading_20_1" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc138058882"/><text:span text:style-name="T3">Using aeneas within Reading App Builder</text:span><text:bookmark-end text:name="_Toc138058882"/><text:span text:style-name="T3"/></text:h>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc138058883"/>Running the Audio Synchronization wizard<text:bookmark-end text:name="_Toc138058883"/></text:h>
    <text:p text:style-name="P47" loext:marker-style-name="T3"><text:span text:style-name="T3">You can run the </text:span><text:span text:style-name="T6">Audio Synchronization using aeneas</text:span><text:span text:style-name="T3"> wizard from four places within Reading App Builder:</text:span></text:p>
    <text:p text:style-name="P36" loext:marker-style-name="T3"/>
    <text:list text:style-name="WWNum12">
     <text:list-item>
-     <text:p text:style-name="P16" loext:marker-style-name="T3"><text:soft-page-break/><text:span text:style-name="T3">L&apos;onglet </text:span><text:span text:style-name="T7">Fichiers Audio</text:span><text:span text:style-name="T3"> pour un livre. Sélectionnez une ou plusieurs lignes dans la table, faites un clic droit et sélectionnez </text:span><text:span text:style-name="T6">Synchronisez à l&apos;aide de</text:span><text:span text:style-name="T3">.</text:span></text:p>
+     <text:p text:style-name="P16" loext:marker-style-name="T3"><text:soft-page-break/><text:span text:style-name="T3">The </text:span><text:span text:style-name="T7">Audio Files</text:span><text:span text:style-name="T3"> tab for a book. Select one or more rows in the table, right-click and select </text:span><text:span text:style-name="T6">Synchronize using aeneas</text:span><text:span text:style-name="T3">.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P17" loext:marker-style-name="T3"><text:span text:style-name="T3">L&apos;onglet </text:span><text:span text:style-name="T6">Synchronisation Audio </text:span><text:span text:style-name="T3">pour un livre. Cliquez sur le bouton </text:span><text:span text:style-name="T6">Synchroniser en utilisant aeneas</text:span><text:span text:style-name="T3">.</text:span></text:p>
+     <text:p text:style-name="P17" loext:marker-style-name="T3"><text:span text:style-name="T3">The </text:span><text:span text:style-name="T6">Audio Synchronization </text:span><text:span text:style-name="T3">tab for a book. Click on the button </text:span><text:span text:style-name="T6">Synchronize using aeneas</text:span><text:span text:style-name="T3">.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P17" loext:marker-style-name="T3"><text:span text:style-name="T3">L&apos;onglet </text:span><text:span text:style-name="T6">Livres</text:span><text:span text:style-name="T3"> sur la page Livres. Right-click on a book and select </text:span><text:span text:style-name="T6">Synchronize using aeneas</text:span><text:span text:style-name="T3">.</text:span></text:p>
+     <text:p text:style-name="P17" loext:marker-style-name="T3"><text:span text:style-name="T3">The </text:span><text:span text:style-name="T6">Books</text:span><text:span text:style-name="T3"> tab on the Books page. Right-click on a book and select </text:span><text:span text:style-name="T6">Synchronize using aeneas</text:span><text:span text:style-name="T3">.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P17" loext:marker-style-name="T3"><text:span text:style-name="T3">L&apos;arborescence des applications à gauche de l&apos;écran. Right-click on a book and select </text:span><text:span text:style-name="T6">Synchronize using aeneas</text:span><text:span text:style-name="T3">.</text:span></text:p>
+     <text:p text:style-name="P17" loext:marker-style-name="T3"><text:span text:style-name="T3">The Apps tree on the left of the screen. Right-click on a book and select </text:span><text:span text:style-name="T6">Synchronize using aeneas</text:span><text:span text:style-name="T3">.</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P56" loext:marker-style-name="T3"><text:span text:style-name="T3">Suivez les instructions de l&apos;assistant pour configurer la synchronisation.</text:span><text:span text:style-name="T3"/></text:p>
-   <text:p text:style-name="P56" loext:marker-style-name="T3"><text:span text:style-name="T3">Pour les utilisateurs de Windows, si l&apos;assistant demande &quot;Où avez-vous installé des aénues?&quot;, veuillez suivre les instructions d&apos;installation de la section 2 de ce document.</text:span><text:span text:style-name="T3"/></text:p>
-   <text:p text:style-name="P49" loext:marker-style-name="T3"><text:soft-page-break/><text:span text:style-name="T3">Après la page finale de l&apos;assistant, le processus de synchronisation démarre dans une fenêtre de commande séparée. Il exécute un fichier batch (ou script bash) qui appelle une tâche </text:span><text:span text:style-name="T6">aéneas</text:span><text:span text:style-name="T3"> pour chaque chapitre de chaque livre. </text:span></text:p>
+   <text:p text:style-name="P56" loext:marker-style-name="T3"><text:span text:style-name="T3">Follow the instructions in the wizard to configure the synchronization.</text:span><text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="P56" loext:marker-style-name="T3"><text:span text:style-name="T3">For Windows users, if the wizard asks, “Where have you installed aeneas?”, please follow the installation instructions in section 2 of this document.</text:span><text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="P49" loext:marker-style-name="T3"><text:soft-page-break/><text:span text:style-name="T3">After the final page of the wizard, the synchronization process will start in a separate command Window. It runs a batch file (or bash script) which calls an </text:span><text:span text:style-name="T6">aeneas</text:span><text:span text:style-name="T3"> task for each chapter of each book. </text:span></text:p>
    <text:p text:style-name="P49" loext:marker-style-name="T3"><text:span text:style-name="T3">As timing files are generated you will see their filenames being added to the table on the </text:span><text:span text:style-name="T6">Audio Files</text:span><text:span text:style-name="T3"> page. </text:span></text:p>
    <text:p text:style-name="P40" loext:marker-style-name="T3"/>
-   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc138058884"/>Dépannage<text:bookmark-end text:name="_Toc138058884"/></text:h>
-   <text:p text:style-name="P5"><text:span text:style-name="T3">Si la synchronisation échoue, assurez-vous que aeneas a été installée correctement. You can check the installation by selecting </text:span><text:span text:style-name="T12">Tools</text:span><text:span text:style-name="T13"> </text:span><text:span text:style-name="T26"></text:span><text:span text:style-name="T13"> </text:span><text:span text:style-name="T12">Check aeneas Installation… </text:span><text:span text:style-name="T13">depuis le menu principal de Reading App Builder. </text:span></text:p>
-   <text:p text:style-name="P56" loext:marker-style-name="T3"><text:span text:style-name="T3">A common problem on Windows is that </text:span><text:span text:style-name="T7">eSpeak</text:span><text:span text:style-name="T3"> stops working after a while. Pour corriger cela, exécutez à nouveau le programme d&apos;installation de Windows aeneas.</text:span></text:p>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc138058884"/>Troubleshooting<text:bookmark-end text:name="_Toc138058884"/></text:h>
+   <text:p text:style-name="P5"><text:span text:style-name="T3">If the synchronization fails, please ensure that aeneas has been installed correctly. You can check the installation by selecting </text:span><text:span text:style-name="T12">Tools</text:span><text:span text:style-name="T13"> </text:span><text:span text:style-name="T26"></text:span><text:span text:style-name="T13"> </text:span><text:span text:style-name="T12">Check aeneas Installation… </text:span><text:span text:style-name="T13">from the Reading App Builder main menu. </text:span></text:p>
+   <text:p text:style-name="P56" loext:marker-style-name="T3"><text:span text:style-name="T3">A common problem on Windows is that </text:span><text:span text:style-name="T7">eSpeak</text:span><text:span text:style-name="T3"> stops working after a while. To correct this, run the aeneas Windows setup program again.</text:span></text:p>
    <text:p text:style-name="P48" loext:marker-style-name="T3"><text:soft-page-break/><text:span text:style-name="T3">To verify that eSpeak has been installed correctly and is in your path, open a new Windows command prompt and type:</text:span><text:span text:style-name="T3"/></text:p>
-   <text:p text:style-name="Command_20_Line">bonjour espeak</text:p>
-   <text:p text:style-name="P49" loext:marker-style-name="T3"><text:span text:style-name="T3">Si tout va bien, vous devriez entendre le mot « bonjour » prononcé.</text:span><text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="Command_20_Line">espeak hello</text:p>
+   <text:p text:style-name="P49" loext:marker-style-name="T3"><text:span text:style-name="T3">If all is well, you should hear the word “hello” pronounced.</text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P18" loext:marker-style-name="T3"><text:s/></text:p>
-   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc138058885"/>Visualisation et test des fichiers de synchronisation créés par aéneas<text:bookmark-end text:name="_Toc138058885"/></text:h>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc138058885"/>Viewing and testing the timing files created by aeneas<text:bookmark-end text:name="_Toc138058885"/></text:h>
    <text:p text:style-name="P49" loext:marker-style-name="T3"><text:span text:style-name="T3">To view a generated timing file, select a row on the </text:span><text:span text:style-name="T6">Audio Files</text:span><text:span text:style-name="T3"> page, right-click, and select </text:span><text:span text:style-name="T6">View Timing File</text:span><text:span text:style-name="T3">.</text:span></text:p>
    <text:p text:style-name="P49" loext:marker-style-name="T3"><text:soft-page-break/><text:span text:style-name="T3">To test the generated timing files with the text and audio, select a row in the </text:span><text:span text:style-name="T6">Audio Files</text:span><text:span text:style-name="T3"> page, right-click and select </text:span><text:span text:style-name="T6">Export to HTML</text:span><text:span text:style-name="T3">.</text:span></text:p>
-   <text:h text:style-name="P6" text:outline-level="1"><text:bookmark-start text:name="_Toc138058886"/><text:bookmark-start text:name="_Toc44918743"/>Chronométrage fin<text:bookmark-end text:name="_Toc138058886"/><text:bookmark-end text:name="_Toc44918743"/></text:h>
-   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc138058887"/><text:bookmark-start text:name="_Toc44918744"/>Ajuster les fichiers de chronométrage à l&apos;aide de la visionneuse Fine Tune Timings<text:bookmark-end text:name="_Toc138058887"/><text:bookmark-end text:name="_Toc44918744"/></text:h>
+   <text:h text:style-name="P6" text:outline-level="1"><text:bookmark-start text:name="_Toc44918743"/><text:bookmark-start text:name="_Toc138058886"/>Fine Tune Timings<text:bookmark-end text:name="_Toc44918743"/><text:bookmark-end text:name="_Toc138058886"/></text:h>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc44918744"/><text:bookmark-start text:name="_Toc138058887"/>Fine tune timing files using the Fine Tune Timings viewer<text:bookmark-end text:name="_Toc44918744"/><text:bookmark-end text:name="_Toc138058887"/></text:h>
    <text:p text:style-name="P47" loext:marker-style-name="T3"><text:span text:style-name="T3">To fine tune a generated timing file:</text:span><text:span text:style-name="T3"/></text:p>
    <text:list text:style-name="WWNum23">
     <text:list-item>
      <text:p text:style-name="P21" loext:marker-style-name="T3"><text:span text:style-name="T3">Select a row on the </text:span><text:span text:style-name="T7">Audio Files</text:span><text:span text:style-name="T3"> page, right-click, and select </text:span><text:span text:style-name="T6">Fine Tune Timings</text:span><text:span text:style-name="T3">.</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P57" loext:marker-style-name="T3"><text:span text:style-name="T3">Une page devrait s&apos;ouvrir dans votre navigateur par défaut, ce qui ressemble à ceci :</text:span><text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="P57" loext:marker-style-name="T3"><text:span text:style-name="T3">A page should open in your default browser, looking something like this:</text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P33" loext:marker-style-name="T3"><draw:frame draw:style-name="fr2" draw:name="Image 24" text:anchor-type="as-char" svg:width="5.9846in" svg:height="4.8098in" draw:z-index="0"><draw:image xlink:href="RAB07/10.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/png"/>
     </draw:frame><text:s/><text:span text:style-name="T3"><text:line-break/> </text:span></text:p>
    <text:list text:continue-numbering="true" text:style-name="WWNum23">
     <text:list-item>
-     <text:p text:style-name="P22" loext:marker-style-name="T3"><text:soft-page-break/><text:span text:style-name="T3">Cliquez sur la première ligne de la table pour démarrer la lecture audio. </text:span><text:span text:style-name="T3"/></text:p>
+     <text:p text:style-name="P22" loext:marker-style-name="T3"><text:soft-page-break/><text:span text:style-name="T3">Click on the first row of the table to start the audio playing. </text:span><text:span text:style-name="T3"/></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P19" loext:marker-style-name="T3"/>
    <text:list text:continue-numbering="true" text:style-name="WWNum23">
     <text:list-item>
-     <text:p text:style-name="P22" loext:marker-style-name="T3"><text:span text:style-name="T3">Dès que vous entendez le premier ou deux mots de la ligne sélectionnée, cliquez sur la ligne suivante.</text:span><text:span text:style-name="T3"/></text:p>
+     <text:p text:style-name="P22" loext:marker-style-name="T3"><text:span text:style-name="T3">As soon as you hear the first word or two from the selected row, click on the next row.</text:span><text:span text:style-name="T3"/></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P20" loext:marker-style-name="T3"/>
    <text:list text:continue-numbering="true" text:style-name="WWNum23">
     <text:list-item>
-     <text:p text:style-name="P22" loext:marker-style-name="T3"><text:span text:style-name="T3">Continuez à cliquer sur chaque ligne pour écouter suffisamment de temps pour déterminer si le chronométrage a été placé au bon endroit, i. . - pas trop tôt et pas trop tard.</text:span><text:span text:style-name="T3"/></text:p>
+     <text:p text:style-name="P22" loext:marker-style-name="T3"><text:span text:style-name="T3">Continue clicking on each row to listen for enough time to determine whether the timing break has been placed in the right place, i.e. not too early and not too late.</text:span><text:span text:style-name="T3"/></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P20" loext:marker-style-name="T3"><text:s/></text:p>
@@ -3995,7 +3992,7 @@
      <text:p text:style-name="P22" loext:marker-style-name="T3"><text:span text:style-name="T3">If you hear that the timing for a row needs to be fine-tuned, click the plus (+) button to move the start time forward by 0.1 seconds, the double-plus (++) to move forward by 1 second, the minus (–) button to move the start time backwards by 0.1 seconds, or the double-minus (– –) to move back 1 second.</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P24" loext:marker-style-name="T3"><draw:custom-shape text:anchor-type="char" draw:z-index="4" draw:name="AutoShape 13" draw:style-name="gr7" draw:text-style-name="P62" svg:width="2.0776in" svg:height="0.2685in" draw:transform="rotate (-1.82683612806247) translate (5.01527777777778in 3.16597222222222in)">
+   <text:p text:style-name="P24" loext:marker-style-name="T3"><draw:custom-shape text:anchor-type="char" draw:z-index="3" draw:name="AutoShape 13" draw:style-name="gr8" draw:text-style-name="P62" svg:width="2.0776in" svg:height="0.2685in" draw:transform="rotate (-1.82683612806247) translate (5.01527777777778in 3.16597222222222in)">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:glue-points="?f5 0 0 ?f7 ?f5 ?f14 ?f13 ?f7" draw:text-areas="?f12 ?f8 ?f13 ?f9" draw:type="ooxml-leftArrow" draw:modifiers="50000 91667" draw:enhanced-path="M 0 ?f7 L ?f5 0 ?f5 ?f8 ?f13 ?f8 ?f13 ?f9 ?f5 ?f9 ?f5 ?f14 Z N">
       <draw:equation draw:name="f0" draw:formula="min(logwidth,logheight)"/>
@@ -4016,7 +4013,7 @@
       <draw:handle draw:handle-range-y-maximum="100000" draw:handle-range-y-minimum="0" draw:handle-position="?f13 ?f8"/>
       <draw:handle draw:handle-range-x-maximum="?f1" draw:handle-range-x-minimum="0" draw:handle-position="?f5 0"/>
      </draw:enhanced-geometry>
-    </draw:custom-shape><text:s/><draw:custom-shape text:anchor-type="char" draw:z-index="3" draw:name="AutoShape 13" draw:style-name="gr8" draw:text-style-name="P62" svg:width="2.0441in" svg:height="0.2689in" draw:transform="rotate (-1.83451557677124) translate (2.20347222222222in 3.18472222222222in)">
+    </draw:custom-shape><text:s/><draw:custom-shape text:anchor-type="char" draw:z-index="2" draw:name="AutoShape 13" draw:style-name="gr9" draw:text-style-name="P62" svg:width="2.0441in" svg:height="0.2689in" draw:transform="rotate (-1.83451557677124) translate (2.20347222222222in 3.18472222222222in)">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:glue-points="?f5 0 0 ?f7 ?f5 ?f14 ?f13 ?f7" draw:text-areas="?f12 ?f8 ?f13 ?f9" draw:type="ooxml-leftArrow" draw:modifiers="50000 91667" draw:enhanced-path="M 0 ?f7 L ?f5 0 ?f5 ?f8 ?f13 ?f8 ?f13 ?f9 ?f5 ?f9 ?f5 ?f14 Z N">
       <draw:equation draw:name="f0" draw:formula="min(logwidth,logheight)"/>
@@ -4040,16 +4037,16 @@
     </draw:custom-shape><text:s/><draw:frame draw:style-name="fr2" draw:name="Image 25" text:anchor-type="as-char" svg:width="5.9846in" svg:height="4.8098in" draw:z-index="0"><draw:image xlink:href="RAB07/11.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/png"/>
     </draw:frame><text:s/></text:p>
    <text:p text:style-name="P20" loext:marker-style-name="T3"/>
-   <text:p text:style-name="P20" loext:marker-style-name="T3"><draw:custom-shape text:anchor-type="char" style:rel-width="40%" style:rel-height="20%" draw:z-index="54" draw:name="Text Box 2" draw:style-name="gr4" draw:text-style-name="P62" svg:width="2.3823in" svg:height="0.7094in" svg:x="3.6736in" svg:y="0.0146in">
-     <text:p text:style-name="Frame_20_contents" loext:marker-style-name="T3"><text:span text:style-name="T3">Ajuster l&apos;heure de début du chronométrage actuellement sélectionné en utilisant les boutons plus et moins.</text:span></text:p>
+   <text:p text:style-name="P20" loext:marker-style-name="T3"><draw:custom-shape text:anchor-type="char" style:rel-width="40%" style:rel-height="20%" draw:z-index="7" draw:name="Text Box 2" draw:style-name="gr4" draw:text-style-name="P62" svg:width="2.3823in" svg:height="0.7094in" svg:x="3.6736in" svg:y="0.0146in">
+     <text:p text:style-name="Frame_20_contents" loext:marker-style-name="T3"><text:span text:style-name="T3">Adjust the start time of the currently selected timing using the plus and minus buttons.</text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:glue-points="?f0 0 0 ?f1 ?f0 ?f2 ?f3 ?f1" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
       <draw:equation draw:name="f1" draw:formula="logheight/2"/>
       <draw:equation draw:name="f2" draw:formula="logheight"/>
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
-    </draw:custom-shape><text:s/><draw:custom-shape text:anchor-type="char" style:rel-width="40%" style:rel-height="20%" draw:z-index="2" draw:name="Text Box 2" draw:style-name="gr9" draw:text-style-name="P64" svg:width="2.3823in" svg:height="0.7094in" svg:x="0.8701in" svg:y="0.0189in">
-     <text:p text:style-name="Frame_20_contents" loext:marker-style-name="T3"><text:span text:style-name="T3">Cliquez sur chaque ligne suffisamment de temps pour vérifier si l&apos;audio démarre au bon endroit.</text:span></text:p>
+    </draw:custom-shape><text:s/><draw:custom-shape text:anchor-type="char" style:rel-width="40%" style:rel-height="20%" draw:z-index="1" draw:name="Text Box 2" draw:style-name="gr10" draw:text-style-name="P64" svg:width="2.3823in" svg:height="0.7094in" svg:x="0.8701in" svg:y="0.0189in">
+     <text:p text:style-name="Frame_20_contents" loext:marker-style-name="T3"><text:span text:style-name="T3">Click on each row for enough time to check if the audio starts at the right place.</text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:glue-points="?f0 0 0 ?f1 ?f0 ?f2 ?f3 ?f1" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
       <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -4063,7 +4060,7 @@
    <text:p text:style-name="P20" loext:marker-style-name="T3"/>
    <text:list text:continue-numbering="true" text:style-name="WWNum23">
     <text:list-item>
-     <text:p text:style-name="P22" loext:marker-style-name="T3"><text:span text:style-name="T3">Lorsque vous êtes satisfait de la ligne actuelle, continuez à cliquer sur les lignes suivantes de la même manière, affinant ceux qui ont besoin d&apos;être ajustés.</text:span><text:span text:style-name="T3"/></text:p>
+     <text:p text:style-name="P22" loext:marker-style-name="T3"><text:span text:style-name="T3">When you are happy with the current row, continue clicking on the subsequent rows in the same way, fine tuning those that need adjusting.</text:span><text:span text:style-name="T3"/></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P20" loext:marker-style-name="T3"/>
@@ -4073,10 +4070,10 @@
     </text:list-item>
    </text:list>
    <text:p text:style-name="P36" loext:marker-style-name="T3"/>
-   <text:p text:style-name="P54" loext:marker-style-name="T8"><text:span text:style-name="T5">Importante</text:span><text:span text:style-name="T8"><text:line-break/>Pour des raisons de sécurité, votre navigateur n&apos;a pas la permission d&apos;enregistrer le fichier de chronométrage modifié à son emplacement d&apos;origine. Il sera sauvegardé dans votre dossier de téléchargements par défaut. La lecture du constructeur d&apos;applications peut surveiller ce dossier pour les fichiers modifiés et les déplacer vers le dossier de données de votre projet. Spécifiez le dossier Téléchargements à regarder dans les paramètres </text:span><text:span text:style-name="T7">Fichiers</text:span><text:span text:style-name="T8">. Sinon, vous devrez déplacer les fichiers modifiés vers votre projet manuellement, p. ex. en utilisant le bouton </text:span><text:span text:style-name="T7">Ajouter des fichiers de minutage</text:span><text:span text:style-name="T8"> .</text:span></text:p>
-   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc138058888"/><text:bookmark-start text:name="_Toc44918745"/>Changement de vitesse audio lors du réglage fin<text:bookmark-end text:name="_Toc138058888"/><text:bookmark-end text:name="_Toc44918745"/></text:h>
-   <text:p text:style-name="P48" loext:marker-style-name="T3"><text:span text:style-name="T3">Si l&apos;audio est en cours de lecture trop rapidement pour que vous puissiez affiner le réglage avec précision, vous pouvez ralentir la vitesse de lecture en utilisant le sélecteur de vitesse en bas de l&apos;écran.</text:span><text:span text:style-name="T3"/></text:p>
-   <text:p text:style-name="P48" loext:marker-style-name="T3"><draw:custom-shape text:anchor-type="char" draw:z-index="53" draw:name="AutoShape 13" draw:style-name="gr5" draw:text-style-name="P62" svg:width="1.1161in" svg:height="0.2689in" draw:transform="rotate (2.30662713943571) translate (1.62638888888889in 5.28541666666667in)">
+   <text:p text:style-name="P54" loext:marker-style-name="T8"><text:span text:style-name="T5">Important</text:span><text:span text:style-name="T8"><text:line-break/>For security reasons, your browser does not have permission to save the modified timing file in its original location. It will be saved to your default Downloads folder. Reading App Builder can watch this folder for modified files and move them back to your project data folder. Specify the Downloads folder to watch in </text:span><text:span text:style-name="T7">Settings</text:span><text:span text:style-name="T8"> </text:span><text:span text:style-name="T26"></text:span><text:span text:style-name="T8"> </text:span><text:span text:style-name="T7">Files</text:span><text:span text:style-name="T8">. Otherwise, you will need to move the modified files back to your project manually, e.g. using the </text:span><text:span text:style-name="T7">Add Timing Files</text:span><text:span text:style-name="T8"> button.</text:span></text:p>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc44918745"/><text:bookmark-start text:name="_Toc138058888"/>Changing audio speed when doing fine tuning<text:bookmark-end text:name="_Toc44918745"/><text:bookmark-end text:name="_Toc138058888"/></text:h>
+   <text:p text:style-name="P48" loext:marker-style-name="T3"><text:span text:style-name="T3">If the audio is playing too quickly for you to fine tune accurately, you can slow down the playback speed using the speed selector at the bottom of the screen.</text:span><text:span text:style-name="T3"/></text:p>
+   <text:p text:style-name="P48" loext:marker-style-name="T3"><draw:custom-shape text:anchor-type="char" draw:z-index="6" draw:name="AutoShape 13" draw:style-name="gr5" draw:text-style-name="P62" svg:width="1.1161in" svg:height="0.2689in" draw:transform="rotate (2.30662713943571) translate (1.62638888888889in 5.28402777777778in)">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" draw:glue-points="?f5 0 0 ?f7 ?f5 ?f14 ?f13 ?f7" draw:text-areas="?f12 ?f8 ?f13 ?f9" draw:type="ooxml-leftArrow" draw:modifiers="50000 91667" draw:enhanced-path="M 0 ?f7 L ?f5 0 ?f5 ?f8 ?f13 ?f8 ?f13 ?f9 ?f5 ?f9 ?f5 ?f14 Z N">
       <draw:equation draw:name="f0" draw:formula="min(logwidth,logheight)"/>
@@ -4099,8 +4096,8 @@
      </draw:enhanced-geometry>
     </draw:custom-shape><text:s/><draw:frame draw:style-name="fr2" draw:name="Image 26" text:anchor-type="as-char" svg:width="5.9846in" svg:height="4.8098in" draw:z-index="0"><draw:image xlink:href="RAB07/12.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/png"/>
     </draw:frame><text:s/></text:p>
-   <text:p text:style-name="P41" loext:marker-style-name="T3"><draw:custom-shape text:anchor-type="char" style:rel-height="20%" draw:z-index="1" draw:name="Text Box 2" draw:style-name="gr10" draw:text-style-name="P64" svg:width="2.5524in" svg:height="0.3024in" svg:x="0in" svg:y="0.2693in">
-     <text:p text:style-name="Frame_20_contents" loext:marker-style-name="T3"><text:span text:style-name="T3">Changer la vitesse de lecture ici</text:span></text:p>
+   <text:p text:style-name="P41" loext:marker-style-name="T3"><draw:custom-shape text:anchor-type="char" style:rel-height="20%" draw:z-index="0" draw:name="Text Box 2" draw:style-name="gr11" draw:text-style-name="P64" svg:width="2.5524in" svg:height="0.3024in" svg:x="0in" svg:y="0.2693in">
+     <text:p text:style-name="Frame_20_contents" loext:marker-style-name="T3"><text:span text:style-name="T3">Change the playback speed here</text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:glue-points="?f0 0 0 ?f1 ?f0 ?f2 ?f3 ?f1" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
       <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -4110,7 +4107,7 @@
     </draw:custom-shape><text:soft-page-break/><text:s/></text:p>
    <text:p text:style-name="P41" loext:marker-style-name="T3"/>
    <text:p text:style-name="P41" loext:marker-style-name="T3"/>
-   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc138058889"/><text:bookmark-start text:name="_Toc44918746"/>Raccourcis clavier lors du réglage fin<text:bookmark-end text:name="_Toc138058889"/><text:bookmark-end text:name="_Toc44918746"/></text:h>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc44918746"/><text:bookmark-start text:name="_Toc138058889"/>Keyboard shortcuts when doing fine tuning<text:bookmark-end text:name="_Toc44918746"/><text:bookmark-end text:name="_Toc138058889"/></text:h>
    <text:p text:style-name="P48" loext:marker-style-name="T3"><text:span text:style-name="T3">The following keyboard shortcuts are available in the Fine Tuning interface:</text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P41" loext:marker-style-name="T3"/>
    <table:table table:name="Table1" table:style-name="Table1">
@@ -4119,7 +4116,7 @@
     <text:soft-page-break/>
     <table:table-row table:style-name="Table1.1">
      <table:table-cell table:style-name="Table1.A1" office:value-type="string">
-      <text:p text:style-name="P58" loext:marker-style-name="T7"><text:span text:style-name="T7">Clé</text:span><text:span text:style-name="T7"/></text:p>
+      <text:p text:style-name="P58" loext:marker-style-name="T7"><text:span text:style-name="T7">Key</text:span><text:span text:style-name="T7"/></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.A1" office:value-type="string">
       <text:p text:style-name="P60" loext:marker-style-name="T7"><text:span text:style-name="T7">Action</text:span><text:span text:style-name="T7"/></text:p>
@@ -4127,10 +4124,10 @@
     </table:table-row>
     <table:table-row table:style-name="Table1.1">
      <table:table-cell table:style-name="Table1.A2" office:value-type="string">
-      <text:p text:style-name="P59" loext:marker-style-name="T3"><text:span text:style-name="T3">Barre d’espacement</text:span><text:span text:style-name="T3"/></text:p>
+      <text:p text:style-name="P59" loext:marker-style-name="T3"><text:span text:style-name="T3">Spacebar</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B2" office:value-type="string">
-      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Démarrer/Pause audio</text:span><text:span text:style-name="T3"/></text:p>
+      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Start/Pause audio</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="Table1.1">
@@ -4138,7 +4135,7 @@
       <text:p text:style-name="P59" loext:marker-style-name="T3"><text:span text:style-name="T3">T</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B3" office:value-type="string">
-      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Enregistrer le fichier de timing</text:span><text:span text:style-name="T3"/></text:p>
+      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Save timing file</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="Table1.1">
@@ -4154,7 +4151,7 @@
       <text:p text:style-name="P59" loext:marker-style-name="T3"><text:span text:style-name="T3">P</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B5" office:value-type="string">
-      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Commencez à jouer à partir de la ligne précédente</text:span><text:span text:style-name="T3"/></text:p>
+      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Start playing from the previous row</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="Table1.1">
@@ -4162,15 +4159,15 @@
       <text:p text:style-name="P59" loext:marker-style-name="T3"><text:span text:style-name="T3">B</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B6" office:value-type="string">
-      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Définit l&apos;heure de début de la phrase pour être à la position audio actuelle</text:span><text:span text:style-name="T3"/></text:p>
+      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Set the phrase start time to be at the current audio position</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="Table1.1">
      <table:table-cell table:style-name="Table1.A7" office:value-type="string">
-      <text:p text:style-name="P59" loext:marker-style-name="T3"><text:span text:style-name="T3">A (ou Q)</text:span><text:span text:style-name="T3"/></text:p>
+      <text:p text:style-name="P59" loext:marker-style-name="T3"><text:span text:style-name="T3">A (or Q)</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B7" office:value-type="string">
-      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Déplacez l&apos;heure de début de la ligne actuelle en arrière de 1 sec</text:span><text:span text:style-name="T3"/></text:p>
+      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Move the start time of the current row back 1 sec</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="Table1.1">
@@ -4178,7 +4175,7 @@
       <text:p text:style-name="P59" loext:marker-style-name="T3"><text:span text:style-name="T3">S</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B8" office:value-type="string">
-      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Déplacez l&apos;heure de début de la ligne actuelle de 0,1 seconde</text:span><text:span text:style-name="T3"/></text:p>
+      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Move the start time of the current row back 0.1 secs</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="Table1.1">
@@ -4186,7 +4183,7 @@
       <text:p text:style-name="P59" loext:marker-style-name="T3"><text:span text:style-name="T3">D</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B9" office:value-type="string">
-      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Avancer l&apos;heure de début de la ligne actuelle de 0,1 seconde</text:span><text:span text:style-name="T3"/></text:p>
+      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Move the start time of the current row forward 0.1 secs</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="Table1.1">
@@ -4194,13 +4191,13 @@
       <text:p text:style-name="P59" loext:marker-style-name="T3"><text:span text:style-name="T3">F</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B10" office:value-type="string">
-      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Avancer l&apos;heure de début de la ligne courante de 1 sec</text:span><text:span text:style-name="T3"/></text:p>
+      <text:p text:style-name="P61" loext:marker-style-name="T3"><text:span text:style-name="T3">Move the start time of the current row forward 1 sec</text:span><text:span text:style-name="T3"/></text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
    <text:p text:style-name="P40" loext:marker-style-name="T3"/>
-   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc138058890"/><text:bookmark-start text:name="_Toc44918747"/>Envoi d&apos;une optimisation des fichiers aux autres<text:bookmark-end text:name="_Toc138058890"/><text:bookmark-end text:name="_Toc44918747"/></text:h>
-   <text:p text:style-name="P49" loext:marker-style-name="T3"><text:span text:style-name="T3">Si vous voulez bien affiner vos réglages, cela peut prendre beaucoup de temps à vous écouter. Vous pourriez avoir des amis et des collègues qui sont prêts à vous y aider. Il est possible de leur envoyer les fichiers Fine Tuning pour travailler sans qu&apos;ils aient besoin d&apos;installer Reading App Builder.</text:span><text:span text:style-name="T3"/></text:p>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc44918747"/><text:bookmark-start text:name="_Toc138058890"/>Sending Fine Tuning files to others<text:bookmark-end text:name="_Toc44918747"/><text:bookmark-end text:name="_Toc138058890"/></text:h>
+   <text:p text:style-name="P49" loext:marker-style-name="T3"><text:span text:style-name="T3">If you want to do fine tuning well, it can take a lot of time of concentrated listening. You might have friends and colleagues who are willing to help with this. It is possible to send them the Fine Tuning files to work on without them needing to install Reading App Builder.</text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P49" loext:marker-style-name="T3"><text:span text:style-name="T3">To do this:</text:span><text:span text:style-name="T3"/></text:p>
    <text:list text:style-name="WWNum32">
     <text:list-item>
@@ -4219,36 +4216,36 @@
      <text:p text:style-name="P26" loext:marker-style-name="T3"><text:span text:style-name="T3">On the next page, </text:span><text:span text:style-name="T7">Output Folder</text:span><text:span text:style-name="T3">, choose where you would like the files to be created, then click </text:span><text:span text:style-name="T7">Create Files</text:span><text:span text:style-name="T3">.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P26" loext:marker-style-name="T3"><text:span text:style-name="T3">Envoyez les fichiers à vos amis, demandez-leur de les décompresser sur leur ordinateur et de leur expliquer comment ils peuvent travailler sur les timings. Ils devraient vous renvoyer les fichiers de synchronisation modifiés.</text:span><text:span text:style-name="T3"/></text:p>
+     <text:p text:style-name="P26" loext:marker-style-name="T3"><text:span text:style-name="T3">Send the files to your friends, ask them to unzip them on their computer, and explain to them how they can work on the timings. They should send the modified timing files back to you.</text:span><text:span text:style-name="T3"/></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P18" loext:marker-style-name="T3"><text:s/></text:p>
-   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc138058891"/><text:soft-page-break/>Affiner les fichiers de chronométrage en utilisant Audacity<text:bookmark-end text:name="_Toc138058891"/></text:h>
-   <text:p text:style-name="P47" loext:marker-style-name="T3"><text:span text:style-name="T3">Au lieu d&apos;utiliser la visionneuse Fine Tune Timings, vous pouvez faire des corrections dans Audacity. Pour faire ceci :</text:span><text:span text:style-name="T3"/></text:p>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc138058891"/><text:soft-page-break/>Fine tune timing files using Audacity<text:bookmark-end text:name="_Toc138058891"/></text:h>
+   <text:p text:style-name="P47" loext:marker-style-name="T3"><text:span text:style-name="T3">Instead of using the Fine Tune Timings viewer, you can make corrections in Audacity. To do this:</text:span><text:span text:style-name="T3"/></text:p>
    <text:list text:style-name="WWNum13">
     <text:list-item>
-     <text:p text:style-name="P27" loext:marker-style-name="T3"><text:span text:style-name="T3">Ouvrez le fichier MP3 audio dans Audacity.</text:span><text:span text:style-name="T3"/></text:p>
+     <text:p text:style-name="P27" loext:marker-style-name="T3"><text:span text:style-name="T3">Open the audio MP3 file in Audacity.</text:span><text:span text:style-name="T3"/></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P28" loext:marker-style-name="T3"><text:span text:style-name="T3">Import the timing file, by selecting </text:span><text:span text:style-name="T6">File</text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T26"></text:span><text:span text:style-name="T13"> </text:span><text:span text:style-name="T6">Import</text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T26"></text:span><text:span text:style-name="T13"> </text:span><text:span text:style-name="T12">Labels…</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P28" loext:marker-style-name="T3"><text:span text:style-name="T13">Zoomez sur la forme d&apos;onde.</text:span><text:span text:style-name="T13"/></text:p>
+     <text:p text:style-name="P28" loext:marker-style-name="T3"><text:span text:style-name="T13">Zoom into the waveform.</text:span><text:span text:style-name="T13"/></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P28" loext:marker-style-name="T3"><text:span text:style-name="T13">Ajustez la position de toutes les étiquettes qui ne sont pas au bon endroit.</text:span><text:span text:style-name="T13"/></text:p>
+     <text:p text:style-name="P28" loext:marker-style-name="T3"><text:span text:style-name="T13">Adjust the position of any labels that are not in the right place.</text:span><text:span text:style-name="T13"/></text:p>
     </text:list-item>
     <text:list-item>
      <text:p text:style-name="P28" loext:marker-style-name="T3"><text:soft-page-break/><text:span text:style-name="T13">Export the modified labels track, using </text:span><text:span text:style-name="T12">File</text:span><text:span text:style-name="T13"> &gt; </text:span><text:span text:style-name="T12">Export Labels…</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P28" loext:marker-style-name="T3"><text:span text:style-name="T13">Testez à nouveau la synchronisation dans Reading App Builder à l&apos;aide de l&apos;utilitaire </text:span><text:span text:style-name="T12">Export vers HTML</text:span><text:span text:style-name="T13"> pour voir si les problèmes de timing ont été résolus.</text:span></text:p>
+     <text:p text:style-name="P28" loext:marker-style-name="T3"><text:span text:style-name="T13">Test the synchronisation again within Reading App Builder using the </text:span><text:span text:style-name="T12">Export to HTML</text:span><text:span text:style-name="T13"> utility (see above) to see if the timing problems have been resolved.</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P42" loext:marker-style-name="T3"/>
    <text:p text:style-name="P36" loext:marker-style-name="T3"/>
-   <text:h text:style-name="Heading_20_1" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc138058892"/><text:span text:style-name="T3">Ajout de voix à eSpeak</text:span><text:bookmark-end text:name="_Toc138058892"/><text:span text:style-name="T3"/></text:h>
-   <text:p text:style-name="Standard" loext:marker-style-name="T3"><text:span text:style-name="T3">En utilisant des remplacements de caractères dans </text:span><text:span text:style-name="T7">Synchroniser à l&apos;aide de l&apos;assistant</text:span><text:span text:style-name="T3"> vous trouverez que vous pouvez obtenir de bons résultats de synchronisation pour de nombreuses langues en utilisant les voix eSpeak existantes.</text:span></text:p>
+   <text:h text:style-name="Heading_20_1" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc138058892"/><text:span text:style-name="T3">Adding voices to eSpeak</text:span><text:bookmark-end text:name="_Toc138058892"/><text:span text:style-name="T3"/></text:h>
+   <text:p text:style-name="Standard" loext:marker-style-name="T3"><text:span text:style-name="T3">By using character replacements in the </text:span><text:span text:style-name="T7">Synchronize using aeneas</text:span><text:span text:style-name="T3"> wizard, you will find that you can get good synchronization results for many languages using the existing eSpeak voices.</text:span></text:p>
    <text:p text:style-name="P36" loext:marker-style-name="T3"><text:soft-page-break/></text:p>
    <text:p text:style-name="Standard" loext:marker-style-name="T3"><text:span text:style-name="T3">Adding a new voice in eSpeak is not easy, but if you would like to try, please follow the instructions here: </text:span><text:a xlink:type="simple" xlink:href="http://espeak.sourceforge.net/add_language.html" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T3">http://espeak.sourceforge.net/add_language.html</text:span></text:span></text:a><text:span text:style-name="T3"> </text:span></text:p>
   </office:text>

@@ -120,7 +120,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">5562377</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">5462294</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
@@ -3963,7 +3963,7 @@ Description automatically generated</svg:desc>
    </table:table>
    <text:p text:style-name="P41" loext:marker-style-name="T3"/>
    <text:p text:style-name="P41" loext:marker-style-name="T3"/>
-   <text:list xml:id="list205026729091057" text:continue-numbering="true" text:style-name="WWNum32">
+   <text:list xml:id="list215316188791228" text:continue-numbering="true" text:style-name="WWNum32">
     <text:list-item>
      <text:h text:style-name="P6" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc78982841"/><text:bookmark-start text:name="_Toc78983173"/><text:bookmark-start text:name="_Toc78982275"/><text:span text:style-name="T3">Publishing apps on Google Play</text:span><text:bookmark-end text:name="_Toc78982841"/><text:bookmark-end text:name="_Toc78983173"/><text:bookmark-end text:name="_Toc78982275"/><text:span text:style-name="T3"/></text:h>
     </text:list-item>
@@ -4020,7 +4020,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P41" loext:marker-style-name="T3"/>
-   <text:list xml:id="list205027211842468" text:continue-numbering="true" text:style-name="WWNum33">
+   <text:list xml:id="list215316979665859" text:continue-numbering="true" text:style-name="WWNum33">
     <text:list-item>
      <text:p text:style-name="P9" loext:marker-style-name="T3"><text:span text:style-name="T3">Select </text:span><text:span text:style-name="T9">Grow</text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T24"></text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T9">Store presence</text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T24"></text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T9">Main store listing</text:span><text:span text:style-name="T3"> from the menu on the left of the screen, and enter the following details:</text:span></text:p>
     </text:list-item>
@@ -4044,7 +4044,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P28" loext:marker-style-name="T3"><text:span text:style-name="T3">You must not include user testimonials, excessive details or long lists of keywords. See </text:span><text:a xlink:type="simple" xlink:href="https://play.google.com/about/storelisting-promotional/metadata/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T3">https://play.google.com/about/storelisting-promotional/metadata/</text:span></text:span></text:a><text:span text:style-name="T3"> for more details.</text:span></text:p>
    <text:p text:style-name="P15" loext:marker-style-name="T3"/>
    <text:p text:style-name="P20" loext:marker-style-name="T9"><text:span text:style-name="T9">Graphics</text:span><text:span text:style-name="T9"/></text:p>
-   <text:list xml:id="list205027288756281" text:continue-numbering="true" text:style-name="WWNum34">
+   <text:list xml:id="list215316620826426" text:continue-numbering="true" text:style-name="WWNum34">
     <text:list-item>
      <text:p text:style-name="P21" loext:marker-style-name="T3"><text:soft-page-break/><text:span text:style-name="T8">App icon</text:span><text:span text:style-name="T3"> (512 by 512 pixels)</text:span></text:p>
      <text:list>
@@ -4074,12 +4074,12 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P48" loext:marker-style-name="T3"/>
    <text:p text:style-name="P64" loext:marker-style-name="T3"><text:span text:style-name="T3">Click </text:span><text:span text:style-name="T9">Save</text:span><text:span text:style-name="T3"> at the bottom of the screen when you have finished.</text:span></text:p>
    <text:p text:style-name="P57" loext:marker-style-name="T3"><text:span text:style-name="T3"><text:line-break/> </text:span><text:span text:style-name="T3"/></text:p>
-   <text:list xml:id="list205028402835679" text:continue-list="list205027211842468" text:style-name="WWNum33">
+   <text:list xml:id="list215316482401585" text:continue-list="list215316979665859" text:style-name="WWNum33">
     <text:list-item>
      <text:p text:style-name="P10" loext:marker-style-name="T3"><text:span text:style-name="T3">Select </text:span><text:span text:style-name="T9">Store presence</text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T24"></text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T9">Store settings</text:span><text:span text:style-name="T3"> from the menu on the left of the screen, and enter the following details:</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list text:continue-list="list205027288756281" text:style-name="WWNum34">
+   <text:list text:continue-list="list215316620826426" text:style-name="WWNum34">
     <text:list-item>
      <text:p text:style-name="P22" loext:marker-style-name="T3"><text:span text:style-name="T9">App Category</text:span><text:span text:style-name="T3">:</text:span></text:p>
      <text:list>
@@ -4112,7 +4112,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P64" loext:marker-style-name="T3"><text:span text:style-name="T3">Click </text:span><text:span text:style-name="T9">Save</text:span><text:span text:style-name="T3"> at the bottom of the screen when you have finished.</text:span></text:p>
    <text:p text:style-name="P49" loext:marker-style-name="T3"><text:s/></text:p>
    <text:p text:style-name="P49" loext:marker-style-name="T3"/>
-   <text:list text:continue-list="list205028402835679" text:style-name="WWNum33">
+   <text:list text:continue-list="list215316482401585" text:style-name="WWNum33">
     <text:list-item>
      <text:p text:style-name="P10" loext:marker-style-name="T3"><text:span text:style-name="T3">Select </text:span><text:span text:style-name="T9">Policy</text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T24"></text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T9">App content</text:span><text:span text:style-name="T3"> from the menu on the left of the screen, and follow the instructions on the screen to specify the privacy policy, app access, content ratings, etc. Click </text:span><text:span text:style-name="T9">Save</text:span><text:span text:style-name="T3"> after completing each page.</text:span></text:p>
     </text:list-item>
@@ -4124,7 +4124,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P41" loext:marker-style-name="T3"/>
-   <text:list xml:id="list205026789853665" text:continue-numbering="true" text:style-name="WWNum33">
+   <text:list xml:id="list215317334501675" text:continue-numbering="true" text:style-name="WWNum33">
     <text:list-item>
      <text:p text:style-name="P10" loext:marker-style-name="T3"><text:span text:style-name="T3">In the </text:span><text:span text:style-name="T9">App Bundles</text:span><text:span text:style-name="T3"> section of the screen, upload the Android App Bundle (.aab) file for your app and give release a </text:span><text:span text:style-name="T9">Release name</text:span><text:span text:style-name="T3"> in the field below.</text:span></text:p>
     </text:list-item>
@@ -4143,7 +4143,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P17" loext:marker-style-name="T3"/>
-   <text:list text:continue-list="list205026789853665" text:style-name="WWNum33">
+   <text:list text:continue-list="list215317334501675" text:style-name="WWNum33">
     <text:list-item>
      <text:p text:style-name="P10" loext:marker-style-name="T3"><text:span text:style-name="T3">Click the </text:span><text:span text:style-name="T9">Save </text:span><text:span text:style-name="T3">button and then </text:span><text:span text:style-name="T9">Review release</text:span><text:span text:style-name="T3"> button at the bottom right of the screen.</text:span></text:p>
     </text:list-item>
@@ -4160,7 +4160,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P65" loext:marker-style-name="T3"><text:span text:style-name="T11">Tip</text:span><text:span text:style-name="T3">: To increase the visibility of your app on the app store, we recommend that you familiarize yourself with the principles of </text:span><text:span text:style-name="T9">App Store Optimization (ASO)</text:span><text:span text:style-name="T3">.</text:span></text:p>
    <text:p text:style-name="P41" loext:marker-style-name="T3"/>
    <text:p text:style-name="P41" loext:marker-style-name="T3"/>
-   <text:list xml:id="list205027388545254" text:continue-list="list205026729091057" text:style-name="WWNum32">
+   <text:list xml:id="list215316503169750" text:continue-list="list215316188791228" text:style-name="WWNum32">
     <text:list-item>
      <text:h text:style-name="P6" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc78982842"/><text:bookmark-start text:name="_Toc78983174"/><text:bookmark-start text:name="_Toc78982276"/><text:span text:style-name="T3">Distributing apps by memory card</text:span><text:bookmark-end text:name="_Toc78982842"/><text:bookmark-end text:name="_Toc78983174"/><text:bookmark-end text:name="_Toc78982276"/><text:span text:style-name="T3"/></text:h>
     </text:list-item>
@@ -4195,7 +4195,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P68" loext:marker-style-name="T3"><text:span text:style-name="T3">If you get an error about a problem parsing the package or if the application installation finishes and says that the application could not be installed, then the phone is unable to write the files to the memory card. When this happens, you need to remove the memory card from the phone and put it in a computer or other device and write the files directly to the memory card. Then put the memory card back in the phone and try the install again. It should work this time.</text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P41" loext:marker-style-name="T3"/>
    <text:p text:style-name="P41" loext:marker-style-name="T3"><text:soft-page-break/></text:p>
-   <text:list text:continue-list="list205027388545254" text:style-name="WWNum32">
+   <text:list text:continue-list="list215316503169750" text:style-name="WWNum32">
     <text:list-item>
      <text:h text:style-name="P7" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc78982843"/><text:bookmark-start text:name="_Toc78983175"/><text:bookmark-start text:name="_Toc78982277"/><text:span text:style-name="T3">Sharing apps by Bluetooth</text:span><text:bookmark-end text:name="_Toc78982843"/><text:bookmark-end text:name="_Toc78983175"/><text:bookmark-end text:name="_Toc78982277"/><text:span text:style-name="T3"/></text:h>
     </text:list-item>

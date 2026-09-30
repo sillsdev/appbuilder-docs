@@ -120,7 +120,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">5499443</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">5432311</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
@@ -1636,13 +1636,13 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list186080882" text:style-name="WWNum6">
+      <text:list xml:id="list252605595" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Content Checks</text:h>
        </text:list-item>
       </text:list>
       <text:p text:style-name="P9" loext:marker-style-name="T1"><text:span text:style-name="T1">Ensure that the app content has passed through the checks required by your organisation: </text:span><text:span text:style-name="T1"/></text:p>
-      <text:list xml:id="list1471603204" text:style-name="WWNum1">
+      <text:list xml:id="list3672294521" text:style-name="WWNum1">
        <text:list-item>
         <text:p text:style-name="P25" loext:marker-style-name="T1"><text:span text:style-name="T1">Has it been proof-read for spelling mistakes and punctuation? </text:span><text:span text:style-name="T1"/></text:p>
        </text:list-item>
@@ -1667,13 +1667,13 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205101783060777" text:continue-list="list186080882" text:style-name="WWNum6">
+      <text:list xml:id="list215337326459177" text:continue-list="list252605595" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Permission to Distribute Content</text:h>
        </text:list-item>
       </text:list>
       <text:p text:style-name="P9" loext:marker-style-name="T1"><text:span text:style-name="T1">Ensure that you have the necessary permissions to distribute the content in the app:</text:span><text:span text:style-name="T1"/></text:p>
-      <text:list text:continue-list="list1471603204" text:style-name="WWNum1">
+      <text:list text:continue-list="list3672294521" text:style-name="WWNum1">
        <text:list-item>
         <text:p text:style-name="P25" loext:marker-style-name="T1"><text:span text:style-name="T1">Do you have permission to distribute the text?</text:span><text:span text:style-name="T1"/></text:p>
        </text:list-item>
@@ -1686,7 +1686,7 @@
       </text:list>
       <text:p text:style-name="P11" loext:marker-style-name="T14"><text:span text:style-name="T1">Remember that for text, audio and images, the copyright can be held by different owners. You must have permission for each.</text:span><text:span text:style-name="T4"/></text:p>
       <text:p text:style-name="P11" loext:marker-style-name="T1"><text:span text:style-name="T1">You will have permission if:</text:span><text:span text:style-name="T1"/></text:p>
-      <text:list xml:id="list205102471552183" text:continue-numbering="true" text:style-name="WWNum1">
+      <text:list xml:id="list215338493978768" text:continue-numbering="true" text:style-name="WWNum1">
        <text:list-item>
         <text:p text:style-name="P27" loext:marker-style-name="T1"><text:span text:style-name="T1">You are the owner (intellectual property rights holder) of the content, or</text:span><text:span text:style-name="T1"/></text:p>
        </text:list-item>
@@ -1702,7 +1702,7 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205101705233059" text:continue-list="list205101783060777" text:style-name="WWNum6">
+      <text:list xml:id="list215339222114770" text:continue-list="list215337326459177" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">App Installation and Navigation</text:h>
        </text:list-item>
@@ -1729,7 +1729,7 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205102170319223" text:continue-list="list205101705233059" text:style-name="WWNum6">
+      <text:list xml:id="list215339086397419" text:continue-list="list215339222114770" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">App Name</text:h>
        </text:list-item>
@@ -1759,13 +1759,13 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205100891318755" text:continue-list="list205102170319223" text:style-name="WWNum6">
+      <text:list xml:id="list215337732041404" text:continue-list="list215339086397419" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">App Icon</text:h>
        </text:list-item>
       </text:list>
       <text:p text:style-name="P9" loext:marker-style-name="T14"><text:span text:style-name="T1">The app icon is the icon that represents the app on a user’s smartphone or tablet.</text:span><text:span text:style-name="T4"/></text:p>
-      <text:list xml:id="list205102689858581" text:continue-list="list205102471552183" text:style-name="WWNum1">
+      <text:list xml:id="list215337311626762" text:continue-list="list215338493978768" text:style-name="WWNum1">
        <text:list-item>
         <text:p text:style-name="P27" loext:marker-style-name="T1"><text:span text:style-name="T1">Is the image clear and not blurred?</text:span><text:span text:style-name="T1"/></text:p>
        </text:list-item>
@@ -1789,13 +1789,13 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205101780837292" text:continue-list="list205100891318755" text:style-name="WWNum6">
+      <text:list xml:id="list215338863566128" text:continue-list="list215337732041404" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Splash Screen</text:h>
        </text:list-item>
       </text:list>
       <text:p text:style-name="P9" loext:marker-style-name="T14"><text:span text:style-name="T1">The splash screen is the image that appears full screen when the app is loading. It is optional, but if it is included:</text:span><text:span text:style-name="T4"/></text:p>
-      <text:list xml:id="list205102048676435" text:continue-list="list205102689858581" text:style-name="WWNum1">
+      <text:list xml:id="list215338303906707" text:continue-list="list215337311626762" text:style-name="WWNum1">
        <text:list-item>
         <text:p text:style-name="P27" loext:marker-style-name="T1"><text:span text:style-name="T1">Is the image clear and not blurred?</text:span><text:span text:style-name="T1"/></text:p>
        </text:list-item>
@@ -1816,13 +1816,13 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205102674733681" text:continue-list="list205101780837292" text:style-name="WWNum6">
+      <text:list xml:id="list215338911026598" text:continue-list="list215338863566128" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Navigation Drawer Image</text:h>
        </text:list-item>
       </text:list>
       <text:p text:style-name="P9" loext:marker-style-name="T14"><text:span text:style-name="T1">The navigation drawer image is displayed at the top of the drawer that slides in from the side of the screen when the user taps the hamburger icon or swipes in from the side of the device.</text:span><text:span text:style-name="T4"/></text:p>
-      <text:list xml:id="list205101483740176" text:continue-list="list205102048676435" text:style-name="WWNum1">
+      <text:list xml:id="list215338461041353" text:continue-list="list215338303906707" text:style-name="WWNum1">
        <text:list-item>
         <text:p text:style-name="P27" loext:marker-style-name="T1"><text:span text:style-name="T1">Is the image clear and not blurred?</text:span><text:span text:style-name="T1"/></text:p>
        </text:list-item>
@@ -1843,7 +1843,7 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list text:continue-list="list205102674733681" text:style-name="WWNum6">
+      <text:list text:continue-list="list215338911026598" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Fonts</text:h>
        </text:list-item>
@@ -1858,7 +1858,7 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205100676544939" text:continue-numbering="true" text:style-name="WWNum6">
+      <text:list xml:id="list215337155867411" text:continue-numbering="true" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Package Name</text:h>
        </text:list-item>
@@ -1880,13 +1880,13 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205102256280421" text:continue-list="list205100676544939" text:style-name="WWNum6">
+      <text:list xml:id="list215337675889471" text:continue-list="list215337155867411" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">About Box Information</text:h>
        </text:list-item>
       </text:list>
       <text:p text:style-name="P9" loext:marker-style-name="T14"><text:span text:style-name="T1">Check that the About box of the app has the following information, where appropriate:</text:span><text:span text:style-name="T4"/></text:p>
-      <text:list text:continue-list="list205101483740176" text:style-name="WWNum1">
+      <text:list text:continue-list="list215338461041353" text:style-name="WWNum1">
        <text:list-item>
         <text:p text:style-name="P29" loext:marker-style-name="T1"><text:span text:style-name="T1">The </text:span><text:span text:style-name="T4">title</text:span><text:span text:style-name="T1"> of the app.</text:span></text:p>
        </text:list-item>
@@ -1920,7 +1920,7 @@
        </text:list-item>
       </text:list>
       <text:p text:style-name="P41" loext:marker-style-name="T1"><text:span text:style-name="T16">Illustrations: © 2015 Ousmane Diarra. Used with permission.</text:span><text:span text:style-name="T16"/></text:p>
-      <text:list xml:id="list205101601152251" text:continue-numbering="true" text:style-name="WWNum1">
+      <text:list xml:id="list215338494470976" text:continue-numbering="true" text:style-name="WWNum1">
        <text:list-item>
         <text:p text:style-name="P33" loext:marker-style-name="T1"><text:span text:style-name="T4">License</text:span><text:span text:style-name="T1"> </text:span><text:span text:style-name="T4">information</text:span><text:span text:style-name="T1">: tell the users of the app what they can do with the app, e.g. if you want them to be able to distribute it freely:</text:span></text:p>
        </text:list-item>
@@ -1937,14 +1937,14 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205102555156099" text:continue-list="list205102256280421" text:style-name="WWNum6">
+      <text:list xml:id="list215339222422521" text:continue-list="list215337675889471" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Books and Book Names</text:h>
        </text:list-item>
       </text:list>
       <text:p text:style-name="P9" loext:marker-style-name="T1"><text:span text:style-name="T1">Are all the books included that should be included? Make sure that you are not missing out a book by accident.</text:span><text:span text:style-name="T1"/></text:p>
       <text:p text:style-name="P3" loext:marker-style-name="T14"><text:span text:style-name="T1">Look at the list of book names for the app:</text:span><text:span text:style-name="T4"/></text:p>
-      <text:list xml:id="list205101152172117" text:continue-list="list205101601152251" text:style-name="WWNum1">
+      <text:list xml:id="list215339094062388" text:continue-list="list215338494470976" text:style-name="WWNum1">
        <text:list-item>
         <text:p text:style-name="P28" loext:marker-style-name="T1"><text:span text:style-name="T1">Are they consistent, i.e. not a mixture of full names and abbreviations? </text:span><text:span text:style-name="T1"/></text:p>
        </text:list-item>
@@ -1959,7 +1959,7 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205101936603406" text:continue-list="list205102555156099" text:style-name="WWNum6">
+      <text:list xml:id="list215337919903075" text:continue-list="list215339222422521" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Search</text:h>
        </text:list-item>
@@ -1980,13 +1980,13 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205100886840563" text:continue-list="list205101936603406" text:style-name="WWNum6">
+      <text:list xml:id="list215338597176307" text:continue-list="list215337919903075" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Interface Language and Translations</text:h>
        </text:list-item>
       </text:list>
       <text:p text:style-name="P9" loext:marker-style-name="T14"><text:span text:style-name="T1">Look at the language used for the interface menu items and search screen, e.g. “Search”, “About”, “Match whole words”, etc.:</text:span><text:span text:style-name="T4"/></text:p>
-      <text:list xml:id="list205100984030135" text:continue-list="list205101152172117" text:style-name="WWNum1">
+      <text:list xml:id="list215338530583266" text:continue-list="list215339094062388" text:style-name="WWNum1">
        <text:list-item>
         <text:p text:style-name="P27" loext:marker-style-name="T1"><text:span text:style-name="T1">Is a choice of appropriate interface languages provided for typical users? What is the default interface language when users first install the app? Is it best to default to using English, French, Chinese, a local language, etc.? </text:span><text:span text:style-name="T1"/></text:p>
        </text:list-item>
@@ -2001,7 +2001,7 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205101735155895" text:continue-list="list205100886840563" text:style-name="WWNum6">
+      <text:list xml:id="list215338435980806" text:continue-list="list215338597176307" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">KeyStore for App Signing</text:h>
        </text:list-item>
@@ -2022,7 +2022,7 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list text:continue-list="list205101735155895" text:style-name="WWNum6">
+      <text:list text:continue-list="list215338435980806" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Audio-Text Synchronization</text:h>
        </text:list-item>
@@ -2036,13 +2036,13 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205101673907734" text:continue-numbering="true" text:style-name="WWNum6">
+      <text:list xml:id="list215338170517769" text:continue-numbering="true" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Audio File Distribution</text:h>
        </text:list-item>
       </text:list>
       <text:p text:style-name="P9" loext:marker-style-name="T1"><text:span text:style-name="T1">If your app uses audio, how have you decided to distribute the audio files?</text:span><text:span text:style-name="T1"/></text:p>
-      <text:list xml:id="list222392001" text:style-name="WWNum8">
+      <text:list xml:id="list2855301677" text:style-name="WWNum8">
        <text:list-item>
         <text:p text:style-name="P46" loext:marker-style-name="T6"><text:span text:style-name="T6">Package inside the app: </text:span><text:span text:style-name="T1">Check that the app size is not too large. The limit for publishing an app on Google Play is 100MB. If you want users to be able to share the app via Bluetooth, it would be better if it was much smaller than this.</text:span></text:p>
        </text:list-item>
@@ -2060,13 +2060,13 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205102169654428" text:continue-list="list205101673907734" text:style-name="WWNum6">
+      <text:list xml:id="list215338775094704" text:continue-list="list215338170517769" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Expiry Date or Limited Device Distribution</text:h>
        </text:list-item>
       </text:list>
       <text:p text:style-name="P3" loext:marker-style-name="T1"><text:span text:style-name="T1">If you want to limit the lifetime of the app, e.g. it is a trial version:</text:span><text:span text:style-name="T1"/></text:p>
-      <text:list text:continue-list="list222392001" text:style-name="WWNum8">
+      <text:list text:continue-list="list2855301677" text:style-name="WWNum8">
        <text:list-item>
         <text:p text:style-name="P47" loext:marker-style-name="T1"><text:span text:style-name="T1">Has an expiry date been specified? </text:span><text:span text:style-name="T1"/></text:p>
        </text:list-item>
@@ -2093,7 +2093,7 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list text:continue-list="list205102169654428" text:style-name="WWNum6">
+      <text:list text:continue-list="list215338775094704" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Archiving</text:h>
        </text:list-item>
@@ -2106,13 +2106,13 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205102557887591" text:continue-numbering="true" text:style-name="WWNum6">
+      <text:list xml:id="list215337733456232" text:continue-numbering="true" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Publishing, Distribution and Marketing Strategy</text:h>
        </text:list-item>
       </text:list>
       <text:p text:style-name="P2" loext:marker-style-name="T1"><text:span text:style-name="T1">Where are you going to make your app available? Which app store developer account would be the most strategic? </text:span><text:span text:style-name="T1"/></text:p>
-      <text:list xml:id="list205101092739318" text:continue-list="list205100984030135" text:style-name="WWNum1">
+      <text:list xml:id="list215337938469269" text:continue-list="list215338530583266" text:style-name="WWNum1">
        <text:list-item>
         <text:p text:style-name="P27" loext:marker-style-name="T1"><text:span text:style-name="T1">Will you publish your app on a store page together with other apps from around the world? </text:span><text:span text:style-name="T1"/></text:p>
        </text:list-item>
@@ -2134,13 +2134,13 @@
       <text:p text:style-name="P7">☐</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list xml:id="list205100661802412" text:continue-list="list205102557887591" text:style-name="WWNum6">
+      <text:list xml:id="list215338359924480" text:continue-list="list215337733456232" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">Google Play Store Details</text:h>
        </text:list-item>
       </text:list>
       <text:p text:style-name="P9" loext:marker-style-name="T1"><text:span text:style-name="T1">If the app will be published on the Google Play store, check the following store details:</text:span><text:span text:style-name="T1"/></text:p>
-      <text:list text:continue-list="list205101092739318" text:style-name="WWNum1">
+      <text:list text:continue-list="list215337938469269" text:style-name="WWNum1">
        <text:list-item>
         <text:p text:style-name="P30" loext:marker-style-name="T6"><text:span text:style-name="T6">App title</text:span><text:span text:style-name="T6"/></text:p>
        </text:list-item>
@@ -2171,7 +2171,7 @@
       <text:p text:style-name="P4" loext:marker-style-name="T17"><text:span text:style-name="T17">☐</text:span><text:span text:style-name="T17"/></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:list text:continue-list="list205100661802412" text:style-name="WWNum6">
+      <text:list text:continue-list="list215338359924480" text:style-name="WWNum6">
        <text:list-item>
         <text:h text:style-name="P23" text:outline-level="1">User Testing</text:h>
        </text:list-item>

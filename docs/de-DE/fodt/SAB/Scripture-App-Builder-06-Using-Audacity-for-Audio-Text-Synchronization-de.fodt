@@ -120,7 +120,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">5622810</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">5582117</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">true</config:config-item>
@@ -3078,7 +3078,7 @@
    </text:table-of-content>
    <text:p text:style-name="P50" loext:marker-style-name="T22"/>
    <text:p text:style-name="P51" loext:marker-style-name="T22"/>
-   <text:list xml:id="list403611518" text:style-name="WWNum13">
+   <text:list xml:id="list2461942798" text:style-name="WWNum13">
     <text:list-item>
      <text:h text:style-name="P7" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc500235211"/><text:span text:style-name="T3">Introduction</text:span><text:bookmark-end text:name="_Toc500235211"/><text:span text:style-name="T3"/></text:h>
     </text:list-item>
@@ -3236,7 +3236,7 @@
    <text:p text:style-name="P25" loext:marker-style-name="T3"><text:soft-page-break/></text:p>
    <text:p text:style-name="P25" loext:marker-style-name="T3"><text:s/></text:p>
    <text:p text:style-name="P25" loext:marker-style-name="T3"/>
-   <text:list xml:id="list205040200692753" text:continue-list="list403611518" text:style-name="WWNum13">
+   <text:list xml:id="list215330515604412" text:continue-list="list2461942798" text:style-name="WWNum13">
     <text:list-item>
      <text:h text:style-name="P7" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc500235212"/><text:span text:style-name="T3">Getting Started</text:span><text:bookmark-end text:name="_Toc500235212"/><text:span text:style-name="T3"/></text:h>
      <text:list>
@@ -3406,7 +3406,7 @@
    <text:p text:style-name="Standard" loext:marker-style-name="T3"><text:span text:style-name="T3">You can define which characters are recognised as phrase ending characters in the </text:span><text:span text:style-name="T7">Features</text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T35"></text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T7">Audio</text:span><text:span text:style-name="T3"> page of Scripture App Builder. By default, it is: a full stop/period (.), a question mark (?), an exclamation mark (!), a colon (:) and a comma (,).</text:span></text:p>
    <text:p text:style-name="P25" loext:marker-style-name="T3"><text:soft-page-break/></text:p>
    <text:p text:style-name="P25" loext:marker-style-name="T3"/>
-   <text:list text:continue-list="list205040200692753" text:style-name="WWNum13">
+   <text:list text:continue-list="list215330515604412" text:style-name="WWNum13">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -3420,7 +3420,7 @@
    <text:p text:style-name="P16" loext:marker-style-name="T3"><draw:frame draw:style-name="fr5" draw:name="Image3" text:anchor-type="as-char" svg:width="3.5138in" svg:height="1.389in" draw:z-index="0"><draw:image xlink:href="SAB06/3.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/jpeg"/>
     </draw:frame><text:s/></text:p>
    <text:p text:style-name="P25" loext:marker-style-name="T3"/>
-   <text:list xml:id="list205039446977719" text:continue-numbering="true" text:style-name="WWNum13">
+   <text:list xml:id="list215329448828914" text:continue-numbering="true" text:style-name="WWNum13">
     <text:list-item>
      <text:h text:style-name="P10" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc500235215"/><text:span text:style-name="T3">Producing Timing Files</text:span><text:bookmark-end text:name="_Toc500235215"/><text:span text:style-name="T3"/></text:h>
     </text:list-item>
@@ -3640,7 +3640,7 @@
    <text:p text:style-name="Standard" loext:marker-style-name="T3"><text:span text:style-name="T3">The timing file is now ready to be used in an app.</text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P25" loext:marker-style-name="T3"><text:soft-page-break/></text:p>
    <text:p text:style-name="P25" loext:marker-style-name="T3"><text:s/></text:p>
-   <text:list xml:id="list205040359245956" text:continue-list="list205039446977719" text:style-name="WWNum13">
+   <text:list xml:id="list215329681722046" text:continue-list="list215329448828914" text:style-name="WWNum13">
     <text:list-item>
      <text:h text:style-name="P8" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc500235216"/><text:span text:style-name="T3">Timing Labels Assistant</text:span><text:bookmark-end text:name="_Toc500235216"/><text:span text:style-name="T3"/></text:h>
     </text:list-item>
@@ -3704,7 +3704,7 @@
      <text:p text:style-name="P87" loext:marker-style-name="T3"><text:span text:style-name="T3">Click on the icon in the taskbar and select </text:span><text:span text:style-name="T8">Exit</text:span><text:span text:style-name="T3">.</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list205039246674012" text:continue-list="list205040359245956" text:style-name="WWNum13">
+   <text:list xml:id="list215329798163142" text:continue-list="list215329681722046" text:style-name="WWNum13">
     <text:list-item>
      <text:h text:style-name="P9" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc500235217"/><text:span text:style-name="T3">Usability Tips</text:span><text:bookmark-end text:name="_Toc500235217"/><text:span text:style-name="T3"/></text:h>
      <text:list>
@@ -3765,7 +3765,7 @@
    </text:list>
    <text:p text:style-name="P39" loext:marker-style-name="T3"/>
    <text:p text:style-name="P34" loext:marker-style-name="T3"><text:s/></text:p>
-   <text:list xml:id="list205039864661883" text:continue-list="list205039246674012" text:style-name="WWNum13">
+   <text:list xml:id="list215330733819182" text:continue-list="list215329798163142" text:style-name="WWNum13">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -3826,7 +3826,7 @@
    </text:list>
    <text:p text:style-name="P25" loext:marker-style-name="T3"><text:soft-page-break/></text:p>
    <text:p text:style-name="P25" loext:marker-style-name="T3"><text:s/></text:p>
-   <text:list text:continue-list="list205039864661883" text:style-name="WWNum13">
+   <text:list text:continue-list="list215330733819182" text:style-name="WWNum13">
     <text:list-item>
      <text:h text:style-name="P9" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc500235220"/><text:span text:style-name="T3">FAQ</text:span><text:bookmark-end text:name="_Toc500235220"/><text:span text:style-name="T3"/></text:h>
      <text:list>
@@ -3841,7 +3841,7 @@
    <text:p text:style-name="P40" loext:marker-style-name="T7"/>
    <text:p text:style-name="Standard" loext:marker-style-name="T3"><text:span text:style-name="T3">You can add Unicode characters here using the format \uABCD where ABCD is the hexadecimal Unicode code point, e.g. \u061F for an Arabic question mark, \u1362 for an Ethiopic full stop.</text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P40" loext:marker-style-name="T7"/>
-   <text:list xml:id="list205040358232683" text:continue-numbering="true" text:style-name="WWNum13">
+   <text:list xml:id="list215331354374099" text:continue-numbering="true" text:style-name="WWNum13">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -3884,7 +3884,7 @@
    <text:p text:style-name="P40" loext:marker-style-name="T7"/>
    <text:p text:style-name="P40" loext:marker-style-name="T7"/>
    <text:p text:style-name="Standard" loext:marker-style-name="T3"><text:span text:style-name="T3">In this song, label the audio as follows:</text:span><text:span text:style-name="T3"/></text:p>
-   <text:list xml:id="list3573952907" text:style-name="WWNum8">
+   <text:list xml:id="list77541380" text:style-name="WWNum8">
     <text:list-item>
      <text:p text:style-name="P92" loext:marker-style-name="T3"><text:span text:style-name="T27">An Fa Ala, Dubatigi, </text:span><text:span text:style-name="T32">(labelled as “a”)</text:span></text:p>
     </text:list-item>
@@ -3918,7 +3918,7 @@
    <text:p text:style-name="P25" loext:marker-style-name="T3"/>
    <text:p text:style-name="Standard" loext:marker-style-name="T3"><text:span text:style-name="T3">For a longer chapter, you will soon run out of letters of the alphabet. When you get to “z”, the next label you need to use is “aa”, then “ab”, “ac”, “ad”, etc. When you get to “az”, the next label you need to use is “ba”, then “bb”, “bc”, “bd”, etc. In other words, this follows a similar naming convention to the column names in a spreadsheet.</text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P40" loext:marker-style-name="T7"/>
-   <text:list xml:id="list205039392008274" text:continue-list="list205040358232683" text:style-name="WWNum13">
+   <text:list xml:id="list215330707338919" text:continue-list="list215331354374099" text:style-name="WWNum13">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -3940,7 +3940,7 @@
     </draw:frame><text:span text:style-name="T6">Example:</text:span><text:span text:style-name="T6"/></text:p>
    <text:p text:style-name="P25" loext:marker-style-name="T3"/>
    <text:p text:style-name="Standard" loext:marker-style-name="T3"><text:span text:style-name="T3">In this chapter, verse 1 can be split into two sections, split by the “.” in the middle:</text:span><text:span text:style-name="T3"/></text:p>
-   <text:list text:continue-list="list3573952907" text:style-name="WWNum8">
+   <text:list text:continue-list="list77541380" text:style-name="WWNum8">
     <text:list-item>
      <text:p text:style-name="P92" loext:marker-style-name="T3"><text:span text:style-name="T27">Yesu ya se Zhude fiige ki ni, Bɛtilɛhɛmu ni, saannaa Hɛrɔdi caŋa ɲii ni. </text:span><text:span text:style-name="T27"/></text:p>
     </text:list-item>
@@ -3974,7 +3974,7 @@
    <text:p text:style-name="Standard" loext:marker-style-name="T3"><text:span text:style-name="T3">Unless the comma has been added to the normal phrase-ending characters in </text:span><text:span text:style-name="T7">Features</text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T35"></text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T7">Audio, </text:span><text:span text:style-name="T3">verse 2 will revert to being treated as a whole (labelled as “2”) or split into three with the normal characters. It can be split into six sections if you begin with the label “2,”.</text:span></text:p>
    <text:p text:style-name="P25" loext:marker-style-name="T3"/>
    <text:p text:style-name="P40" loext:marker-style-name="T7"/>
-   <text:list text:continue-list="list205039392008274" text:style-name="WWNum13">
+   <text:list text:continue-list="list215330707338919" text:style-name="WWNum13">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -4012,7 +4012,7 @@
     </draw:frame><text:s/></text:p>
    <text:p text:style-name="P25" loext:marker-style-name="T3"/>
    <text:p text:style-name="P40" loext:marker-style-name="T7"/>
-   <text:list xml:id="list205040980621351" text:continue-numbering="true" text:style-name="WWNum13">
+   <text:list xml:id="list215330853755621" text:continue-numbering="true" text:style-name="WWNum13">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -4048,7 +4048,7 @@
    <text:p text:style-name="Standard" loext:marker-style-name="T3"><text:span text:style-name="T3">To create a label range, drag the &lt; or &gt; part of the label marker.</text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P25" loext:marker-style-name="T3"><text:s/></text:p>
    <text:p text:style-name="P25" loext:marker-style-name="T3"><text:soft-page-break/></text:p>
-   <text:list text:continue-list="list205040980621351" text:style-name="WWNum13">
+   <text:list text:continue-list="list215330853755621" text:style-name="WWNum13">
     <text:list-item>
      <text:list>
       <text:list-item>

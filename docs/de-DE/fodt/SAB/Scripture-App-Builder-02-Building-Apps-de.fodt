@@ -120,7 +120,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">2291410</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">2351630</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
@@ -17318,7 +17318,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P323" loext:marker-style-name="T39"><text:span text:style-name="T39"/></text:p>
    <text:p text:style-name="List_20_Paragraph" loext:marker-style-name="T39"><text:span text:style-name="T39">Click </text:span><text:span text:style-name="T52">Next</text:span><text:span text:style-name="T39"> to move to the next page.</text:span></text:p>
    <text:p text:style-name="P9" loext:marker-style-name="T39"/>
-   <text:list xml:id="list205031857575533" text:continue-numbering="true" text:style-name="WWNum3">
+   <text:list xml:id="list215325519774349" text:continue-numbering="true" text:style-name="WWNum3">
     <text:list-item>
      <text:p text:style-name="P312" loext:marker-style-name="T39"><text:span text:style-name="T39">On the page of the wizard titled </text:span><text:span text:style-name="T52">Signing</text:span><text:span text:style-name="T39">, you need to specify the keystore and alias to use to sign the app. A keystore is a digital certificate file that ensures the app is legitimate. An app must be signed in this way so that it can installed on a phone.</text:span></text:p>
     </text:list-item>
@@ -17371,7 +17371,7 @@ Description automatically generated</svg:desc>
    </text:list>
    <text:p text:style-name="P83" loext:marker-style-name="T39"><text:bookmark-end text:name="_Hlk66431771"/></text:p>
    <text:p text:style-name="P9" loext:marker-style-name="T39"/>
-   <text:list text:continue-list="list205031857575533" text:style-name="WWNum3">
+   <text:list text:continue-list="list215325519774349" text:style-name="WWNum3">
     <text:list-item>
      <text:p text:style-name="P312" loext:marker-style-name="T39"><text:span text:style-name="T39">Back on the </text:span><text:span text:style-name="T52">Signing</text:span><text:span text:style-name="T39"> page of the New App wizard, you need to specify the keystore password, select the key alias and enter the alias password--just as you entered them in the step above. (You can modify your keystore settings later under </text:span><text:a xlink:type="simple" xlink:href="#_App_Signing" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T52">App</text:span></text:span><text:span text:style-name="Internet_20_link"><text:span text:style-name="T39"> </text:span></text:span><text:span text:style-name="Internet_20_link"><text:span text:style-name="T71"></text:span></text:span><text:span text:style-name="Internet_20_link"><text:span text:style-name="T39"> </text:span></text:span><text:span text:style-name="Internet_20_link"><text:span text:style-name="T52">App Signing</text:span></text:span></text:a><text:span text:style-name="T39">.)</text:span></text:p>
     </text:list-item>
@@ -17782,7 +17782,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="Standard">To create a 3-year lectionary, for example, make one book per collection (season) for each year, i.e. Advent would have 3 separate books, one for each year. These books would be in SFM format and can have the Bible verses typed out in full. However, if you add the lectionary books to a Bible app that has all the referenced Scripture books, you can put links to the actual Scripture texts in the lectionary SFM files.</text:p>
    <text:p text:style-name="Standard"/>
    <text:p text:style-name="Standard"><text:soft-page-break/>See the following:</text:p>
-   <text:list xml:id="list1052299553" text:style-name="WWNum93">
+   <text:list xml:id="list3269313835" text:style-name="WWNum93">
     <text:list-item>
      <text:p text:style-name="P107">Preparing text for your lectionary in <text:a xlink:type="simple" xlink:href="#_Other_SFM_text" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link">SFM</text:span></text:a> or <text:a xlink:type="simple" xlink:href="#_Word_documents_(.docx)" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link">Word</text:span></text:a> formats.</text:p>
     </text:list-item>
@@ -18819,7 +18819,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P9" loext:marker-style-name="T39"/>
    <text:h text:style-name="P73" text:outline-level="3"><text:bookmark-start text:name="_Toc233871135"/>What information should I include in the About page?<text:bookmark-end text:name="_Toc233871135"/></text:h>
    <text:p text:style-name="Standard" loext:marker-style-name="T39"><text:span text:style-name="T39">The About page can contain any information. What you include is your choice, but commonly included items include:</text:span><text:span text:style-name="T39"/></text:p>
-   <text:list xml:id="list1529413968" text:style-name="WWNum5">
+   <text:list xml:id="list1356906618" text:style-name="WWNum5">
     <text:list-item>
      <text:p text:style-name="P368" loext:marker-style-name="T39"><text:span text:style-name="T39">The app name and version</text:span><text:span text:style-name="T39"/></text:p>
     </text:list-item>
@@ -19794,7 +19794,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P383" loext:marker-style-name="T171"><text:span text:style-name="T171">{&quot;startTime&quot;:&quot;20180306T0835Z&quot;,&quot;period&quot;:1440,&quot;id&quot;:&quot;12db7e3f-93d9-4370-b12b-fe048804e4f5&quot;,&quot;package&quot;:&quot;org.fcbh.hndwtc.n2&quot;,&quot;version_name&quot;:&quot;1.0.1&quot;,&quot;sessions&quot;:1,&quot;sessionMins&quot;:21,&quot;shares&quot;:3,&quot;dams&quot;:[{&quot;damid&quot;:&quot;HNDWTCN2DA&quot;,&quot;playMins&quot;:25,&quot;chaps&quot;:[&quot;MRK 1&quot;,&quot;MRK 1&quot;,&quot;MRK 2&quot;,&quot;MRK 2&quot;,&quot;MRK 3&quot;,&quot;MRK 4&quot;,&quot;MRK 4&quot;]}]}</text:span><text:span text:style-name="T171"/></text:p>
    <text:p text:style-name="P384" loext:marker-style-name="T185"/>
    <text:p text:style-name="P15" loext:marker-style-name="T189"><text:span text:style-name="T189">The payload is 296 bytes uncompressed and 224 bytes compressed. This sample is comprised of the following fields:</text:span><text:span text:style-name="T189"/></text:p>
-   <text:list xml:id="list1777980854" text:style-name="WWNum37">
+   <text:list xml:id="list1922394291" text:style-name="WWNum37">
     <text:list-item>
      <text:p text:style-name="P385" loext:marker-style-name="T189"><text:span text:style-name="T189">One day of activity (1440 minutes), starting on 2018-03-06.</text:span><text:span text:style-name="T189"/></text:p>
     </text:list-item>
@@ -19979,7 +19979,7 @@ Description automatically generated</svg:desc>
    <text:h text:style-name="P52" text:outline-level="2"><text:bookmark text:name="_User_Accounts_1"/><text:bookmark-start text:name="_Toc233871187"/><text:soft-page-break/>User Accounts<text:bookmark-end text:name="_Toc233871187"/></text:h>
    <text:p text:style-name="P15" loext:marker-style-name="T39"><text:span text:style-name="T39">You can configure your app so that a user’s highlights, notes and bookmarks are saved to a database server. This means that the user can see them on another device, and they do not need to lose their work when they change their phone.</text:span><text:span text:style-name="T39"/></text:p>
    <text:p text:style-name="P16"><text:span text:style-name="T39">To enable this feature,</text:span> you need to do some configuration work in two places:</text:p>
-   <text:list xml:id="list4022309504" text:style-name="WWNum50">
+   <text:list xml:id="list2676321829" text:style-name="WWNum50">
     <text:list-item>
      <text:p text:style-name="P394">within Scripture App Builder, and</text:p>
     </text:list-item>
@@ -20147,12 +20147,12 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P238" loext:marker-style-name="T39"/>
    <text:p text:style-name="P205" loext:marker-style-name="T16"/>
    <text:p text:style-name="P20" loext:marker-style-name="T23"><text:span text:style-name="T23">Contents Menu Items</text:span><text:span text:style-name="T23"/></text:p>
-   <text:list xml:id="list4026656810" text:style-name="WWNum38">
+   <text:list xml:id="list109859700" text:style-name="WWNum38">
     <text:list-item>
      <text:p text:style-name="P403" loext:marker-style-name="T16"><text:span text:style-name="T16">For each contents menu item you want to add, click the </text:span><text:span text:style-name="T23">Add Item…</text:span><text:span text:style-name="T16"> button and follow the </text:span><text:span text:style-name="T23">Add Contents Menu Item</text:span><text:span text:style-name="T16"> wizard to add the item to the screen.</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list205032494514582" text:continue-list="list1777980854" text:style-name="WWNum37">
+   <text:list xml:id="list215327423952031" text:continue-list="list1922394291" text:style-name="WWNum37">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -20271,7 +20271,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P7" loext:marker-style-name="T16"><text:soft-page-break/></text:p>
-   <text:list text:continue-list="list205032494514582" text:style-name="WWNum37">
+   <text:list text:continue-list="list215327423952031" text:style-name="WWNum37">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -20359,7 +20359,7 @@ Description automatically generated</svg:desc>
      </table:table-cell>
     </table:table-row>
    </table:table>
-   <text:list xml:id="list205030722693677" text:continue-numbering="true" text:style-name="WWNum37">
+   <text:list xml:id="list215327471931997" text:continue-numbering="true" text:style-name="WWNum37">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -20373,7 +20373,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P132" loext:marker-style-name="T16"><text:soft-page-break/><text:span text:style-name="T16">To add one or more items from a </text:span><text:span text:style-name="T23">News Feed</text:span><text:span text:style-name="T16">, select </text:span><text:span text:style-name="T23">Feed</text:span><text:span text:style-name="T16">, then choose an available </text:span><text:a xlink:type="simple" xlink:href="#_Notifications" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T16">News Feed</text:span></text:span></text:a><text:span text:style-name="T16"> and the number of items from the feed you would like to display.</text:span></text:p>
-   <text:list text:continue-list="list4026656810" text:style-name="WWNum38">
+   <text:list text:continue-list="list109859700" text:style-name="WWNum38">
     <text:list-item>
      <text:p text:style-name="P403" loext:marker-style-name="T16"><text:span text:style-name="T16">You can reorder the items on the screen by selecting rows in the table and dragging up or down.</text:span><text:span text:style-name="T16"/></text:p>
     </text:list-item>
@@ -21481,7 +21481,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P15" loext:marker-style-name="T90"><text:span text:style-name="T90">The list of tasks on the Assistant tab The response generated by the AI provider</text:span><text:span text:style-name="T90"/></text:p>
    <text:p text:style-name="P15"/>
    <text:p text:style-name="P15">To configure the AI Assistant:</text:p>
-   <text:list xml:id="list2400647177" text:style-name="WWNum79">
+   <text:list xml:id="list2554374324" text:style-name="WWNum79">
     <text:list-item>
      <text:p text:style-name="P139" loext:marker-style-name="T17"><text:span text:style-name="T16">On the </text:span><text:span text:style-name="T24">Assistant Tasks</text:span><text:span text:style-name="T16"> tab, add some tasks, either by clicking </text:span><text:span text:style-name="T24">Add Task</text:span><text:span text:style-name="T16"> or </text:span><text:span text:style-name="T24">Add Task from Gallery</text:span><text:span text:style-name="T16">. For each task you will need:</text:span></text:p>
     </text:list-item>
@@ -21519,7 +21519,7 @@ Description automatically generated</svg:desc>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:list text:continue-list="list2400647177" text:style-name="WWNum79">
+   <text:list text:continue-list="list2554374324" text:style-name="WWNum79">
     <text:list-item>
      <text:p text:style-name="P139" loext:marker-style-name="T17"><text:span text:style-name="T16">On the </text:span><text:span text:style-name="T24">AI Provider</text:span><text:span text:style-name="T16"> tab, choose a provider from the possible options.</text:span></text:p>
     </text:list-item>
@@ -22447,7 +22447,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P7" loext:marker-style-name="T16"/>
    <text:p text:style-name="P15" loext:marker-style-name="T23"><text:soft-page-break/><text:span text:style-name="T11">Audio file hosting</text:span><text:span text:style-name="T11"/></text:p>
    <text:p text:style-name="Standard" loext:marker-style-name="T16"><text:span text:style-name="T16">Recommended storage locations for the files on the internet include:</text:span><text:span text:style-name="T16"/></text:p>
-   <text:list text:continue-list="list1529413968" text:style-name="WWNum5">
+   <text:list text:continue-list="list1356906618" text:style-name="WWNum5">
     <text:list-item>
      <text:p text:style-name="P368" loext:marker-style-name="T23"><text:span text:style-name="T52">A</text:span><text:span text:style-name="T23"> language-specific website</text:span></text:p>
     </text:list-item>
@@ -22455,7 +22455,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P18" loext:marker-style-name="T16"><text:span text:style-name="T16">If you have a language-specific website for making resources available for download, you could place the audio files in a folder on the website.</text:span><text:span text:style-name="T16"/></text:p>
    <text:p text:style-name="P18" loext:marker-style-name="T16"><text:span text:style-name="T16">For example, if your website is called ‘www.ourlanguage.org’, you could upload the audio files to a folder called ‘audio’. The http address for your audio files would then be: http://www.ourlanguage.org/audio </text:span><text:span text:style-name="T16"/></text:p>
    <text:p text:style-name="P18" loext:marker-style-name="T16"><text:span text:style-name="T16">Your website administrator should be able to help you do this.</text:span><text:span text:style-name="T16"/></text:p>
-   <text:list xml:id="list205033422817598" text:continue-numbering="true" text:style-name="WWNum5">
+   <text:list xml:id="list215329273704042" text:continue-numbering="true" text:style-name="WWNum5">
     <text:list-item>
      <text:p text:style-name="P369" loext:marker-style-name="T23"><text:span text:style-name="T23">Cloud Storage Services</text:span><text:span text:style-name="T23"/></text:p>
     </text:list-item>
@@ -22535,13 +22535,13 @@ Description automatically generated</svg:desc>
    </text:list>
    <text:p text:style-name="P350" loext:marker-style-name="T16"><text:span text:style-name="T16">MYKWBT – Minyanka (Wycliffe Bible Translators)<text:line-break/>BBOBSM – Konabere (Bible Society of Mali)</text:span><text:span text:style-name="T16"/></text:p>
    <text:p text:style-name="P9" loext:marker-style-name="T39"/>
-   <text:list xml:id="list2709730592" text:style-name="WWNum67">
+   <text:list xml:id="list2188389688" text:style-name="WWNum67">
     <text:list-item>
      <text:p text:style-name="P151" loext:marker-style-name="T39"><text:span text:style-name="T39">The </text:span><text:span text:style-name="T53">seventh</text:span><text:span text:style-name="T39"> character of the Fileset ID is the </text:span><text:span text:style-name="T53">collection type</text:span><text:span text:style-name="T39">:</text:span><text:span text:style-name="T39"><text:note text:id="ftn1" text:note-class="footnote"><text:note-citation>1</text:note-citation><text:note-body>
          <text:p text:style-name="Footnote">https://www.faithcomesbyhearing.com/bible-brain/core-concepts</text:p></text:note-body></text:note></text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list3044387648" text:style-name="WWNum68">
+   <text:list xml:id="list687852025" text:style-name="WWNum68">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -22562,12 +22562,12 @@ Description automatically generated</svg:desc>
      </text:list>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list205033803254147" text:continue-list="list2709730592" text:style-name="WWNum67">
+   <text:list xml:id="list215328856632227" text:continue-list="list2188389688" text:style-name="WWNum67">
     <text:list-item>
      <text:p text:style-name="P151" loext:marker-style-name="T39"><text:span text:style-name="T39">The </text:span><text:span text:style-name="T53">eighth</text:span><text:span text:style-name="T39"> character of the Fileset ID is the </text:span><text:span text:style-name="T53">drama type</text:span><text:span text:style-name="T39">:</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list text:continue-list="list3044387648" text:style-name="WWNum68">
+   <text:list text:continue-list="list687852025" text:style-name="WWNum68">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -22580,7 +22580,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P83" loext:marker-style-name="T39"/>
-   <text:list text:continue-list="list205033803254147" text:style-name="WWNum67">
+   <text:list text:continue-list="list215328856632227" text:style-name="WWNum67">
     <text:list-item>
      <text:p text:style-name="P150" loext:marker-style-name="T39"><text:span text:style-name="T39">The </text:span><text:span text:style-name="T53">ninth and tenth</text:span><text:span text:style-name="T39"> characters are the </text:span><text:span text:style-name="T53">media type</text:span><text:span text:style-name="T39">, which will be “</text:span><text:span text:style-name="T53">DA</text:span><text:span text:style-name="T39">” for digital audio.</text:span></text:p>
     </text:list-item>
@@ -22715,7 +22715,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P9" loext:marker-style-name="T39"/>
    <text:h text:style-name="P74" text:outline-level="3"><text:bookmark text:name="_How_can_I_5"/><text:bookmark-start text:name="_Toc233871256"/>How can I associate audio files with the text?<text:bookmark-end text:name="_Toc233871256"/></text:h>
    <text:p text:style-name="Standard" loext:marker-style-name="T39"><text:span text:style-name="T39">Scripture App Builder allows you to use two different types of audio file:</text:span><text:span text:style-name="T39"/></text:p>
-   <text:list xml:id="list892116431" text:style-name="WWNum24">
+   <text:list xml:id="list250914104" text:style-name="WWNum24">
     <text:list-item>
      <text:p text:style-name="P449" loext:marker-style-name="T39"><text:span text:style-name="T52">Audio files that correspond to a page of text in the app</text:span><text:span text:style-name="T39">, e.g. the audio recording of a chapter of the Bible or the text in a picture story book. These can be linked to timing files to enable synchronized highlighting of the text when the audio is playing.</text:span></text:p>
     </text:list-item>
@@ -22861,7 +22861,7 @@ Description automatically generated</svg:desc>
     </draw:frame><text:s/></text:p>
    <text:h text:style-name="P80" text:outline-level="3"><text:bookmark text:name="_How_can_I_4"/><text:bookmark-start text:name="_Toc233871261"/>How can I create subtitles from text and timing files?<text:bookmark-end text:name="_Toc233871261"/></text:h>
    <text:p text:style-name="Standard" loext:marker-style-name="T19"><text:span text:style-name="T19">If you have text and timing files for audio synchronisation, Scripture App Builder can create subtitle files for you. These can be of one of the following four formats:</text:span><text:span text:style-name="T19"/></text:p>
-   <text:list text:continue-list="list205033422817598" text:style-name="WWNum5">
+   <text:list text:continue-list="list215329273704042" text:style-name="WWNum5">
     <text:list-item>
      <text:p text:style-name="P155" loext:marker-style-name="T19"><text:span text:style-name="T19">SubRip SRT subtitles (.srt)</text:span><text:span text:style-name="T19"/></text:p>
     </text:list-item>
@@ -22881,7 +22881,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="Standard">Videos can be very powerful and engaging from a Scripture Engagement perspective. However, they can also dramatically increase the size of your app if they are included in your app installer file. It is therefore recommended that you include links to online videos whenever possible.</text:p>
    <text:h text:style-name="P74" text:outline-level="3"><text:bookmark-start text:name="_Toc233871263"/>The <text:span text:style-name="T86">Videos</text:span> tab<text:bookmark-end text:name="_Toc233871263"/></text:h>
    <text:p text:style-name="P10" loext:marker-style-name="T39"><text:span text:style-name="T39">The app can handle two types of video:</text:span><text:span text:style-name="T39"/></text:p>
-   <text:list xml:id="list205033009413179" text:continue-list="list892116431" text:style-name="WWNum24">
+   <text:list xml:id="list215328640745291" text:continue-list="list250914104" text:style-name="WWNum24">
     <text:list-item>
      <text:p text:style-name="P450" loext:marker-style-name="T39"><text:span text:style-name="T52">Videos for offline use</text:span><text:span text:style-name="T39">--MP4 files which can be packaged within the app assets, distributed on memory cards, or downloaded from the internet for use and sharing offline.</text:span></text:p>
     </text:list-item>
@@ -23060,7 +23060,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="Standard" loext:marker-style-name="T27"><text:span text:style-name="T27">Placement</text:span><text:span text:style-name="T27"/></text:p>
    <text:p text:style-name="Standard" loext:marker-style-name="T19"><text:span text:style-name="T19">Specify a position within a chapter of Scripture--before or after a given verse or at the top or bottom of a page.</text:span><text:span text:style-name="T19"/></text:p>
    <text:p text:style-name="Standard" loext:marker-style-name="T19"><text:span text:style-name="T19">Alternatively, you can place a video marker in a source book file:</text:span><text:span text:style-name="T19"/></text:p>
-   <text:list text:continue-list="list205033009413179" text:style-name="WWNum24">
+   <text:list text:continue-list="list215328640745291" text:style-name="WWNum24">
     <text:list-item>
      <text:p text:style-name="P449" loext:marker-style-name="T19"><text:span text:style-name="T27">Video markers in SFM book files</text:span><text:span text:style-name="T19">: Use the </text:span><text:span text:style-name="T108">\video</text:span><text:span text:style-name="T19"> marker, together with the ID of the video within an SFM book file, e.g.</text:span></text:p>
     </text:list-item>
@@ -23207,12 +23207,12 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P3" loext:marker-style-name="T39"><draw:frame draw:style-name="fr4" draw:name="Picture 1986647600" text:anchor-type="as-char" svg:width="4.4173in" svg:height="3.2165in" draw:z-index="0"><draw:image xlink:href="SAB02/70.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/png"/>
     </draw:frame><text:s/></text:p>
    <text:p text:style-name="P8" loext:marker-style-name="T39"/>
-   <text:list xml:id="list939510001" text:style-name="WWNum114">
+   <text:list xml:id="list1671730806" text:style-name="WWNum114">
     <text:list-item>
      <text:p text:style-name="P160" loext:marker-style-name="T52"><text:span text:style-name="T52">Books from Paratext, the Digital Bible Library, Word documents, Bloom or text files</text:span><text:span text:style-name="T52"/></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list584677956" text:style-name="WWNum115">
+   <text:list xml:id="list1835147188" text:style-name="WWNum115">
     <text:list-item>
      <text:p text:style-name="P161" loext:marker-style-name="T39"><text:span text:style-name="T39">Select this option on the </text:span><text:span text:style-name="T52">Book Type</text:span><text:span text:style-name="T39"> screen and then choose the specific book files by clicking </text:span><text:span text:style-name="T52">Add Books…</text:span><text:span text:style-name="T39"> on the subsequent </text:span><text:span text:style-name="T52">Books</text:span><text:span text:style-name="T39"> screen.</text:span></text:p>
     </text:list-item>
@@ -23262,12 +23262,12 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P83" loext:marker-style-name="T39"/>
-   <text:list xml:id="list205032828316115" text:continue-list="list939510001" text:style-name="WWNum114">
+   <text:list xml:id="list215328163417392" text:continue-list="list1671730806" text:style-name="WWNum114">
     <text:list-item>
      <text:p text:style-name="P160" loext:marker-style-name="T52"><text:span text:style-name="T52">Audio-only books</text:span><text:span text:style-name="T52"/></text:p>
     </text:list-item>
    </text:list>
-   <text:list text:continue-list="list584677956" text:style-name="WWNum115">
+   <text:list text:continue-list="list1835147188" text:style-name="WWNum115">
     <text:list-item>
      <text:p text:style-name="P161" loext:marker-style-name="T39"><text:span text:style-name="T39">Select this option on the </text:span><text:span text:style-name="T52">Book Type</text:span><text:span text:style-name="T39"> screen and then choose which type of audio-only books to add on the </text:span><text:span text:style-name="T52">Add Audio-only Books</text:span><text:span text:style-name="T39"> screen. Note that if you choose </text:span><text:span text:style-name="T52">Selected Bible Books</text:span><text:span text:style-name="T39"> you will next be asked which books to add.</text:span></text:p>
     </text:list-item>
@@ -23294,7 +23294,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P83" loext:marker-style-name="T39"/>
-   <text:list xml:id="list205032585385860" text:continue-list="list205032828316115" text:style-name="WWNum114">
+   <text:list xml:id="list215329335064994" text:continue-list="list215328163417392" text:style-name="WWNum114">
     <text:list-item>
      <text:p text:style-name="P160" loext:marker-style-name="T52"><text:span text:style-name="T52">Commonly used Bibles</text:span><text:span text:style-name="T52"/></text:p>
     </text:list-item>
@@ -23308,7 +23308,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P165" loext:marker-style-name="T39"><text:span text:style-name="T39"/></text:p>
-   <text:list text:continue-list="list205032585385860" text:style-name="WWNum114">
+   <text:list text:continue-list="list215329335064994" text:style-name="WWNum114">
     <text:list-item>
      <text:p text:style-name="P160" loext:marker-style-name="T52"><text:span text:style-name="T52">Books from the YouVersion platform </text:span><text:span text:style-name="T52"/></text:p>
     </text:list-item>
@@ -23743,7 +23743,7 @@ Description automatically generated</svg:desc>
    </text:list>
    <text:p text:style-name="List_20_Paragraph" loext:marker-style-name="T18"><text:span text:style-name="T18">You can specify from where the HTML Output retrieves any necessary audio files.</text:span><text:span text:style-name="T18"/></text:p>
    <text:p text:style-name="P218" loext:marker-style-name="T18"><text:soft-page-break/></text:p>
-   <text:list xml:id="list205033335805478" text:continue-numbering="true" text:style-name="WWNum111">
+   <text:list xml:id="list215328323744617" text:continue-numbering="true" text:style-name="WWNum111">
     <text:list-item>
      <text:p text:style-name="P171" loext:marker-style-name="T26"><text:span text:style-name="T15">Progressive Web App</text:span><text:span text:style-name="T26"> tab</text:span></text:p>
     </text:list-item>
@@ -24097,7 +24097,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P218" loext:marker-style-name="T18"/>
    <text:p text:style-name="Standard" loext:marker-style-name="T26"><text:span text:style-name="T26">Export to HTML settings</text:span><text:span text:style-name="T26"/></text:p>
    <text:p text:style-name="Standard" loext:marker-style-name="T18"><text:span text:style-name="T18">Selecting this displays the Export to HTML settings dialog box with two tabs:</text:span><text:span text:style-name="T18"/></text:p>
-   <text:list text:continue-list="list205033335805478" text:style-name="WWNum111">
+   <text:list text:continue-list="list215328323744617" text:style-name="WWNum111">
     <text:list-item>
      <text:p text:style-name="P171" loext:marker-style-name="T26"><text:span text:style-name="T15">Audio Files</text:span><text:span text:style-name="T26"> tab</text:span></text:p>
     </text:list-item>
@@ -24163,7 +24163,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P9" loext:marker-style-name="T39"/>
    <text:h text:style-name="P64" text:outline-level="2" loext:marker-style-name="T39"><text:bookmark-start text:name="_Toc233871327"/><text:span text:style-name="T39">How do I define a picture story book?</text:span><text:bookmark-end text:name="_Toc233871327"/><text:span text:style-name="T39"/></text:h>
    <text:p text:style-name="P10" loext:marker-style-name="T16"><text:span text:style-name="T16">Picture story books can be defined in one of two formats:</text:span><text:span text:style-name="T16"/></text:p>
-   <text:list xml:id="list3939823370" text:style-name="WWNum9">
+   <text:list xml:id="list1518435666" text:style-name="WWNum9">
     <text:list-item>
      <text:p text:style-name="P473" loext:marker-style-name="T16"><text:a xlink:type="simple" xlink:href="#_What_do_picture" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:soft-page-break/><text:span text:style-name="Internet_20_link"><text:span text:style-name="T16">Microsoft Word (.docx) documents</text:span></text:span></text:a><text:span text:style-name="T16">, or</text:span></text:p>
     </text:list-item>
@@ -24430,7 +24430,7 @@ Description automatically generated</svg:desc>
    <text:h text:style-name="P50" text:outline-level="1"><text:bookmark text:name="_Song_Books"/><text:bookmark-start text:name="_Ref459652851"/><text:bookmark-start text:name="_Toc233871337"/>Song Books<text:bookmark-end text:name="_Ref459652851"/><text:bookmark-end text:name="_Toc233871337"/></text:h>
    <text:h text:style-name="P64" text:outline-level="2" loext:marker-style-name="T39"><text:bookmark-start text:name="_Toc233871338"/><text:span text:style-name="T39">How do I define a song book?</text:span><text:bookmark-end text:name="_Toc233871338"/><text:span text:style-name="T39"/></text:h>
    <text:p text:style-name="Standard" loext:marker-style-name="T39"><text:span text:style-name="T39">You can build a song book file similar to other book files, but with one song per &apos;chapter&apos;. </text:span><text:span text:style-name="T16">Song books are defined in one of two formats:</text:span></text:p>
-   <text:list text:continue-list="list3939823370" text:style-name="WWNum9">
+   <text:list text:continue-list="list1518435666" text:style-name="WWNum9">
     <text:list-item>
      <text:p text:style-name="P473" loext:marker-style-name="T16"><text:a xlink:type="simple" xlink:href="#_What_do_song" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T16">Microsoft Word (.docx) documents</text:span></text:span></text:a><text:span text:style-name="T16">, or</text:span></text:p>
     </text:list-item>
@@ -24471,7 +24471,7 @@ Description automatically generated</svg:desc>
    </text:list>
    <text:p text:style-name="P387" loext:marker-style-name="T20"><draw:frame draw:style-name="fr4" draw:name="Picture 181" text:anchor-type="as-char" svg:width="5.6965in" svg:height="5.1827in" draw:z-index="0"><draw:image xlink:href="SAB02/87.png" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/png"/>
     </draw:frame><text:s/></text:p>
-   <text:list xml:id="list205034818536351" text:continue-numbering="true" text:style-name="WWNum13">
+   <text:list xml:id="list215327665355271" text:continue-numbering="true" text:style-name="WWNum13">
     <text:list-item>
      <text:p text:style-name="P490" loext:marker-style-name="T16"><text:soft-page-break/><text:span text:style-name="T16">Create the following paragraph styles:</text:span><text:span text:style-name="T16"/></text:p>
     </text:list-item>
@@ -24566,7 +24566,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P292" loext:marker-style-name="T16"><text:span text:style-name="T16">Do this for c, s, q1 and q2.</text:span><text:span text:style-name="T16"/></text:p>
-   <text:list xml:id="list205033501896141" text:continue-list="list205034818536351" text:style-name="WWNum13">
+   <text:list xml:id="list215327697820832" text:continue-list="list215327665355271" text:style-name="WWNum13">
     <text:list-item>
      <text:p text:style-name="P491" loext:marker-style-name="T16"><text:span text:style-name="T16">Apply the above styles to all the chapter numbers, song titles and the lines of the song lyrics. </text:span><text:span text:style-name="T16"/></text:p>
     </text:list-item>
@@ -24743,7 +24743,7 @@ Description automatically generated</svg:desc>
    </table:table>
    <text:p text:style-name="P247" loext:marker-style-name="T39"/>
    <text:p text:style-name="P21" loext:marker-style-name="T39"><text:span text:style-name="T39">All of the songs are contained within a single Word document.</text:span><text:span text:style-name="T39"/></text:p>
-   <text:list text:continue-list="list205033501896141" text:style-name="WWNum13">
+   <text:list text:continue-list="list215327697820832" text:style-name="WWNum13">
     <text:list-item>
      <text:p text:style-name="P491" loext:marker-style-name="T16"><text:span text:style-name="T16">Save the document in </text:span><text:span text:style-name="T23">.docx</text:span><text:span text:style-name="T16"> format.</text:span></text:p>
     </text:list-item>
@@ -24903,7 +24903,7 @@ Description automatically generated</svg:desc>
     </draw:frame><text:s/></text:p>
    <text:p text:style-name="Standard"/>
    <text:p text:style-name="P16">To set up a registration screen, you need to do some configuration work in two places:</text:p>
-   <text:list text:continue-list="list4022309504" text:style-name="WWNum50">
+   <text:list text:continue-list="list2676321829" text:style-name="WWNum50">
     <text:list-item>
      <text:p text:style-name="P394">within Scripture App Builder, and</text:p>
     </text:list-item>
@@ -25345,7 +25345,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P9" loext:marker-style-name="T39"/>
-   <text:list xml:id="list205033890404914" text:continue-numbering="true" text:style-name="WWNum81">
+   <text:list xml:id="list215329364027663" text:continue-numbering="true" text:style-name="WWNum81">
     <text:list-item>
      <text:p text:style-name="P177" loext:marker-style-name="T39"><text:span text:style-name="T52">App Projects:</text:span><text:span text:style-name="T39"> SAB stores your app projects in this folder, with the subfolders named after each project. If you have a project selected in the Tree View, you can view its project folder by selecting </text:span><text:span text:style-name="T52">File</text:span><text:span text:style-name="T39"> </text:span><text:span text:style-name="T71"></text:span><text:span text:style-name="T39"> </text:span><text:span text:style-name="T52">View Project Folder</text:span><text:span text:style-name="T39">.</text:span></text:p>
     </text:list-item>
@@ -25364,7 +25364,7 @@ Description automatically generated</svg:desc>
     </table:table-row>
    </table:table>
    <text:p text:style-name="P9" loext:marker-style-name="T39"/>
-   <text:list text:continue-list="list205030722693677" text:style-name="WWNum37">
+   <text:list text:continue-list="list215327471931997" text:style-name="WWNum37">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -25392,7 +25392,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P249" loext:marker-style-name="T39"><text:s/></text:p>
-   <text:list text:continue-list="list205033890404914" text:style-name="WWNum81">
+   <text:list text:continue-list="list215329364027663" text:style-name="WWNum81">
     <text:list-item>
      <text:list>
       <text:list-item>
