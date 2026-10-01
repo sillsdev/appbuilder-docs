@@ -120,7 +120,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">3941836</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">3920804</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">true</config:config-item>
@@ -3086,7 +3086,7 @@
    </text:table-of-content>
    <text:p text:style-name="P54" loext:marker-style-name="T22"/>
    <text:p text:style-name="P55" loext:marker-style-name="T22"/>
-   <text:list xml:id="list2611326939" text:style-name="WWNum13">
+   <text:list xml:id="list1188078146" text:style-name="WWNum13">
     <text:list-item>
      <text:h text:style-name="P8" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc500235124"/><text:span text:style-name="T3">Introduction</text:span><text:bookmark-end text:name="_Toc500235124"/><text:span text:style-name="T3"/></text:h>
     </text:list-item>
@@ -3203,7 +3203,7 @@
    <text:p text:style-name="P29" loext:marker-style-name="T3"/>
    <text:p text:style-name="P29" loext:marker-style-name="T3"/>
    <text:p text:style-name="P29" loext:marker-style-name="T3"/>
-   <text:list xml:id="list205052962229747" text:continue-list="list2611326939" text:style-name="WWNum13">
+   <text:list xml:id="list194648104111628" text:continue-list="list1188078146" text:style-name="WWNum13">
     <text:list-item>
      <text:h text:style-name="P8" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc500235125"/><text:soft-page-break/><text:span text:style-name="T3">Getting Started</text:span><text:bookmark-end text:name="_Toc500235125"/><text:span text:style-name="T3"/></text:h>
      <text:list>
@@ -3470,7 +3470,7 @@
    <text:p text:style-name="P29" loext:marker-style-name="T3"/>
    <text:p text:style-name="P29" loext:marker-style-name="T3"/>
    <text:p text:style-name="P29" loext:marker-style-name="T3"/>
-   <text:list text:continue-list="list205052962229747" text:style-name="WWNum13">
+   <text:list text:continue-list="list194648104111628" text:style-name="WWNum13">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -3484,7 +3484,7 @@
    <text:p text:style-name="P4"><draw:frame draw:style-name="fr4" draw:name="Image3" text:anchor-type="as-char" svg:width="3.5138in" svg:height="1.389in" draw:z-index="0"><draw:image xlink:href="RAB06/3.jpg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" draw:mime-type="image/jpeg"/>
     </draw:frame><text:s/></text:p>
    <text:p text:style-name="P31" loext:marker-style-name="T3"/>
-   <text:list xml:id="list205052491230086" text:continue-numbering="true" text:style-name="WWNum13">
+   <text:list xml:id="list194648847105526" text:continue-numbering="true" text:style-name="WWNum13">
     <text:list-item>
      <text:h text:style-name="P11" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc500235128"/><text:span text:style-name="T3">Producing Timing Files</text:span><text:bookmark-end text:name="_Toc500235128"/><text:span text:style-name="T3"/></text:h>
     </text:list-item>
@@ -3692,7 +3692,7 @@
    <text:p text:style-name="Standard" loext:marker-style-name="T3"><text:span text:style-name="T3">The timing file is now ready to be used in an app.</text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P29" loext:marker-style-name="T3"/>
    <text:p text:style-name="P29" loext:marker-style-name="T3"/>
-   <text:list xml:id="list205051793689187" text:continue-list="list205052491230086" text:style-name="WWNum13">
+   <text:list xml:id="list194650004117565" text:continue-list="list194648847105526" text:style-name="WWNum13">
     <text:list-item>
      <text:h text:style-name="P9" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc500235129"/><text:span text:style-name="T3">Timing Labels Assistant</text:span><text:bookmark-end text:name="_Toc500235129"/><text:span text:style-name="T3"/></text:h>
     </text:list-item>
@@ -3756,7 +3756,7 @@
      <text:p text:style-name="P86" loext:marker-style-name="T3"><text:soft-page-break/><text:span text:style-name="T3">Click on the icon in the taskbar and select </text:span><text:span text:style-name="T8">Exit</text:span><text:span text:style-name="T3">.</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list xml:id="list205052969231776" text:continue-list="list205051793689187" text:style-name="WWNum13">
+   <text:list xml:id="list194648456883133" text:continue-list="list194650004117565" text:style-name="WWNum13">
     <text:list-item>
      <text:h text:style-name="P10" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc500235130"/><text:span text:style-name="T3">Usability Tips</text:span><text:bookmark-end text:name="_Toc500235130"/><text:span text:style-name="T3"/></text:h>
      <text:list>
@@ -3817,7 +3817,7 @@
    </text:list>
    <text:p text:style-name="P43" loext:marker-style-name="T3"><text:soft-page-break/></text:p>
    <text:p text:style-name="P38" loext:marker-style-name="T3"/>
-   <text:list xml:id="list205051877686339" text:continue-list="list205052969231776" text:style-name="WWNum13">
+   <text:list xml:id="list194649189697640" text:continue-list="list194648456883133" text:style-name="WWNum13">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -3878,7 +3878,7 @@
    </text:list>
    <text:p text:style-name="P29" loext:marker-style-name="T3"/>
    <text:p text:style-name="P29" loext:marker-style-name="T3"/>
-   <text:list text:continue-list="list205051877686339" text:style-name="WWNum13">
+   <text:list text:continue-list="list194649189697640" text:style-name="WWNum13">
     <text:list-item>
      <text:h text:style-name="P10" text:outline-level="1" loext:marker-style-name="T3"><text:bookmark-start text:name="_Toc500235133"/><text:span text:style-name="T3">FAQ</text:span><text:bookmark-end text:name="_Toc500235133"/><text:span text:style-name="T3"/></text:h>
      <text:list>
@@ -3911,7 +3911,7 @@
    <text:p text:style-name="P29" loext:marker-style-name="T3"/>
    <text:p text:style-name="Standard" loext:marker-style-name="T3"><text:span text:style-name="T3">For </text:span><text:span text:style-name="T7">section headings in picture story books</text:span><text:span text:style-name="T3">, add the page number before the label, e.g. 1s1, 1s2, 1s3 for section headings on the first page; 2s1, 2s2, etc. for section headings on the second page.</text:span></text:p>
    <text:p text:style-name="P29" loext:marker-style-name="T3"/>
-   <text:list xml:id="list205051374592965" text:continue-numbering="true" text:style-name="WWNum13">
+   <text:list xml:id="list194648324104092" text:continue-numbering="true" text:style-name="WWNum13">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -3947,7 +3947,7 @@
    <text:p text:style-name="Standard" loext:marker-style-name="T3"><text:span text:style-name="T3">To create a label range, drag the &lt; or &gt; part of the label marker.</text:span><text:span text:style-name="T3"/></text:p>
    <text:p text:style-name="P29" loext:marker-style-name="T3"/>
    <text:p text:style-name="P29" loext:marker-style-name="T3"/>
-   <text:list text:continue-list="list205051374592965" text:style-name="WWNum13">
+   <text:list text:continue-list="list194648324104092" text:style-name="WWNum13">
     <text:list-item>
      <text:list>
       <text:list-item>

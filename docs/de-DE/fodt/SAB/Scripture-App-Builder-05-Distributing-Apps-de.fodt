@@ -120,7 +120,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">5869307</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">5918833</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
@@ -4406,7 +4406,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
-   <text:list xml:id="list205041991036385" text:continue-numbering="true" text:style-name="WWNum26">
+   <text:list xml:id="list194642426041048" text:continue-numbering="true" text:style-name="WWNum26">
     <text:list-item>
      <text:p text:style-name="P9" loext:marker-style-name="T4"><text:soft-page-break/><text:span text:style-name="T4">Select </text:span><text:span text:style-name="T11">Grow</text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T38"></text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T11">Store presence</text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T38"></text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T11">Main store listing</text:span><text:span text:style-name="T4"> from the menu on the left of the screen, and enter the following details:</text:span></text:p>
     </text:list-item>
@@ -4430,7 +4430,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P25" loext:marker-style-name="T4"><text:span text:style-name="T4">You must not include user testimonials, excessive details or long lists of keywords. See </text:span><text:a xlink:type="simple" xlink:href="https://play.google.com/about/storelisting-promotional/metadata/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T4">https://play.google.com/about/storelisting-promotional/metadata/</text:span></text:span></text:a><text:span text:style-name="T4"> for more details.</text:span></text:p>
    <text:p text:style-name="P13" loext:marker-style-name="T4"/>
    <text:p text:style-name="P17" loext:marker-style-name="T11"><text:span text:style-name="T11">Graphics</text:span><text:span text:style-name="T11"/></text:p>
-   <text:list xml:id="list205040775336441" text:continue-numbering="true" text:style-name="WWNum25">
+   <text:list xml:id="list194641412573839" text:continue-numbering="true" text:style-name="WWNum25">
     <text:list-item>
      <text:p text:style-name="P24" loext:marker-style-name="T4"><text:span text:style-name="T10">App icon</text:span><text:span text:style-name="T4"> (512 by 512 pixels)</text:span></text:p>
      <text:list>
@@ -4460,12 +4460,12 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P47" loext:marker-style-name="T4"/>
    <text:p text:style-name="P5" loext:marker-style-name="T4"><text:span text:style-name="T4">Click </text:span><text:span text:style-name="T11">Save</text:span><text:span text:style-name="T4"> at the bottom of the screen when you have finished.</text:span></text:p>
    <text:p text:style-name="P76" loext:marker-style-name="T4"><text:span text:style-name="T4"><text:line-break/> </text:span><text:span text:style-name="T4"/></text:p>
-   <text:list xml:id="list205041636776110" text:continue-list="list205041991036385" text:style-name="WWNum26">
+   <text:list xml:id="list194642488809094" text:continue-list="list194642426041048" text:style-name="WWNum26">
     <text:list-item>
      <text:p text:style-name="P9" loext:marker-style-name="T4"><text:span text:style-name="T4">Select </text:span><text:span text:style-name="T11">Store presence</text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T38"></text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T11">Store settings</text:span><text:span text:style-name="T4"> from the menu on the left of the screen, and enter the following details:</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list text:continue-list="list205040775336441" text:style-name="WWNum25">
+   <text:list text:continue-list="list194641412573839" text:style-name="WWNum25">
     <text:list-item>
      <text:p text:style-name="P18" loext:marker-style-name="T4"><text:span text:style-name="T11">App Category</text:span><text:span text:style-name="T4">:</text:span></text:p>
      <text:list>
@@ -4497,13 +4497,13 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
    <text:p text:style-name="P5" loext:marker-style-name="T4"><text:span text:style-name="T4">Click </text:span><text:span text:style-name="T11">Save</text:span><text:span text:style-name="T4"> at the bottom of the screen when you have finished.</text:span></text:p>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
-   <text:list text:continue-list="list205041636776110" text:style-name="WWNum26">
+   <text:list text:continue-list="list194642488809094" text:style-name="WWNum26">
     <text:list-item>
      <text:p text:style-name="P9" loext:marker-style-name="T4"><text:span text:style-name="T4">Select </text:span><text:span text:style-name="T11">Release</text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T38"></text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T11">Production</text:span><text:span text:style-name="T4"> from the menu on the left of the screen, and click the button </text:span><text:span text:style-name="T11">Create new release</text:span><text:span text:style-name="T4"> at the top right of the screen.</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
-   <text:list xml:id="list205042564522261" text:continue-numbering="true" text:style-name="WWNum26">
+   <text:list xml:id="list194642370554470" text:continue-numbering="true" text:style-name="WWNum26">
     <text:list-item>
      <text:p text:style-name="P9" loext:marker-style-name="T4"><text:span text:style-name="T4">In the </text:span><text:span text:style-name="T11">App Bundles</text:span><text:span text:style-name="T4"> section of the screen, upload the Android App Bundle (.aab) file for your app and give release a </text:span><text:span text:style-name="T11">Release name</text:span><text:span text:style-name="T4"> in the field below.</text:span></text:p>
     </text:list-item>
@@ -4522,7 +4522,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P14" loext:marker-style-name="T4"><text:soft-page-break/></text:p>
-   <text:list text:continue-list="list205042564522261" text:style-name="WWNum26">
+   <text:list text:continue-list="list194642370554470" text:style-name="WWNum26">
     <text:list-item>
      <text:p text:style-name="P9" loext:marker-style-name="T4"><text:span text:style-name="T4">Click the </text:span><text:span text:style-name="T11">Save </text:span><text:span text:style-name="T4">button and then </text:span><text:span text:style-name="T11">Review release</text:span><text:span text:style-name="T4"> button at the bottom right of the screen.</text:span></text:p>
     </text:list-item>
