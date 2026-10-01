@@ -75,7 +75,27 @@ jobs:
             timeout 60s libreoffice --headless --invisible "macro:///Standard.Module1.SaveAndExitDocument" "$file"
           done
 
-  
+      - name: Copy English images to other languages
+        run: |
+          for lang_dir in images/*/; do
+            lang="$(basename "$lang_dir")"
+
+            # Don't copy English to itself
+            if [[ "$lang" == "en-US" ]]; then
+              continue
+            fi
+
+            # Copy English images, but don't overwrite existing files
+            find "images/en-US" -type f | while read -r file; do
+              relative="${file#images/en-US/}"
+              destination="images/$lang/$relative"
+
+              mkdir -p "$(dirname "$destination")"
+              cp -n "$file" "$destination"
+              echo "Copied $file to $destination"
+            done
+          done
+
       - name: Copy image folders
         run: |
           docs_directories="$(ls docs/)"
