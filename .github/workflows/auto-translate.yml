@@ -91,8 +91,7 @@ jobs:
               destination="images/$lang/$relative"
 
               mkdir -p "$(dirname "$destination")"
-              cp -n "$file" "$destination"
-              echo "Copied $file to $destination"
+              cp --update=none "$file" "$destination"
             done
           done
 
@@ -100,6 +99,7 @@ jobs:
         run: |
           docs_directories="$(ls docs/)"
           for current_docs_dir in $docs_directories; do
+            echo "Processing $current_docs_dir"
             find images -type f -name "*" | while read file; do
               outdir="$(dirname "$file")"
               outdir2="$(dirname "$outdir")"
@@ -110,10 +110,8 @@ jobs:
               
               if [[ "$project_dirname3" != "en-US" ]]; then
                 cp -fr "$outdir" "docs/$project_dirname3/fodt/$project_dirname2"
-                echo "copied: $outdir to: docs/$project_dirname3/fodt/$project_dirname2"
               else
                 cp -fr "$outdir" "docs-en/fodt/$project_dirname2"
-                echo "copied: $outdir to: docs-en/fodt/$project_dirname2"
               fi
             done
           done
