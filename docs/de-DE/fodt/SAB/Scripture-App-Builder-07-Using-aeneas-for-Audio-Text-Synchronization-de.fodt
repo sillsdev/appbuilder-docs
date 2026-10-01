@@ -120,7 +120,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">4614706</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">4634417</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
@@ -5043,7 +5043,7 @@
    <text:p text:style-name="Standard" loext:marker-style-name="T11"><text:soft-page-break/><text:span text:style-name="T11"><text:s/>…are mapped against the input audio file to find phrase breaks.</text:span><text:span text:style-name="T11"/></text:p>
    <text:p text:style-name="P52" loext:marker-style-name="T11"/>
    <text:p text:style-name="P59" loext:marker-style-name="T11"><text:span text:style-name="T11">Best results are obtained:</text:span><text:span text:style-name="T11"/></text:p>
-   <text:list xml:id="list1458681469" text:style-name="WWNum11">
+   <text:list xml:id="list2254526587" text:style-name="WWNum11">
     <text:list-item>
      <text:p text:style-name="P7" loext:marker-style-name="T11"><text:span text:style-name="T11">if you have a clearly spoken recording,</text:span><text:span text:style-name="T11"/></text:p>
     </text:list-item>
@@ -5147,7 +5147,7 @@
    </table:table>
    <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark text:name="_Preparing_Your_Audio"/><text:bookmark-start text:name="_Toc217376502"/>Preparing Your Audio Files<text:bookmark-end text:name="_Toc217376502"/></text:h>
    <text:p text:style-name="P59" loext:marker-style-name="T11"><text:span text:style-name="T11">As mentioned above, the best results are obtained:</text:span><text:span text:style-name="T11"/></text:p>
-   <text:list text:continue-list="list1458681469" text:style-name="WWNum11">
+   <text:list text:continue-list="list2254526587" text:style-name="WWNum11">
     <text:list-item>
      <text:p text:style-name="P7" loext:marker-style-name="T11"><text:span text:style-name="T11">if you have a clearly spoken recording,</text:span><text:span text:style-name="T11"/></text:p>
     </text:list-item>
@@ -5500,7 +5500,7 @@
    <text:p text:style-name="P19" loext:marker-style-name="T3"/>
    <text:p text:style-name="P29" loext:marker-style-name="T3"><text:span text:style-name="T3">You can also use the </text:span><text:span text:style-name="T8">N</text:span><text:span text:style-name="T3"> keyboard shortcut to move to the next row.</text:span></text:p>
    <text:p text:style-name="P19" loext:marker-style-name="T3"/>
-   <text:list xml:id="list205037134429377" text:continue-numbering="true" text:style-name="WWNum23">
+   <text:list xml:id="list194643964207694" text:continue-numbering="true" text:style-name="WWNum23">
     <text:list-item>
      <text:p text:style-name="P28" loext:marker-style-name="T3"><text:span text:style-name="T3">If you hear that the timing for a row needs to be fine-tuned, you can move it backwards or forwards by increments:</text:span><text:span text:style-name="T3"/></text:p>
     </text:list-item>
@@ -5603,7 +5603,7 @@
     </table:table-row>
    </table:table>
    <text:p text:style-name="List_20_Paragraph"/>
-   <text:list text:continue-list="list205037134429377" text:style-name="WWNum23">
+   <text:list text:continue-list="list194643964207694" text:style-name="WWNum23">
     <text:list-item>
      <text:p text:style-name="P28" loext:marker-style-name="T3"><text:span text:style-name="T3">When you are happy with the current row, continue clicking on the subsequent rows in the same way, fine tuning those that need adjusting.</text:span><text:span text:style-name="T3"/></text:p>
     </text:list-item>

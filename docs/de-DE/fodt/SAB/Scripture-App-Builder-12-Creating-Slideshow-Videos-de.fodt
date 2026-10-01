@@ -120,7 +120,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">6978969</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">6989661</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
@@ -2213,7 +2213,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P3"><text:a xlink:type="simple" xlink:href="https://www.youtube.com/watch?v=oY3BrpoVbGI&amp;list=PLoDMmx9LIxpPcT2qrXQXAkda5pcvuWIdh" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:soft-page-break/><text:span text:style-name="Internet_20_link">Jesus calms the storm – in the Juni Kuin language of Peru</text:span></text:a></text:p>
    <text:p text:style-name="Standard"><text:line-break/>The videos are MP4 files which can be shared with others, uploaded to YouTube or Vimeo, or integrated within a Scripture app.</text:p>
    <text:p text:style-name="Standard"/>
-   <text:list xml:id="list205036696913043" text:continue-numbering="true" text:style-name="WWNum17">
+   <text:list xml:id="list194634888212784" text:continue-numbering="true" text:style-name="WWNum17">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -2232,7 +2232,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="Standard"/>
-   <text:list text:continue-list="list205036696913043" text:style-name="WWNum17">
+   <text:list text:continue-list="list194634888212784" text:style-name="WWNum17">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -2297,7 +2297,7 @@ Description automatically generated</svg:desc>
    </table:table>
    <text:p text:style-name="Standard"/>
    <text:p text:style-name="Standard"/>
-   <text:list xml:id="list205037618990593" text:continue-numbering="true" text:style-name="WWNum17">
+   <text:list xml:id="list194633753994940" text:continue-numbering="true" text:style-name="WWNum17">
     <text:list-item>
      <text:h text:style-name="P23" text:outline-level="1"><text:bookmark-start text:name="_Toc112848940"/>Setting up slideshow videos<text:bookmark-end text:name="_Toc112848940"/> </text:h>
     </text:list-item>
@@ -2313,7 +2313,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="Standard"/>
-   <text:list xml:id="list205037160613952" text:continue-list="list205037618990593" text:style-name="WWNum17">
+   <text:list xml:id="list194633821986888" text:continue-list="list194633753994940" text:style-name="WWNum17">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -2343,7 +2343,7 @@ Description automatically generated</svg:desc>
    </text:list>
    <text:p text:style-name="P7">The installation process will allow you to set the folder where the templates will be located on your computer. Once installed, this folder will appear in the <text:span text:style-name="T11">Slideshow Templates </text:span>settings.</text:p>
    <text:p text:style-name="P8"><text:line-break/> </text:p>
-   <text:list xml:id="list205037461291192" text:continue-list="list205037160613952" text:style-name="WWNum17">
+   <text:list xml:id="list194635071351236" text:continue-list="list194633821986888" text:style-name="WWNum17">
     <text:list-item>
      <text:list>
       <text:list-item>
@@ -2366,7 +2366,7 @@ Description automatically generated</svg:desc>
    </text:list>
    <text:p text:style-name="P19" loext:marker-style-name="T4"/>
    <text:p text:style-name="P19" loext:marker-style-name="T4"/>
-   <text:list text:continue-list="list205037461291192" text:style-name="WWNum17">
+   <text:list text:continue-list="list194635071351236" text:style-name="WWNum17">
     <text:list-item>
      <text:h text:style-name="P24" text:outline-level="1"><text:bookmark-start text:name="_Toc112848943"/>Preparing an app project for slideshow videos<text:bookmark-end text:name="_Toc112848943"/></text:h>
     </text:list-item>
@@ -2383,7 +2383,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="Standard">Use <text:span text:style-name="T11">Fine Tune Timings</text:span> to verify that the timings are correct.</text:p>
    <text:p text:style-name="Standard"><text:soft-page-break/></text:p>
    <text:p text:style-name="Standard"/>
-   <text:list xml:id="list205036962053769" text:continue-numbering="true" text:style-name="WWNum17">
+   <text:list xml:id="list194635087949489" text:continue-numbering="true" text:style-name="WWNum17">
     <text:list-item>
      <text:h text:style-name="P25" text:outline-level="1"><text:bookmark-start text:name="_Toc112848944"/>Running the Create Slideshow Wizard<text:bookmark-end text:name="_Toc112848944"/></text:h>
     </text:list-item>
@@ -2501,7 +2501,7 @@ Description automatically generated</svg:desc>
    </text:list>
    <text:p text:style-name="Standard"/>
    <text:p text:style-name="Standard"/>
-   <text:list text:continue-list="list205036962053769" text:style-name="WWNum17">
+   <text:list text:continue-list="list194635087949489" text:style-name="WWNum17">
     <text:list-item>
      <text:h text:style-name="P24" text:outline-level="1"><text:bookmark-start text:name="_Toc112848945"/><text:soft-page-break/>Distributing and using the videos<text:bookmark-end text:name="_Toc112848945"/></text:h>
     </text:list-item>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><dc:title>Constructeur d&apos;applications bibliques - Distribuer des applications</dc:title>
+ <office:meta><dc:title>Scripture App Builder - Distributing Apps</dc:title>
 <meta:initial-creator>Richard Margetts</meta:initial-creator><meta:editing-cycles>295</meta:editing-cycles><meta:print-date>2026-01-30T17:53:00</meta:print-date><meta:creation-date>2015-08-15T09:35:00</meta:creation-date><dc:date>2026-07-28T11:17:38.748691906</dc:date><meta:editing-duration>PT2M49S</meta:editing-duration><meta:generator>LibreOffice/24.2.7.2$Linux_X86_64 LibreOffice_project/420$Build-2</meta:generator><meta:document-statistic meta:table-count="14" meta:image-count="14" meta:object-count="0" meta:page-count="24" meta:paragraph-count="310" meta:word-count="5372" meta:character-count="30390" meta:non-whitespace-character-count="25343"/>
 <meta:user-defined meta:name="AppVersion">16.0000</meta:user-defined><meta:template xlink:type="simple" xlink:actuate="onRequest" xlink:title="Normal.dotm" xlink:href=""/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">145203</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">32016</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">21354</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">44743</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">22782</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
   </config:config-item-set>
@@ -96,7 +96,7 @@
    <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
    <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
    <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">xAH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAsAAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luYWRqdXN0bWVudD0wLDAsJzAsMApjb2xvcmRlcHRoPTI0CmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4dERhdGEKUGFnZVNpemU6TGV0dGVyAER1cGxleDpOb25lAAASAENPTVBBVF9EVVBMRVhfTU9ERQ8ARHVwbGV4TW9kZTo6T2ZmDABQUklOVEVSX05BTUUPAEdlbmVyaWMgUHJpbnRlcgsARFJJVkVSX05BTUUHAFNHRU5QUlQ=</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">xAH+/0dlbmVyaWMgUHJpbnRlcgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAU0dFTlBSVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWAAMAsAAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9R2VuZXJpYyBQcmludGVyCm9yaWVudGF0aW9uPVBvcnRyYWl0CmNvcGllcz0xCmNvbGxhdGU9ZmFsc2UKbWFyZ2luYWRqdXN0bWVudD0wLDAsJzAsMApjb2xvcmRlcHRoPTI0CmNvbG9yZGV2aWNlPTAKUFBEQ29udGV4dERhdGEKRHVwbGV4Ok5vbmUAUGFnZVNpemU6TGV0dGVyAAASAENPTVBBVF9EVVBMRVhfTU9ERQ8ARHVwbGV4TW9kZTo6T2ZmDABQUklOVEVSX05BTUUPAEdlbmVyaWMgUHJpbnRlcgsARFJJVkVSX05BTUUHAFNHRU5QUlQ=</config:config-item>
    <config:config-item config:name="UseVariableWidthNBSP" config:type="boolean">false</config:config-item>
    <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
@@ -120,7 +120,7 @@
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">5883997</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">5927543</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MsWordCompMinLineHeightByFly" config:type="boolean">false</config:config-item>
@@ -154,7 +154,7 @@
  <office:styles>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" draw:start-line-spacing-horizontal="0.1114in" draw:start-line-spacing-vertical="0.1114in" draw:end-line-spacing-horizontal="0.1114in" draw:end-line-spacing-vertical="0.1114in" style:writing-mode="lr-tb" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0in" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" loext:tab-stop-distance="0in" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Times New Roman" fo:font-size="10pt" fo:language="en" fo:country="GB" style:letter-kerning="false" style:font-name-asian="Times New Roman1" style:font-size-asian="10pt" style:language-asian="en" style:country-asian="GB" style:font-name-complex="Times New Roman1" style:font-size-complex="10pt" style:language-complex="ar" style:country-complex="SA"/>
@@ -3718,7 +3718,7 @@
    <text:p text:style-name="P32" loext:marker-style-name="T1"/>
    <text:p text:style-name="P32" loext:marker-style-name="T1"/>
    <text:p text:style-name="P32" loext:marker-style-name="T1"/>
-   <text:p text:style-name="P33" loext:marker-style-name="T2"><text:span text:style-name="T2">Distribution des applications</text:span><text:span text:style-name="T2"/></text:p>
+   <text:p text:style-name="P33" loext:marker-style-name="T2"><text:span text:style-name="T2">Distributing Apps</text:span><text:span text:style-name="T2"/></text:p>
    <text:p text:style-name="P38" loext:marker-style-name="T5"/>
    <text:p text:style-name="P38" loext:marker-style-name="T5"/>
    <text:p text:style-name="P38" loext:marker-style-name="T5"><text:soft-page-break/></text:p>
@@ -3762,7 +3762,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P41" loext:marker-style-name="T4"/>
    <text:p text:style-name="P41" loext:marker-style-name="T4"><text:s/></text:p>
    <text:p text:style-name="P41" loext:marker-style-name="T4"/>
-   <text:p text:style-name="P33" loext:marker-style-name="T15"><text:span text:style-name="T15">You are free to print this manual for personal use and for training workshops.</text:span><text:span text:style-name="T15"/></text:p>
+   <text:p text:style-name="P33" loext:marker-style-name="T15"><text:span text:style-name="T15">Vous êtes libre d&apos;imprimer ce manuel pour votre usage personnel et pour des ateliers de formation.</text:span><text:span text:style-name="T15"/></text:p>
    <text:p text:style-name="P49" loext:marker-style-name="T15"/>
    <text:p text:style-name="P33" loext:marker-style-name="T15"><text:soft-page-break/><text:span text:style-name="T15">The latest version is available at</text:span><text:span text:style-name="T15"/></text:p>
    <text:p text:style-name="P33" loext:marker-style-name="T15"><text:a xlink:type="simple" xlink:href="http://software.sil.org/scriptureappbuilder/resources/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T15">http://software.sil.org/scriptureappbuilder/resources/</text:span></text:span></text:a><text:span text:style-name="T15"> </text:span></text:p>
@@ -3935,7 +3935,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P59" loext:marker-style-name="T24"><text:soft-page-break/></text:p>
    <text:p text:style-name="P59" loext:marker-style-name="T24"/>
    <text:h text:style-name="P6" text:outline-level="1" loext:marker-style-name="T4"><text:bookmark-start text:name="_Toc220666435"/><text:span text:style-name="T4">Introduction</text:span><text:bookmark-end text:name="_Toc220666435"/><text:span text:style-name="T4"/></text:h>
-   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc459723999"/><text:bookmark-start text:name="_Toc220666436"/>Checking that your app is ready to publish<text:bookmark-end text:name="_Toc459723999"/><text:bookmark-end text:name="_Toc220666436"/></text:h>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc220666436"/><text:bookmark-start text:name="_Toc459723999"/>Checking that your app is ready to publish<text:bookmark-end text:name="_Toc220666436"/><text:bookmark-end text:name="_Toc459723999"/></text:h>
    <text:p text:style-name="Standard" loext:marker-style-name="T15"><text:span text:style-name="T15">Before you distribute your app, please use the </text:span><text:span text:style-name="T17">App Publishing Checklist</text:span><text:span text:style-name="T15"> (available via the Help menu in SAB or on the SAB website) to verify that it is ready to publish.</text:span></text:p>
    <text:p text:style-name="P52" loext:marker-style-name="T15"/>
    <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark-start text:name="_Toc220666437"/>Distribution options for Android apps<text:bookmark-end text:name="_Toc220666437"/></text:h>
@@ -4406,7 +4406,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
-   <text:list xml:id="list205146488928898" text:continue-numbering="true" text:style-name="WWNum26">
+   <text:list xml:id="list194746164886540" text:continue-numbering="true" text:style-name="WWNum26">
     <text:list-item>
      <text:p text:style-name="P9" loext:marker-style-name="T4"><text:soft-page-break/><text:span text:style-name="T4">Select </text:span><text:span text:style-name="T11">Grow</text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T38"></text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T11">Store presence</text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T38"></text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T11">Main store listing</text:span><text:span text:style-name="T4"> from the menu on the left of the screen, and enter the following details:</text:span></text:p>
     </text:list-item>
@@ -4430,7 +4430,7 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P25" loext:marker-style-name="T4"><text:span text:style-name="T4">You must not include user testimonials, excessive details or long lists of keywords. See </text:span><text:a xlink:type="simple" xlink:href="https://play.google.com/about/storelisting-promotional/metadata/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="Internet_20_link"><text:span text:style-name="T4">https://play.google.com/about/storelisting-promotional/metadata/</text:span></text:span></text:a><text:span text:style-name="T4"> for more details.</text:span></text:p>
    <text:p text:style-name="P13" loext:marker-style-name="T4"/>
    <text:p text:style-name="P17" loext:marker-style-name="T11"><text:span text:style-name="T11">Graphics</text:span><text:span text:style-name="T11"/></text:p>
-   <text:list xml:id="list205147149204947" text:continue-numbering="true" text:style-name="WWNum25">
+   <text:list xml:id="list194746109243359" text:continue-numbering="true" text:style-name="WWNum25">
     <text:list-item>
      <text:p text:style-name="P24" loext:marker-style-name="T4"><text:span text:style-name="T10">App icon</text:span><text:span text:style-name="T4"> (512 by 512 pixels)</text:span></text:p>
      <text:list>
@@ -4460,12 +4460,12 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P47" loext:marker-style-name="T4"/>
    <text:p text:style-name="P5" loext:marker-style-name="T4"><text:span text:style-name="T4">Click </text:span><text:span text:style-name="T11">Save</text:span><text:span text:style-name="T4"> at the bottom of the screen when you have finished.</text:span></text:p>
    <text:p text:style-name="P76" loext:marker-style-name="T4"><text:span text:style-name="T4"><text:line-break/> </text:span><text:span text:style-name="T4"/></text:p>
-   <text:list xml:id="list205146521731839" text:continue-list="list205146488928898" text:style-name="WWNum26">
+   <text:list xml:id="list194746415000605" text:continue-list="list194746164886540" text:style-name="WWNum26">
     <text:list-item>
      <text:p text:style-name="P9" loext:marker-style-name="T4"><text:span text:style-name="T4">Select </text:span><text:span text:style-name="T11">Store presence</text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T38"></text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T11">Store settings</text:span><text:span text:style-name="T4"> from the menu on the left of the screen, and enter the following details:</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:list text:continue-list="list205147149204947" text:style-name="WWNum25">
+   <text:list text:continue-list="list194746109243359" text:style-name="WWNum25">
     <text:list-item>
      <text:p text:style-name="P18" loext:marker-style-name="T4"><text:span text:style-name="T11">App Category</text:span><text:span text:style-name="T4">:</text:span></text:p>
      <text:list>
@@ -4497,13 +4497,13 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
    <text:p text:style-name="P5" loext:marker-style-name="T4"><text:span text:style-name="T4">Click </text:span><text:span text:style-name="T11">Save</text:span><text:span text:style-name="T4"> at the bottom of the screen when you have finished.</text:span></text:p>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
-   <text:list text:continue-list="list205146521731839" text:style-name="WWNum26">
+   <text:list text:continue-list="list194746415000605" text:style-name="WWNum26">
     <text:list-item>
      <text:p text:style-name="P9" loext:marker-style-name="T4"><text:span text:style-name="T4">Select </text:span><text:span text:style-name="T11">Release</text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T38"></text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T11">Production</text:span><text:span text:style-name="T4"> from the menu on the left of the screen, and click the button </text:span><text:span text:style-name="T11">Create new release</text:span><text:span text:style-name="T4"> at the top right of the screen.</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
-   <text:list xml:id="list205146216207418" text:continue-numbering="true" text:style-name="WWNum26">
+   <text:list xml:id="list194746574202171" text:continue-numbering="true" text:style-name="WWNum26">
     <text:list-item>
      <text:p text:style-name="P9" loext:marker-style-name="T4"><text:span text:style-name="T4">In the </text:span><text:span text:style-name="T11">App Bundles</text:span><text:span text:style-name="T4"> section of the screen, upload the Android App Bundle (.aab) file for your app and give release a </text:span><text:span text:style-name="T11">Release name</text:span><text:span text:style-name="T4"> in the field below.</text:span></text:p>
     </text:list-item>
@@ -4522,7 +4522,7 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P14" loext:marker-style-name="T4"><text:soft-page-break/></text:p>
-   <text:list text:continue-list="list205146216207418" text:style-name="WWNum26">
+   <text:list text:continue-list="list194746574202171" text:style-name="WWNum26">
     <text:list-item>
      <text:p text:style-name="P9" loext:marker-style-name="T4"><text:span text:style-name="T4">Click the </text:span><text:span text:style-name="T11">Save </text:span><text:span text:style-name="T4">button and then </text:span><text:span text:style-name="T11">Review release</text:span><text:span text:style-name="T4"> button at the bottom right of the screen.</text:span></text:p>
     </text:list-item>
@@ -4707,39 +4707,39 @@ Description automatically generated</svg:desc>
    <text:p text:style-name="P52" loext:marker-style-name="T15"/>
    <text:list text:continue-numbering="true" text:style-name="WWNum31">
     <text:list-item>
-     <text:p text:style-name="P30" loext:marker-style-name="T10"><text:soft-page-break/><text:span text:style-name="T10">Problème lors de l&apos;analyse du paquet</text:span><text:span text:style-name="T10"/></text:p>
+     <text:p text:style-name="P30" loext:marker-style-name="T10"><text:soft-page-break/><text:span text:style-name="T10">Problem with Parsing the Package</text:span><text:span text:style-name="T10"/></text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P80" loext:marker-style-name="T4"><text:span text:style-name="T4">Si vous obtenez une erreur à propos d&apos;un problème d&apos;analyse du paquet ou si l&apos;installation de l&apos;application se termine et dit que l&apos;application n&apos;a pas pu être installée, alors le téléphone est incapable d&apos;écrire les fichiers sur la carte mémoire. Quand cela se produit, vous devez retirer la carte mémoire du téléphone et la mettre dans un ordinateur ou un autre périphérique et écrire les fichiers directement sur la carte mémoire. Puis remettez la carte mémoire dans le téléphone et réessayez l&apos;installation. Il devrait fonctionner cette fois-ci.</text:span><text:span text:style-name="T4"/></text:p>
+   <text:p text:style-name="P80" loext:marker-style-name="T4"><text:span text:style-name="T4">If you get an error about a problem parsing the package or if the application installation finishes and says that the application could not be installed, then the phone is unable to write the files to the memory card. When this happens, you need to remove the memory card from the phone and put it in a computer or other device and write the files directly to the memory card. Then put the memory card back in the phone and try the install again. It should work this time.</text:span><text:span text:style-name="T4"/></text:p>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
-   <text:h text:style-name="P8" text:outline-level="1" loext:marker-style-name="T4"><text:bookmark-start text:name="_Toc220666455"/><text:span text:style-name="T4">Applications de partage par Bluetooth</text:span><text:bookmark-end text:name="_Toc220666455"/><text:span text:style-name="T4"/></text:h>
-   <text:p text:style-name="P81" loext:marker-style-name="T15"><text:span text:style-name="T15">Utilisez le Bluetooth pour transférer le fichier APK Android de votre téléphone vers un autre téléphone. Une fois que les gens ont reçu le fichier, ils appuient dessus pour l&apos;installer.</text:span><text:span text:style-name="T15"/></text:p>
+   <text:h text:style-name="P8" text:outline-level="1" loext:marker-style-name="T4"><text:bookmark-start text:name="_Toc220666455"/><text:span text:style-name="T4">Sharing apps by Bluetooth</text:span><text:bookmark-end text:name="_Toc220666455"/><text:span text:style-name="T4"/></text:h>
+   <text:p text:style-name="P81" loext:marker-style-name="T15"><text:span text:style-name="T15">Use Bluetooth to transfer the Android APK file from your phone to another phone. Once people receive the file, they tap on it to install it.</text:span><text:span text:style-name="T15"/></text:p>
    <text:p text:style-name="P56" loext:marker-style-name="T15"/>
    <table:table table:name="Table14" table:style-name="Table14">
     <table:table-column table:style-name="Table14.A"/>
     <table:table-column table:style-name="Table14.B"/>
     <table:table-row table:style-name="Table14.1">
      <table:table-cell table:style-name="Table14.A1" office:value-type="string">
-      <text:p text:style-name="P66" loext:marker-style-name="T34"><text:span text:style-name="T35">&lt;unk&gt;</text:span><text:span text:style-name="T34"> </text:span></text:p>
+      <text:p text:style-name="P66" loext:marker-style-name="T34"><text:span text:style-name="T35"></text:span><text:span text:style-name="T34"> </text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table14.B1" office:value-type="string">
-      <text:p text:style-name="P66" loext:marker-style-name="T16"><text:span text:style-name="T18">Assurez-vous d&apos;activer l&apos;option pour partager l&apos;APK de votre application. Allez à </text:span><text:span text:style-name="T19">Navigation &gt; Navigation Drawer &gt; Partager l&apos;App</text:span><text:span text:style-name="T18"> et cochez la case à côté de </text:span><text:span text:style-name="T19">Partager le fichier d&apos;installation de l&apos;App</text:span><text:span text:style-name="T18">.</text:span></text:p>
+      <text:p text:style-name="P66" loext:marker-style-name="T16"><text:span text:style-name="T18">Make sure to turn on the option to share your app’s APK. Go to </text:span><text:span text:style-name="T19">Navigation &gt; Navigation Drawer &gt; Share App</text:span><text:span text:style-name="T18"> and check the box next to </text:span><text:span text:style-name="T19">Share App Installer File</text:span><text:span text:style-name="T18">.</text:span></text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
    <text:p text:style-name="P56" loext:marker-style-name="T15"/>
-   <text:p text:style-name="P81" loext:marker-style-name="T15"><text:span text:style-name="T4">Si vous avez des fichiers audio à distribuer avec l&apos;application, ceux-ci devront également être transférés.</text:span><text:span text:style-name="T15"/></text:p>
+   <text:p text:style-name="P81" loext:marker-style-name="T15"><text:span text:style-name="T4">If you have audio files to distribute together with the app, these will need to be transferred as well.</text:span><text:span text:style-name="T15"/></text:p>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
    <text:p text:style-name="Standard" loext:marker-style-name="T20"><text:span text:style-name="T20">Troubleshooting</text:span><text:span text:style-name="T20"/></text:p>
-   <text:p text:style-name="Standard" loext:marker-style-name="T4"><text:span text:style-name="T15">Certains appareils Android vous empêchent d&apos;envoyer ou de recevoir des fichiers APK. Ceci est analogue à certains systèmes de messagerie vous empêchant d&apos;envoyer des fichiers .exe ou .zip en raison de problèmes de sécurité. Pour contourner ce problème, vous pouvez renommer l&apos;extension de fichier en MP3, l&apos;envoyer, puis la changer en APK avant de l&apos;installer. Alternativement, i</text:span><text:span text:style-name="T4">t peut donner une alerte de sécurité (qui peut simplement être rejetée).</text:span></text:p>
+   <text:p text:style-name="Standard" loext:marker-style-name="T4"><text:span text:style-name="T15">Some Android devices block you from sending or receiving APK files. This is analogous to some email systems stopping you from sending .exe or .zip files because of security concerns. To get round this, you can rename the file extension to MP3, send it, and then change it back to APK before installing it. Alternatively, i</text:span><text:span text:style-name="T4">t may give a security warning (which can simply be dismissed).</text:span></text:p>
    <text:p text:style-name="P40" loext:marker-style-name="T4"><text:soft-page-break/></text:p>
-   <text:h text:style-name="P7" text:outline-level="1" loext:marker-style-name="T4"><text:bookmark-start text:name="_Toc220666456"/><text:span text:style-name="T4">Applications de partage par transfert Wi-Fi</text:span><text:bookmark-end text:name="_Toc220666456"/><text:span text:style-name="T4"/></text:h>
-   <text:p text:style-name="Standard" loext:marker-style-name="T4"><text:span text:style-name="T4">Si vous avez de gros fichiers APK Android à transférer du téléphone au téléphone ou si vous avez beaucoup de fichiers audio, Le Bluetooth peut être une méthode de transfert lente. Dans de tels cas, l&apos;utilisation d&apos;une application de transfert Wi-Fi peut vous donner le téléphone à des vitesses de transfert jusqu&apos;à 40 fois plus rapides que le Bluetooth.</text:span><text:span text:style-name="T4"/></text:p>
+   <text:h text:style-name="P7" text:outline-level="1" loext:marker-style-name="T4"><text:bookmark-start text:name="_Toc220666456"/><text:span text:style-name="T4">Sharing apps by Wi-Fi transfer</text:span><text:bookmark-end text:name="_Toc220666456"/><text:span text:style-name="T4"/></text:h>
+   <text:p text:style-name="Standard" loext:marker-style-name="T4"><text:span text:style-name="T4">If you have large Android APK files to transfer from phone to phone or if you have a lot of audio files, Bluetooth can be a slow method of transfer. In such cases, using a Wi-Fi transfer app can give you phone to phone transfer speeds up to 40 times faster than Bluetooth.</text:span><text:span text:style-name="T4"/></text:p>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
-   <text:p text:style-name="Standard" loext:marker-style-name="T4"><text:span text:style-name="T4">Les deux appareils (l&apos;expéditeur et le téléphone du récepteur) ont besoin d&apos;avoir une application de transfert Wi-Fi installée, et les deux doivent avoir le Wi-Fi allumé. </text:span><text:span text:style-name="T4"/></text:p>
+   <text:p text:style-name="Standard" loext:marker-style-name="T4"><text:span text:style-name="T4">Both devices (the sender and the receiver phone) need to have a Wi-Fi transfer app installed, and both need to have Wi-Fi turned on. </text:span><text:span text:style-name="T4"/></text:p>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
-   <text:p text:style-name="P74" loext:marker-style-name="T4"><text:span text:style-name="T4">Les applications populaires pour le transfert Wi-Fi incluent :</text:span><text:span text:style-name="T4"/></text:p>
+   <text:p text:style-name="P74" loext:marker-style-name="T4"><text:span text:style-name="T4">Popular apps for Wi-Fi transfer include:</text:span><text:span text:style-name="T4"/></text:p>
    <text:list text:style-name="WWNum32">
     <text:list-item>
      <text:p text:style-name="P31" loext:marker-style-name="T4"><text:span text:style-name="T4">Xender</text:span><text:span text:style-name="T4"/></text:p>
@@ -4752,14 +4752,14 @@ Description automatically generated</svg:desc>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
-   <text:p text:style-name="Standard" loext:marker-style-name="T4"><text:span text:style-name="T4">Si vous avez des doutes sur l&apos;application de transfert Wi-Fi à utiliser, demandez à la communauté en particulier chez les jeunes, pour savoir quelle application ils utilisent pour partager du contenu numérique entre eux.</text:span><text:span text:style-name="T4"/></text:p>
+   <text:p text:style-name="Standard" loext:marker-style-name="T4"><text:span text:style-name="T4">If you are in doubt about which Wi-Fi transfer app to use, ask around in the community, especially among young people, to find out which app they use to share digital content between them.</text:span><text:span text:style-name="T4"/></text:p>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
-   <text:h text:style-name="Heading_20_1" text:outline-level="1" loext:marker-style-name="T4"><text:bookmark-start text:name="_Toc220666457"/><text:soft-page-break/><text:span text:style-name="T4">Autres façons de partager votre fichier d&apos;installation d&apos;application</text:span><text:bookmark-end text:name="_Toc220666457"/><text:span text:style-name="T4"/></text:h>
-   <text:p text:style-name="Standard" loext:marker-style-name="T4"><text:span text:style-name="T4">Il y a plusieurs autres façons de partager votre fichier APK de l&apos;application. Vous pouvez l&apos;héberger sur un site Web pour que les gens puissent le télécharger, ou sur le stockage dans le Cloud (Google Drive, Dropbox etc.). Dans ce cas, l&apos;utilisateur peut avoir besoin d&apos;aide pour localiser le fichier APK sur son téléphone à l&apos;aide d&apos;une application File Explorer. Une fois localisé, appuyez sur le fichier APK à installer. </text:span><text:span text:style-name="T4"/></text:p>
-   <text:p text:style-name="Standard" loext:marker-style-name="T4"><text:span text:style-name="T4">Vous pouvez également l&apos;attacher à un e-mail (s&apos;il est inférieur à 20 Mo environ) ou l&apos;envoyer via les médias sociaux en sélectionnant le fichier APK à partager. Il suffit d&apos;appuyer sur le fichier APK joint pour l&apos;installer.</text:span><text:span text:style-name="T4"/></text:p>
+   <text:h text:style-name="Heading_20_1" text:outline-level="1" loext:marker-style-name="T4"><text:bookmark-start text:name="_Toc220666457"/><text:soft-page-break/><text:span text:style-name="T4">Other Ways to Share Your App Installer File</text:span><text:bookmark-end text:name="_Toc220666457"/><text:span text:style-name="T4"/></text:h>
+   <text:p text:style-name="Standard" loext:marker-style-name="T4"><text:span text:style-name="T4">There are various other ways to share your app APK file. You can host it on a website for people to download, or on Cloud storage (Google Drive, Dropbox etc.). In these cases, the user may need some help locating the APK file on their phone using a File Explorer app. Once located, tap on the APK file to install. </text:span><text:span text:style-name="T4"/></text:p>
+   <text:p text:style-name="Standard" loext:marker-style-name="T4"><text:span text:style-name="T4">You can alternatively attach it to an email (if it is less than 20 MB or so) or send it via Social Media by selecting the APK file to share. Simply tapping on the attached APK file should install it.</text:span><text:span text:style-name="T4"/></text:p>
    <text:p text:style-name="P40" loext:marker-style-name="T4"/>
-   <text:p text:style-name="Standard" loext:marker-style-name="T20"><text:span text:style-name="T20">Dépannage</text:span><text:span text:style-name="T20"/></text:p>
-   <text:p text:style-name="Standard" loext:marker-style-name="T4"><text:span text:style-name="T15">Certains appareils Android vous empêchent d&apos;envoyer ou de recevoir des fichiers APK. Ceci est analogue à certains systèmes de messagerie vous empêchant d&apos;envoyer des fichiers .exe ou .zip en raison de problèmes de sécurité. Pour contourner ce problème, vous pouvez renommer l&apos;extension de fichier en MP3, l&apos;envoyer, puis la changer en APK avant de l&apos;installer. Alternativement, i</text:span><text:span text:style-name="T4">t peut donner une alerte de sécurité (qui peut simplement être rejetée).</text:span></text:p>
+   <text:p text:style-name="Standard" loext:marker-style-name="T20"><text:span text:style-name="T20">Troubleshooting</text:span><text:span text:style-name="T20"/></text:p>
+   <text:p text:style-name="Standard" loext:marker-style-name="T4"><text:span text:style-name="T15">Some Android devices block you from sending or receiving APK files. This is analogous to some email systems stopping you from sending .exe or .zip files because of security concerns. To get round this, you can rename the file extension to MP3, send it, and then change it back to APK before installing it. Alternatively, i</text:span><text:span text:style-name="T4">t may give a security warning (which can simply be dismissed).</text:span></text:p>
   </office:text>
  </office:body>
 </office:document>
