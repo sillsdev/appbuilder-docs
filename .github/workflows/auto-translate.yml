@@ -37,14 +37,13 @@ jobs:
 
 
       - name: Sync Crowdin files
-        uses: crowdin/github-action@v1
+        uses: crowdin/github-action@v3
         with:
           upload_sources: true
           upload_translations: false
           download_translations: true
           push_translations: false
           crowdin_branch_name: main
-          localization_branch_name: translations
         env:
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
@@ -122,22 +121,7 @@ jobs:
             timeout 60s libreoffice --headless --convert-to pdf "$file" --outdir "docs-en/pdf/$project_dirname"
           done
 
-
-      - name: Convert Other Language ODT files to FODT
-        run: |
-          dirs="$(ls docs/)"
-          for dir in $dirs; do
-            find docs/$dir -type f -name "*.odt" | while read file; do
-              echo "Converting $file"
-              outdir="$(dirname "$file")"
-              project_dirname="$(basename "$outdir")"
-              # mkdir -p docs/$dir/fodt
-              timeout 60s libreoffice --headless --convert-to fodt "$file" --outdir docs/$dir/fodt/$project_dirname
-            done
-          done
-
-
-      - name: Convert Other Language FODT files to PDF
+      - name: Convert Other Language ODT files to PDF
         run: |
           dirs="$(ls docs/)"
           for dir in $dirs; do
@@ -162,12 +146,3 @@ jobs:
         with:
           name: non-english-pdfs
           path: docs/**/pdf/
-          
-      - name: Commit and push (git)
-        run: | 
-          sudo chown -R "$USER" .git
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git diff --staged --quiet || git commit -m "chore: add generated files [skip ci]"
-          git push --set-upstream origin translations
