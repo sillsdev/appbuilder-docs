@@ -128,6 +128,9 @@ jobs:
 
       - name: Convert Other Language ODT files to PDF
         run: |
+          echo "Destination: $destination"
+          ls -ld docs docs/fr-FR docs/fr-FR/fodt 2>/dev/null || true
+          whoami
           dirs="$(ls docs/)"
           for dir in $dirs; do
             project_dirname="$(basename "$dir")"
