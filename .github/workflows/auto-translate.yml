@@ -94,7 +94,6 @@ jobs:
           docs_directories="$(ls docs/)"
           for current_docs_dir in $docs_directories; do
             echo "Processing $current_docs_dir"
-            mkdir -p "docs/$current_docs_dir/fodt"
             find images -type f -name "*" | while read file; do
               outdir="$(dirname "$file")"
               outdir2="$(dirname "$outdir")"
@@ -104,10 +103,13 @@ jobs:
               project_dirname3="$(basename "$outdir3")"
               
               if [[ "$project_dirname3" != "en-US" ]]; then
-                cp -fr "$outdir" "docs/$project_dirname3/fodt/$project_dirname2"
+                destination="docs/$project_dirname3/fodt/$project_dirname2"
               else
-                cp -fr "$outdir" "docs-en/fodt/$project_dirname2"
+                destination="docs-en/fodt/$project_dirname2"
               fi
+
+              mkdir -p "$destination"
+              cp -fr "$outdir" "$destination"
             done
           done
 
