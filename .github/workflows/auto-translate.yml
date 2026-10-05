@@ -70,7 +70,7 @@ jobs:
           
       - name: Update all FODT file links
         run: |
-          find docs-en docs-fr -type f -name "*.fodt" | while read file; do
+          find docs-en -type f -name "*.fodt" | while read file; do
             echo "Updating links in $file"
             timeout 60s libreoffice --headless --invisible "macro:///Standard.Module1.SaveAndExitDocument" "$file"
           done
@@ -92,6 +92,8 @@ jobs:
       - name: Copy image folders
         run: |
           docs_directories="$(ls docs/)"
+          ls -ld docs docs/fr-FR docs/fr-FR/fodt 2>/dev/null || true
+          whoami
           for current_docs_dir in $docs_directories; do
             echo "Processing $current_docs_dir"
 
@@ -106,12 +108,11 @@ jobs:
 
               if [[ "$project_dirname3" != "en-US" ]]; then
                 destination="docs/$project_dirname3/fodt/$project_dirname2"
-              else
-                destination="docs-en/fodt/$project_dirname2"
+                mkdir -p "$destination"
+                cp -fr "$outdir/." "$destination/"
               fi
 
-              mkdir -p "$destination"
-              cp -fr "$outdir/." "$destination/"
+
             done
           done
 
@@ -126,11 +127,19 @@ jobs:
             timeout 60s libreoffice --headless --convert-to pdf "$file" --outdir "docs-en/pdf/$project_dirname"
           done
 
+      - name: Update all ODT file links
+        run: |
+          docs_directories="$(ls docs/)"
+          for current_docs_dir in $docs_directories; do
+            find "docs/$current_docs_dir" -type f -name "*.odt" | while read file; do
+              echo "Updating links in $file"
+              timeout 60s libreoffice --headless --invisible "macro:///Standard.Module1.SaveAndExitDocument" "$file"
+            done
+          done
+
       - name: Convert Other Language ODT files to PDF
         run: |
           echo "Destination: $destination"
-          ls -ld docs docs/fr-FR docs/fr-FR/fodt 2>/dev/null || true
-          whoami
           dirs="$(ls docs/)"
           for dir in $dirs; do
             project_dirname="$(basename "$dir")"
