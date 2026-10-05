@@ -92,8 +92,6 @@ jobs:
       - name: Copy image folders
         run: |
           docs_directories="$(ls docs/)"
-          ls -ld docs docs/fr-FR docs/fr-FR/fodt 2>/dev/null || true
-          whoami
           for current_docs_dir in $docs_directories; do
             echo "Processing $current_docs_dir"
 
@@ -125,16 +123,6 @@ jobs:
             project_dirname="$(basename "$outdir")"
             mkdir -p docs-en/pdf
             timeout 60s libreoffice --headless --convert-to pdf "$file" --outdir "docs-en/pdf/$project_dirname"
-          done
-
-      - name: Update all ODT file links
-        run: |
-          docs_directories="$(ls docs/)"
-          for current_docs_dir in $docs_directories; do
-            find "docs/$current_docs_dir" -type f -name "*.odt" | while read file; do
-              echo "Updating links in $file"
-              timeout 60s libreoffice --headless --invisible "macro:///Standard.Module1.SaveAndExitDocument" "$file"
-            done
           done
 
       - name: Convert Other Language ODT files to PDF
