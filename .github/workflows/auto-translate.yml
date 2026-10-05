@@ -42,6 +42,7 @@ jobs:
           upload_sources: true
           upload_translations: false
           download_translations: true
+          push_translations: false
           crowdin_branch_name: main
           localization_branch_name: translations
         env:
@@ -140,7 +141,7 @@ jobs:
         run: |
           dirs="$(ls docs/)"
           for dir in $dirs; do
-            find docs/$dir -type f -name "*.fodt" | while read file; do         
+            find docs/$dir -type f -name "*.odt" | while read file; do         
               echo "Converting $file"
               outdir="$(dirname "$file")"
               project_dirname="$(basename "$outdir")"
