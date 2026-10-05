@@ -94,6 +94,7 @@ jobs:
           docs_directories="$(ls docs/)"
           for current_docs_dir in $docs_directories; do
             echo "Processing $current_docs_dir"
+            mkdir -p "docs/$current_docs_dir/fodt"
             find images -type f -name "*" | while read file; do
               outdir="$(dirname "$file")"
               outdir2="$(dirname "$outdir")"
@@ -125,6 +126,9 @@ jobs:
         run: |
           dirs="$(ls docs/)"
           for dir in $dirs; do
+            project_dirname="$(basename "$dir")"
+            echo "Processing $project_dirname"
+            if [[ "$project_dirname" != "en-US" ]]; then
             find docs/$dir -type f -name "*.odt" | while read file; do         
               echo "Converting $file"
               outdir="$(dirname "$file")"
