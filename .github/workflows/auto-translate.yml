@@ -35,7 +35,45 @@ jobs:
             timeout 60s libreoffice --headless --convert-to odt "$file" --outdir "docs-en/odt/$project_dirname"
           done
 
+      - name: Copy images to language directories
+        run: |
+          for lang_dir in images/*/; do
+            lang="$(basename "$lang_dir")"
 
+            find "docs-en/fodt" -type f ! -name "*.fodt" | while read -r file; do
+              relative="${file#docs-en/fodt/}"
+              destination="images/$lang/$relative"
+
+              mkdir -p "$(dirname "$destination")"
+              cp --update=none "$file" "$destination"
+            done
+          done
+
+      - name: Copy image folders
+        run: |
+          docs_directories="$(ls docs/)"
+          for current_docs_dir in $docs_directories; do
+            echo "Processing $current_docs_dir"
+
+            find images -type f | while read file; do
+              outdir="$(dirname "$file")"
+              outdir2="$(dirname "$outdir")"
+              outdir3="$(dirname "$outdir2")"
+
+              project_dirname="$(basename "$outdir")"
+              project_dirname2="$(basename "$outdir2")"
+              project_dirname3="$(basename "$outdir3")"
+
+              if [[ "$project_dirname3" != "en-US" ]]; then
+                destination="docs/$project_dirname3/fodt/$project_dirname2"
+                mkdir -p "$destination"
+                cp -fr "$outdir/." "$destination/"
+              fi
+
+
+            done
+          done
+          
       - name: Sync Crowdin files
         uses: crowdin/github-action@v3
         with:
@@ -75,46 +113,6 @@ jobs:
             timeout 60s libreoffice --headless --invisible "macro:///Standard.Module1.SaveAndExitDocument" "$file"
           done
 
-      - name: Copy images to language directories
-        run: |
-          for lang_dir in images/*/; do
-            lang="$(basename "$lang_dir")"
-
-            find "docs-en/fodt" -type f ! -name "*.fodt" | while read -r file; do
-              relative="${file#docs-en/fodt/}"
-              destination="images/$lang/$relative"
-
-              mkdir -p "$(dirname "$destination")"
-              cp --update=none "$file" "$destination"
-            done
-          done
-
-      - name: Copy image folders
-        run: |
-          docs_directories="$(ls docs/)"
-          for current_docs_dir in $docs_directories; do
-            echo "Processing $current_docs_dir"
-
-            find images -type f | while read file; do
-              outdir="$(dirname "$file")"
-              outdir2="$(dirname "$outdir")"
-              outdir3="$(dirname "$outdir2")"
-
-              project_dirname="$(basename "$outdir")"
-              project_dirname2="$(basename "$outdir2")"
-              project_dirname3="$(basename "$outdir3")"
-
-              if [[ "$project_dirname3" != "en-US" ]]; then
-                destination="docs/$project_dirname3/fodt/$project_dirname2"
-                mkdir -p "$destination"
-                cp -fr "$outdir/." "$destination/"
-              fi
-
-
-            done
-          done
-
-
       - name: Convert English FODT files to PDF
         run: |
           find docs-en -type f -name "*.fodt" | while read file; do
@@ -128,6 +126,7 @@ jobs:
       - name: Convert Other Language ODT files to PDF
         run: |
           echo "Destination: $destination"
+          ls -lR docs
           dirs="$(ls docs/)"
           for dir in $dirs; do
             project_dirname="$(basename "$dir")"
