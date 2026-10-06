@@ -65,12 +65,10 @@ jobs:
               project_dirname3="$(basename "$outdir3")"
 
               if [[ "$project_dirname3" != "en-US" ]]; then
-                destination="docs/$project_dirname3/fodt/$project_dirname2"
+                destination="docs/$project_dirname3/fodt/$project_dirname2/$project_dirname"
                 mkdir -p "$destination"
                 cp -fr "$outdir/." "$destination/"
               fi
-
-
             done
           done
           
